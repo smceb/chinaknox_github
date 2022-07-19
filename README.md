@@ -17,6 +17,7 @@ git config user.name 'username'
 git config user.email 'user@email.com'
 
 git add --all
+git status
 git commit -m "commit comment"
 git push -u origin main
 
