@@ -1,0 +1,3714 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+  <meta name="description" content="Javadoc API documentation for Knox Premium SDK." />
+
+<link rel="shortcut icon" type="image/x-icon" href="../../../../favicon.ico" />
+<title>
+
+  EnterpriseSSOPolicy
+
+
+| Knox Premium SDK
+
+</title>
+<link href="../../../../../assets/doclava-developer-docs.css" rel="stylesheet" type="text/css" />
+<link href="../../../../../assets/customizations.css" rel="stylesheet" type="text/css" />
+<script src="../../../../../assets/search_autocomplete.js" type="text/javascript"></script>
+<script src="../../../../../assets/jquery-resizable.min.js" type="text/javascript"></script>
+<script src="../../../../../assets/doclava-developer-docs.js" type="text/javascript"></script>
+<script src="../../../../../assets/prettify.js" type="text/javascript"></script>
+<script type="text/javascript">
+  setToRoot("../../../../", "../../../../../assets/");
+</script>
+<script src="../../../../../assets/doclava-developer-reference.js" type="text/javascript"></script>
+<script src="../../../../../assets/navtree_data.js" type="text/javascript"></script>
+<script src="../../../../../assets/customizations.js" type="text/javascript"></script>
+<noscript>
+  <style type="text/css">
+    html,body{overflow:auto;}
+    #body-content{position:relative; top:0;}
+    #doc-content{overflow:visible;border-left:3px solid #666;}
+    #side-nav{padding:0;}
+    #side-nav .toggle-list ul {display:block;}
+    #resize-packages-nav{border-bottom:3px solid #666;}
+  </style>
+</noscript>
+</head>
+
+<body class="KNOX_1.0">
+
+<div id="header">
+    <div id="headerLeft">
+    <a href="http://www.samsung.com">
+    <img src="../../../../../assets/images/samsung.jpg" alt="Samsung Electronics" width="80" height="48"/></a>
+    
+      <h1 id="masthead-title">Knox Premium SDK</h1>
+    
+    </div>
+    <div id="headerRight">
+      
+  <div id="search" >
+      <div id="searchForm">
+          <form accept-charset="utf-8" class="gsc-search-box" 
+                onsubmit="return submit_search()">
+            <table class="gsc-search-box" cellpadding="0" cellspacing="0"><tbody>
+                <tr>
+                  <td class="gsc-input">
+                    <input id="search_autocomplete" class="gsc-input" type="text" size="33" autocomplete="off"
+                      title="search developer docs" name="q"
+                      value="search developer docs"
+                      onFocus="search_focus_changed(this, true)"
+                      onBlur="search_focus_changed(this, false)"
+                      onkeydown="return search_changed(event, true, '../../../../')"
+                      onkeyup="return search_changed(event, false, '../../../../')" />
+                  <div id="search_filtered_div" class="no-display">
+                      <table id="search_filtered" cellspacing=0>
+                      </table>
+                  </div>
+                  </td>
+                  <td class="gsc-search-button">
+                    <input type="submit" value="Search" title="search" id="search-button" class="gsc-search-button" />
+                  </td>
+                  <td class="gsc-clear-button">
+                    <div title="clear results" class="gsc-clear-button">&nbsp;</div>
+                  </td>
+                </tr></tbody>
+              </table>
+          </form>
+      </div><!-- searchForm -->
+  </div><!-- search -->
+      
+        
+  <div id="api-level-toggle">
+    <input type="checkbox" id="apiLevelCheckbox" onclick="toggleApiLevelSelector(this)" />
+    <label for="apiLevelCheckbox" class="disabled">Filter by API Level: </label>
+    <select id="apiLevelSelector">
+      <!-- option elements added by buildApiLevelSelector() -->
+    </select>
+  </div>
+  <script>
+   var SINCE_DATA = [ 'KNOX_1.0', 'KNOX_1.0.1', 'KNOX_1.0.2', 'KNOX_1.1.0', 'KNOX_1.2.0', 'KNOX_2.0', 'KNOX_2.1', 'KNOX_2.2', 'KNOX_2.3', 'KNOX_2.4', 'KNOX_2.4.1', 'KNOX_2.5', 'KNOX_2.6', 'KNOX_2.7', 'KNOX_2.7.1', 'KNOX_2.8', 'Knox_2.9' ];
+    
+    var SINCE_LABELS = [ 'KNOX_1.0', 'KNOX_1.0.1', 'KNOX_1.0.2', 'KNOX_1.1.0', 'KNOX_1.2.0', 'KNOX_2.0', 'KNOX_2.1', 'KNOX_2.2', 'KNOX_2.3', 'KNOX_2.4', 'KNOX_2.4.1', 'KNOX_2.5', 'KNOX_2.6', 'KNOX_2.7', 'KNOX_2.7.1', 'KNOX_2.8', 'Knox_2.9' ];
+    buildApiLevelSelector();
+    addLoadEvent(changeApiLevel);
+  </script>
+
+
+      
+    </div>
+</div><!-- header -->
+
+
+  <div class="g-section g-tpl-240" id="body-content">
+    <div class="g-unit g-first side-nav-resizable" id="side-nav">
+      <div id="swapper">
+        <div id="nav-panels">
+          <div id="resize-packages-nav">
+            <div id="packages-nav">
+              <div id="index-links"><nobr>
+                <a href="../../../../packages.html"  >Package Index</a> | 
+                <a href="../../../../classes.html" >Class Index</a></nobr>
+              </div>
+              <ul>
+                
+    <li class="api apilevel-">
+  <a href="../../../../android/app/enterprise/package-summary.html">android.app.enterprise</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../android/app/enterprise/geofencing/package-summary.html">android.app.enterprise.geofencing</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../android/app/enterprise/kioskmode/package-summary.html">android.app.enterprise.kioskmode</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../android/app/enterprise/sso/package-summary.html">android.app.enterprise.sso</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../com/sec/enterprise/package-summary.html">com.sec.enterprise</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../com/sec/enterprise/firewall/package-summary.html">com.sec.enterprise.firewall</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../com/sec/enterprise/identity/package-summary.html">com.sec.enterprise.identity</a></li>
+    <li class="selected api apilevel-KNOX_1.0">
+  <a href="../../../../com/sec/enterprise/knox/package-summary.html">com.sec.enterprise.knox</a></li>
+    <li class="api apilevel-KNOX_1.0">
+  <a href="../../../../com/sec/enterprise/knox/auditlog/package-summary.html">com.sec.enterprise.knox.auditlog</a></li>
+    <li class="api apilevel-KNOX_2.2">
+  <a href="../../../../com/sec/enterprise/knox/billing/package-summary.html">com.sec.enterprise.knox.billing</a></li>
+    <li class="api apilevel-KNOX_2.1">
+  <a href="../../../../com/sec/enterprise/knox/ccm/package-summary.html">com.sec.enterprise.knox.ccm</a></li>
+    <li class="api apilevel-KNOX_2.1">
+  <a href="../../../../com/sec/enterprise/knox/certenroll/package-summary.html">com.sec.enterprise.knox.certenroll</a></li>
+    <li class="api apilevel-KNOX_1.0">
+  <a href="../../../../com/sec/enterprise/knox/certificate/package-summary.html">com.sec.enterprise.knox.certificate</a></li>
+    <li class="api apilevel-KNOX_2.0">
+  <a href="../../../../com/sec/enterprise/knox/container/package-summary.html">com.sec.enterprise.knox.container</a></li>
+    <li class="api apilevel-KNOX_2.6">
+  <a href="../../../../com/sec/enterprise/knox/dlp/package-summary.html">com.sec.enterprise.knox.dlp</a></li>
+    <li class="api apilevel-KNOX_2.0">
+  <a href="../../../../com/sec/enterprise/knox/keystore/package-summary.html">com.sec.enterprise.knox.keystore</a></li>
+    <li class="api apilevel-KNOX_1.0.1">
+  <a href="../../../../com/sec/enterprise/knox/license/package-summary.html">com.sec.enterprise.knox.license</a></li>
+    <li class="api apilevel-KNOX_2.8">
+  <a href="../../../../com/sec/enterprise/knox/nap/package-summary.html">com.sec.enterprise.knox.nap</a></li>
+    <li class="api apilevel-KNOX_2.0">
+  <a href="../../../../com/sec/enterprise/knox/seams/package-summary.html">com.sec.enterprise.knox.seams</a></li>
+    <li class="api apilevel-KNOX_1.0">
+  <a href="../../../../com/sec/enterprise/knox/seandroid/package-summary.html">com.sec.enterprise.knox.seandroid</a></li>
+    <li class="api apilevel-KNOX_1.0">
+  <a href="../../../../com/sec/enterprise/knox/smartcard/policy/package-summary.html">com.sec.enterprise.knox.smartcard.policy</a></li>
+    <li class="api apilevel-KNOX_2.4">
+  <a href="../../../../com/sec/enterprise/knox/vpn/package-summary.html">com.sec.enterprise.knox.vpn</a></li>
+              </ul><br/>
+            </div> <!-- end packages -->
+          </div> <!-- end resize-packages -->
+          <div id="classes-nav">
+            <ul>
+              
+              
+    <li><h2>Classes</h2>
+      <ul>
+          <li class="api apilevel-KNOX_2.0"><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html">AdvancedRestrictionPolicy</a></li>
+          <li class="api apilevel-KNOX_1.0.1"><a href="../../../../com/sec/enterprise/knox/Attestation.html">Attestation</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/ContainerApplicationPolicy.html">ContainerApplicationPolicy</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/ContainerFirewallPolicy.html">ContainerFirewallPolicy</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/ContainerPasswordPolicy.html">ContainerPasswordPolicy</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/ContainerRestrictionPolicy.html">ContainerRestrictionPolicy</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/ContainerVpnPolicy.html">ContainerVpnPolicy</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/EnterpriseContainerCallback.html">EnterpriseContainerCallback</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/EnterpriseContainerManager.html">EnterpriseContainerManager</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/EnterpriseContainerObject.html">EnterpriseContainerObject</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/EnterpriseISLPolicy.html">EnterpriseISLPolicy</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/EnterpriseKnoxManager.html">EnterpriseKnoxManager</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/EnterprisePremiumVpnConnection.html">EnterprisePremiumVpnConnection</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/EnterprisePremiumVpnPolicy.html">EnterprisePremiumVpnPolicy</a></li>
+          <li class="selected api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html">EnterpriseSSOPolicy</a></li>
+          <li class="api apilevel-KNOX_1.0.1"><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOResponse.html">EnterpriseSSOResponse</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/EnterpriseVpnStatusCallback.html">EnterpriseVpnStatusCallback</a></li>
+          <li class="api apilevel-KNOX_1.1.0"><a href="../../../../com/sec/enterprise/knox/GenericVpnPolicy.html">GenericVpnPolicy</a></li>
+      </ul>
+    </li>
+              
+              
+    <li><h2>Enums</h2>
+      <ul>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/EnterpriseKnoxManager.EnterpriseKnoxSdkVersion.html">EnterpriseKnoxManager.EnterpriseKnoxSdkVersion</a></li>
+      </ul>
+    </li>
+              
+              
+            </ul><br/>
+          </div><!-- end classes -->
+        </div><!-- end nav-panels -->
+        <div id="nav-tree" style="display:none">
+          <div id="index-links"><nobr>
+            <a href="../../../../packages.html"  >Package Index</a> | 
+            <a href="../../../../classes.html" >Class Index</a></nobr>
+          </div>
+        </div><!-- end nav-tree -->
+      </div><!-- end swapper -->
+    </div> <!-- end side-nav -->
+    <script>
+      if (!isMobile) {
+        $("<a href='#' id='nav-swap' onclick='swapNav();return false;' style='font-size:10px;line-height:9px;margin-left:1em;text-decoration:none;'><span id='tree-link'>Use Tree Navigation</span><span id='panel-link' style='display:none'>Use Panel Navigation</span></a>").appendTo("#side-nav");
+        chooseDefaultNav();
+        if ($("#nav-tree").is(':visible')) {
+          init_default_navtree("../../../../");
+        } else {
+          addLoadEvent(function() {
+            scrollIntoView("packages-nav");
+            scrollIntoView("classes-nav");
+          });
+        }
+        $("#swapper").css({borderBottom:"2px solid #aaa"});
+      } else {
+        swapNav(); // tree view should be used on mobile
+      }
+    </script>
+
+
+
+<div class="g-unit" id="doc-content">
+
+<div id="api-info-block">
+
+
+
+  
+   
+  
+  
+  
+  
+
+
+<div class="sum-details-links">
+
+
+Summary:
+
+
+
+
+
+  <a href="#constants">Constants</a>
+  
+
+
+
+
+
+
+
+  &#124; <a href="#pubmethods">Methods</a>
+  
+
+
+
+  &#124; <a href="#inhmethods">Inherited Methods</a>
+
+&#124; <a href="#" onclick="return toggleAllClassInherited()" id="toggleAllClassInherited">[Expand All]</a>
+
+</div><!-- end sum-details-links -->
+<div class="api-level">
+  
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+
+  
+  
+
+</div>
+</div><!-- end api-info-block -->
+
+
+<!-- ======== START OF CLASS DATA ======== -->
+
+<div id="jd-header">
+    public
+     
+     
+    
+    class
+<h1>EnterpriseSSOPolicy</h1>
+
+
+
+  
+    extends <a href="http://developer.android.com/reference/java/lang/Object.html">Object</a><br/>
+  
+  
+  
+
+  
+  
+  
+
+
+</div><!-- end header -->
+
+<div id="naMessage"></div>
+
+<div id="jd-content" class="api apilevel-KNOX_1.0">
+<table class="jd-inheritance-table">
+
+
+    <tr>
+         	
+        <td colspan="2" class="jd-inheritance-class-cell"><a href="http://developer.android.com/reference/java/lang/Object.html">java.lang.Object</a></td>
+    </tr>
+    
+
+    <tr>
+        
+            <td class="jd-inheritance-space">&nbsp;&nbsp;&nbsp;&#x21b3;</td>
+         	
+        <td colspan="1" class="jd-inheritance-class-cell">com.sec.enterprise.knox.EnterpriseSSOPolicy</td>
+    </tr>
+    
+
+</table>
+
+
+
+
+
+
+
+<div class="jd-descr">
+<p>
+  <p class="caution">
+      <strong>
+  This class is deprecated.</strong><br/> since KNOX 2.7
+  </p>
+
+<h2>Class Overview</h2>
+<p>This class provides APIs to setup and manage Single Sign-On (SSO) services
+ inside a container. In order to enable the SSO feature, the administrator
+ needs to first install the sso service. Administrator needs to call below api depending on device's knox version.
+<p>
+<strong>SSO Solution Types </strong><br>
+<code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_TYPE_CENTRIFY">SSO_TYPE_CENTRIFY</a></code>   : has been supported since Knox 1.0 <br>
+<code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_TYPE_SAMSUNG">SSO_TYPE_SAMSUNG</a></code> : has been supported since Knox 2.0 <br>
+<p>
+ <strong>If Knox sdk version is less than <code><a href="../../../../com/sec/enterprise/knox/EnterpriseKnoxManager.EnterpriseKnoxSdkVersion.html#KNOX_ENTERPRISE_SDK_VERSION_2_0">KNOX_ENTERPRISE_SDK_VERSION_2_0</a></code> </strong><br>
+ Administrator needs to call <code><a href="../../../../com/sec/enterprise/knox/ContainerApplicationPolicy.html#installPackage(java.lang.String, int, com.sec.enterprise.knox.EnterpriseContainerCallback)">installPackage(String, int, EnterpriseContainerCallback)</a></code> 
+ with valid input parameters to install the service. Package path for SSOService apk is currently set to '/system/preloadedsso/ssoservice.apk_'
+ This path is currently defined in the variable, <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_SERVICE_PACKAGE_PATH">SSO_SERVICE_PACKAGE_PATH</a></code>. 
+ Once it is installed administrator can then set the customerID, (an unique ID for each enterprise
+ generated by the SSO Vendor to map the request with an Enterprise's Active
+ Directory). Once it is set, the administrator can then add container
+ applications into the whitelist, allowing them to use the SSO service.
+<p>
+ <strong>If Knox sdk version is  greater than or equal to <code><a href="../../../../com/sec/enterprise/knox/EnterpriseKnoxManager.EnterpriseKnoxSdkVersion.html#KNOX_ENTERPRISE_SDK_VERSION_2_0">KNOX_ENTERPRISE_SDK_VERSION_2_0</a></code> </strong><br>
+ Administrator needs to call <code><a href="../../../../android/app/enterprise/ApplicationPolicy.html#installApplication(java.lang.String, boolean)">installApplication(String, boolean)</a></code> with valid input parameters to install the service. 
+ Only one sso solution could be installed in a container. so administrator should uninstall previous sso solution if he wants to swich sso solution type.
+ Since Knox 2.0 only administrator must be allowed to uninstall the SSO Solution and user must be restricted to uninstall SSO.In Knox 2.0 only one SSO service 
+ either Centrify's or Samsung's solution can be installed in a specific container. To install Centrify in container id say 100 ,first administrator checks
+ if Samsung SSO is already installed in container 100, and if it is already installed, uninstalls Samsung SSO in container 100 and then 
+ installs Centrify's SSO and vice versa.Package path for Centrify's SSOService apk is currently defined in the variable <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_SERVICE_PACKAGE_PATH">SSO_SERVICE_PACKAGE_PATH</a></code> and package
+ path for Samsung' apk is defined in the variable <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_SAMSUNG_SERVICE_PACKAGE_PATH">SSO_SAMSUNG_SERVICE_PACKAGE_PATH</a></code>
+ <p>
+ However, few models do not have preloaded sso service apk because of the limitation of ROM size. Furthermore, <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_SAMSUNG_SERVICE_PACKAGE_PATH">SSO_SAMSUNG_SERVICE_PACKAGE_PATH</a></code> is deprecated since Knox 2.4 and #SSO_CENTRIFY_SERVICE_PACKAGE_PATH is deprecated since Knox 2.6. Therefore, MDM Agent always has to check if the apk file is present in the device or not.
+ If the file exists, MDM Agent has to install it. If the file does not exist, MDM Agent has to skip installation so that IT-admin can install this apk later.
+ <p>
+ The method <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#isSSOReady(java.lang.String)">isSSOReady(String)</a></code> should be called before calling other APIs such as <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#deleteSSOWhiteList(java.lang.String, java.lang.String, java.util.List<java.lang.String>)">deleteSSOWhiteList(String, String, List)</a></code>, <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#getAppAllowedState(java.lang.String, java.lang.String)">getAppAllowedState(String, String)</a></code>, <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#pushSSOData(java.lang.String, android.os.Bundle)">pushSSOData(String, Bundle)</a></code>, <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#setCustomerInfo(java.lang.String, java.lang.String, java.lang.String)">setCustomerInfo(String, String, String)</a></code> and <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#setSSOWhiteList(java.lang.String, java.lang.String, java.util.List<java.lang.String>)">setSSOWhiteList(String, String, List)</a></code>, to check for service bind status. If <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#isSSOReady(java.lang.String)">isSSOReady(String)</a></code> returns false, <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#setupSSO(java.lang.String)">setupSSO(String)</a></code> should be called before calling the above mentioned APIs.</p>
+ <pre>
+ KnoxContainerManager mKnoxContainerManager = EnterpriseKnoxManager.getInstance().getKnoxContainerManager(this, containerId);
+ EnterpriseSSOPolicy mEnterpriseSSOPolicy = mKnoxContainerManager.getEnterpriseSSOPolicy(<code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#CENTRIFY_SSO_PKG">CENTRIFY_SSO_PKG</a></code>))
+ if(!mEnterpriseSSOPolicy.isSSOReady(<code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#CENTRIFY_SSO_PKG">CENTRIFY_SSO_PKG</a></code>)){
+     if(mEnterpriseSSOPolicy.setupSSO(<code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#CENTRIFY_SSO_PKG">CENTRIFY_SSO_PKG</a></code>) == EnterpriseSSOPolicy.SSO_RESULT_FAILURE){
+         return;
+     }        
+ }
+ </pre>
+ <p><strong>KNOX 1.0</strong></p>
+ SSO service should be installed in a container before calling <code><a href="../../../../com/sec/enterprise/knox/EnterpriseContainerManager.html#getEnterpriseSSOPolicy()">getEnterpriseSSOPolicy()</a></code>.
+ <p>
+ <pre>
+ <strong>[How to install]</strong>
+ // When you create container successfully, <i>containerID</i> will be returned via intent.
+ // Use this <i>containerID</i> in below API.
+ EnterpriseKnoxManager ekm = EnterpriseKnoxManager.getInstance();
+ EnterpriseContainerManager ecm = ekm.getEnterpriseContainerManager(<i>containerID</i>);
+ ContainerApplicationPolicy appPolicy = ecm.getContainerApplicationPolicy();
+ int installType = ContainerApplicationPolicy.INSTALL_ONLY;
+      EnterpriseContainerCallback callback = new EnterpriseContainerCallback() {<br>
+          <code>@Override</code>
+          public void updateStatus(int status, Bundle data){<br>
+              switch(status) {
+              case EnterpriseContainerCallback.CONTAINER_PACKAGE_INSTALL_SUCCESS:
+                  break;<br>
+              case EnterpriseContainerCallback.CONTAINER_PACKAGE_INSTALL_FAILURE:			
+                  break;
+              }
+          }
+      };
+ try {
+     File file = new File(<code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_SERVICE_PACKAGE_PATH">SSO_SERVICE_PACKAGE_PATH</a></code>);
+     if(file.exists()) {
+         appPolicy.installPackage(<code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_SERVICE_PACKAGE_PATH">SSO_SERVICE_PACKAGE_PATH</a></code>, installType, callback);
+     }
+ } catch (SecurityException e) {
+     Log.w(TAG, "SecurityException : " + e);
+ }
+<br>
+ <strong>[How to get SSO instance]</strong>
+ // When you create container successfully, <i>containerID</i> will be returned via intent.
+ // Use this <i>containerID</i> in below API.
+ EnterpriseKnoxManager ekm = EnterpriseKnoxManager.getInstance();
+ EnterpriseContainerManager ecm = ekm.getEnterpriseContainerManager(<i>containerID</i>);
+ EnterpriseSSOPolicy mEnterpriseSSOPolicy = ecm.getEnterpriseSSOPolicy();  	
+ </pre>
+ </p>
+ <p><strong>KNOX 2.0</strong></p>
+ SSO service should be installed in a container before calling <code><a href="../../../../com/sec/enterprise/knox/container/KnoxContainerManager.html#getEnterpriseSSOPolicy(java.lang.String)">getEnterpriseSSOPolicy(String)</a></code>.
+ <p>
+ <pre>
+ <strong>[How to install]</strong>
+ KnoxContainerManager mKnoxContainerManager = EnterpriseKnoxManager.getInstance().getKnoxContainerManager(this, containerid);
+ ApplicationPolicy appPolicy = mKnoxContainerManager.getApplicationPolicy();
+ try {
+     File file = new File(<code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_SERVICE_PACKAGE_PATH">SSO_SERVICE_PACKAGE_PATH</a></code> or <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_SAMSUNG_SERVICE_PACKAGE_PATH">SSO_SAMSUNG_SERVICE_PACKAGE_PATH</a></code>);
+     if(file.exists() && !appPolicy.isApplicationInstalled(<code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#CENTRIFY_SSO_PKG">CENTRIFY_SSO_PKG</a></code> or <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SAMSUNG_SSO_PKG">SAMSUNG_SSO_PKG</a></code>)) {
+         appPolicy.installApplication(<code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_SERVICE_PACKAGE_PATH">SSO_SERVICE_PACKAGE_PATH</a></code> or <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_SAMSUNG_SERVICE_PACKAGE_PATH">SSO_SAMSUNG_SERVICE_PACKAGE_PATH</a></code>, false);
+     }
+ } catch (SecurityException e) {
+     Log.w(TAG, "SecurityException : " + e);
+ }
+ <br>
+ <strong>[How to uninstall]</strong>
+ try {
+     appPolicy.uninstallApplication(<code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#CENTRIFY_SSO_PKG">CENTRIFY_SSO_PKG</a></code> or <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SAMSUNG_SSO_PKG">SAMSUNG_SSO_PKG</a></code>, false);
+ } catch (SecurityException e) {
+     Log.w(TAG, "SecurityException: " +  e);
+ }
+ <br>
+ <strong>[How to get SSO instance]</strong>
+ KnoxContainerManager mKnoxContainerManager = EnterpriseKnoxManager.getInstance().getKnoxContainerManager(this, containerId);
+ EnterpriseSSOPolicy mEnterpriseSSOPolicy = mKnoxContainerManager.getEnterpriseSSOPolicy(<code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#CENTRIFY_SSO_PKG">CENTRIFY_SSO_PKG</a></code> or <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SAMSUNG_SSO_PKG">SAMSUNG_SSO_PKG</a></code>);
+ </pre>
+ </p></p>
+
+      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7
+</td>
+        </tr>
+      </table>
+  </div>
+
+
+
+</div><!-- jd-descr -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="jd-descr">
+
+
+<h2>Summary</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- =========== ENUM CONSTANT SUMMARY =========== -->
+<table id="constants" class="jd-sumtable"><tr><th colspan="12">Constants</th></tr>
+
+
+    
+    <tr class="alt-color api apilevel-KNOX_1.0" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#CENTRIFY_SSO_PKG">CENTRIFY_SSO_PKG</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since KNOX 2.7</em></td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-KNOX_1.0" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#INTENT_CONTAINER_ID">INTENT_CONTAINER_ID</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since KNOX 2.7</em></td>
+    </tr>
+    
+    
+    <tr class="alt-color api apilevel-KNOX_2.0" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#INTENT_SSO_PACKAGE_NAME">INTENT_SSO_PACKAGE_NAME</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since KNOX 2.7</em></td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-KNOX_1.0" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#INTENT_SSO_SERVICE_DISCONNECTED">INTENT_SSO_SERVICE_DISCONNECTED</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since KNOX 2.7</em></td>
+    </tr>
+    
+    
+    <tr class="alt-color api apilevel-KNOX_1.0" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#INTENT_SSO_SERVICE_SETUP_SUCCESS">INTENT_SSO_SERVICE_SETUP_SUCCESS</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since KNOX 2.7</em></td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-KNOX_2.0" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SAMSUNG_SSO_BUNDLE_KEY_CUSTOMER_LOGO">SAMSUNG_SSO_BUNDLE_KEY_CUSTOMER_LOGO</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since KNOX 2.7</em></td>
+    </tr>
+    
+    
+    <tr class="alt-color api apilevel-KNOX_2.0" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SAMSUNG_SSO_BUNDLE_KEY_CUSTOMER_NAME">SAMSUNG_SSO_BUNDLE_KEY_CUSTOMER_NAME</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since KNOX 2.7</em></td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-KNOX_2.0" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SAMSUNG_SSO_BUNDLE_KEY_IDP_CONF_DATA">SAMSUNG_SSO_BUNDLE_KEY_IDP_CONF_DATA</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since KNOX 2.7</em></td>
+    </tr>
+    
+    
+    <tr class="alt-color api apilevel-KNOX_2.0" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SAMSUNG_SSO_BUNDLE_KEY_KRB_CONF_DATA">SAMSUNG_SSO_BUNDLE_KEY_KRB_CONF_DATA</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since KNOX 2.7</em></td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-KNOX_2.0" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SAMSUNG_SSO_PKG">SAMSUNG_SSO_PKG</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since KNOX 2.7</em></td>
+    </tr>
+    
+    
+    <tr class="alt-color api apilevel-KNOX_1.0" >
+        <td class="jd-typecol">int</td>
+        <td class="jd-linkcol"><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_RESULT_FAILURE">SSO_RESULT_FAILURE</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since KNOX 2.7</em></td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-KNOX_1.0" >
+        <td class="jd-typecol">int</td>
+        <td class="jd-linkcol"><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_RESULT_FAILURE_NOT_ENROLLED">SSO_RESULT_FAILURE_NOT_ENROLLED</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since KNOX 2.7</em></td>
+    </tr>
+    
+    
+    <tr class="alt-color api apilevel-KNOX_1.0" >
+        <td class="jd-typecol">int</td>
+        <td class="jd-linkcol"><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_RESULT_SUCCESS">SSO_RESULT_SUCCESS</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since KNOX 2.7</em></td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-KNOX_2.0" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_SAMSUNG_SERVICE_PACKAGE_PATH">SSO_SAMSUNG_SERVICE_PACKAGE_PATH</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      Not supported since  KNOX 2.4
+</em></td>
+    </tr>
+    
+    
+    <tr class="alt-color api apilevel-KNOX_1.0.2" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_SERVICE_PACKAGE_PATH">SSO_SERVICE_PACKAGE_PATH</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      Not supported since  KNOX 2.6</em></td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-KNOX_1.0" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_TYPE_CENTRIFY">SSO_TYPE_CENTRIFY</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since KNOX 2.7</em></td>
+    </tr>
+    
+    
+    <tr class="alt-color api apilevel-KNOX_2.0" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_TYPE_SAMSUNG">SSO_TYPE_SAMSUNG</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since KNOX 2.7</em></td>
+    </tr>
+    
+    
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+<table id="pubmethods" class="jd-sumtable"><tr><th colspan="12">Public Methods</th></tr>
+
+
+
+	 
+    <tr class="alt-color api apilevel-KNOX_1.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            int</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#deleteSSOWhiteList(java.lang.String, java.lang.String, java.util.List<java.lang.String>)">deleteSSOWhiteList</a></span>(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> customerId, <a href="http://developer.android.com/reference/java/util/List.html">List</a>&lt;<a href="http://developer.android.com/reference/java/lang/String.html">String</a>&gt; packageName)</nobr>
+        
+        <div class="jd-descrdiv">
+      <em>
+  This method is deprecated.
+      since KNOX 2.7</em></div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-KNOX_1.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            int</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#forceReauthenticate(java.lang.String)">forceReauthenticate</a></span>(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type)</nobr>
+        
+        <div class="jd-descrdiv">
+      <em>
+  This method is deprecated.
+      since KNOX 2.7</em></div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-KNOX_1.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#getAppAllowedState(java.lang.String, java.lang.String)">getAppAllowedState</a></span>(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> packageName)</nobr>
+        
+        <div class="jd-descrdiv">
+      <em>
+  This method is deprecated.
+      since KNOX 2.7</em></div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-KNOX_1.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            <a href="http://developer.android.com/reference/java/lang/String.html">String</a></nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#getSSOCustomerId(java.lang.String)">getSSOCustomerId</a></span>(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type)</nobr>
+        
+        <div class="jd-descrdiv">
+      <em>
+  This method is deprecated.
+      Since KNOX 2.0</em></div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-KNOX_2.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#isSSOReady(java.lang.String)">isSSOReady</a></span>(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type)</nobr>
+        
+        <div class="jd-descrdiv">
+      <em>
+  This method is deprecated.
+      since KNOX 2.7</em></div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-KNOX_2.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            int</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#pushSSOData(java.lang.String, android.os.Bundle)">pushSSOData</a></span>(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type, <a href="http://developer.android.com/reference/android/os/Bundle.html">Bundle</a> dataBundle)</nobr>
+        
+        <div class="jd-descrdiv">
+      <em>
+  This method is deprecated.
+      since KNOX 2.7</em></div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-KNOX_1.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            int</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#setCustomerInfo(java.lang.String, java.lang.String, java.lang.String)">setCustomerInfo</a></span>(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> companyName, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> logo)</nobr>
+        
+        <div class="jd-descrdiv">
+      <em>
+  This method is deprecated.
+      since KNOX 2.7</em></div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-KNOX_1.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            int</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#setSSOCustomerId(java.lang.String, java.lang.String)">setSSOCustomerId</a></span>(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> customerId)</nobr>
+        
+        <div class="jd-descrdiv">
+      <em>
+  This method is deprecated.
+      Since KNOX 2.0</em></div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-KNOX_1.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            int</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#setSSOWhiteList(java.lang.String, java.lang.String, java.util.List<java.lang.String>)">setSSOWhiteList</a></span>(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> customerId, <a href="http://developer.android.com/reference/java/util/List.html">List</a>&lt;<a href="http://developer.android.com/reference/java/lang/String.html">String</a>&gt; packageName)</nobr>
+        
+        <div class="jd-descrdiv">
+      <em>
+  This method is deprecated.
+      since KNOX 2.7</em></div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-KNOX_2.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            int</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#setupSSO(java.lang.String)">setupSSO</a></span>(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type)</nobr>
+        
+        <div class="jd-descrdiv">
+      <em>
+  This method is deprecated.
+      since KNOX 2.7</em></div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-KNOX_1.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            int</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#unenroll(java.lang.String)">unenroll</a></span>(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type)</nobr>
+        
+        <div class="jd-descrdiv">
+      <em>
+  This method is deprecated.
+      since KNOX 2.7</em></div>
+  
+  </td></tr>
+
+
+
+</table>
+
+
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+<table id="inhmethods" class="jd-sumtable"><tr><th>
+  <a href="#" class="toggle-all" onclick="return toggleAllInherited(this, null)">[Expand]</a>
+  <div style="clear:left;">Inherited Methods</div></th></tr>
+
+
+<tr class="api apilevel-" >
+<td colspan="12">
+  <a href="#" onclick="return toggleInherited(this, null)" id="inherited-methods-java.lang.Object" class="jd-expando-trigger closed"
+          ><img id="inherited-methods-java.lang.Object-trigger"
+          src="../../../../../assets/images/triangle-closed.png"
+          class="jd-expando-trigger-img" /></a>
+From class
+
+  <a href="http://developer.android.com/reference/java/lang/Object.html">java.lang.Object</a>
+
+<div id="inherited-methods-java.lang.Object">
+  <div id="inherited-methods-java.lang.Object-list"
+        class="jd-inheritedlinks">
+  </div>
+  <div id="inherited-methods-java.lang.Object-summary" style="display: none;">
+    <table class="jd-sumtable-expando">
+    
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            <a href="http://developer.android.com/reference/java/lang/Object.html">Object</a></nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">clone</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">equals</span>(<a href="http://developer.android.com/reference/java/lang/Object.html">Object</a> arg0)</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">finalize</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            <a href="http://developer.android.com/reference/java/lang/Class.html">Class</a>&lt;?&gt;</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">getClass</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            int</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">hashCode</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">notify</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">notifyAll</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            <a href="http://developer.android.com/reference/java/lang/String.html">String</a></nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">toString</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">wait</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">wait</span>(long arg0, int arg1)</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">wait</span>(long arg0)</nobr>
+        
+  </td></tr>
+
+
+</table>
+  </div>
+</div>
+</td></tr>
+
+
+</table>
+
+
+</div><!-- jd-descr (summary) -->
+
+<!-- Details -->
+
+
+
+
+
+
+
+
+<!-- XML Attributes -->
+
+
+<!-- Enum Values -->
+
+
+<!-- Constants -->
+
+
+<!-- ========= ENUM CONSTANTS DETAIL ======== -->
+<h2>Constants</h2>
+
+
+
+
+<A NAME="CENTRIFY_SSO_PKG"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        CENTRIFY_SSO_PKG
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>SSO Service package corresponding to Centrify</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "com.centrify.sso.samsung"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="INTENT_CONTAINER_ID"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        INTENT_CONTAINER_ID
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>This constant is used to retrive the extra integer parameter that is returned with the following Intents.
+ It specifies the container id of the container for which the broadcast intents are sent.   
+ <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#INTENT_SSO_SERVICE_SETUP_SUCCESS">INTENT_SSO_SERVICE_SETUP_SUCCESS</a></code> 
+ <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#INTENT_SSO_SERVICE_DISCONNECTED">INTENT_SSO_SERVICE_DISCONNECTED</a></code> </p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">See Also</h5>
+      <ul class="nolist"><li><code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#INTENT_SSO_SERVICE_SETUP_SUCCESS">INTENT_SSO_SERVICE_SETUP_SUCCESS</a></code></li><li><code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#INTENT_SSO_SERVICE_DISCONNECTED">INTENT_SSO_SERVICE_DISCONNECTED</a></code></li>
+      </ul>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "containerid"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="INTENT_SSO_PACKAGE_NAME"></A>
+
+<div class="jd-details api apilevel-KNOX_2.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        INTENT_SSO_PACKAGE_NAME
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_2.0">API Level KNOX_2.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>This constant is used to retrive the extra string parameter that is returned with the following Intents.
+ It specifies the package name of sso solution for which the broadcast intents are sent.   
+ <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#INTENT_SSO_SERVICE_SETUP_SUCCESS">INTENT_SSO_SERVICE_SETUP_SUCCESS</a></code> 
+ <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#INTENT_SSO_SERVICE_DISCONNECTED">INTENT_SSO_SERVICE_DISCONNECTED</a></code> </p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">See Also</h5>
+      <ul class="nolist"><li><code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#INTENT_SSO_SERVICE_SETUP_SUCCESS">INTENT_SSO_SERVICE_SETUP_SUCCESS</a></code></li><li><code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#INTENT_SSO_SERVICE_DISCONNECTED">INTENT_SSO_SERVICE_DISCONNECTED</a></code></li>
+      </ul>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "packageName"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="INTENT_SSO_SERVICE_DISCONNECTED"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        INTENT_SSO_SERVICE_DISCONNECTED
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>This broadcast intent is sent when Single-Sign-On service is disconnected.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "sso.enterprise.container.disconnected"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="INTENT_SSO_SERVICE_SETUP_SUCCESS"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        INTENT_SSO_SERVICE_SETUP_SUCCESS
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>This broadcast intent is sent when Single-Sign-On service is successfully set up.
+ Administrator needs to receive this intent before applying any SSO policies. </p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "sso.enterprise.container.setup.success"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="SAMSUNG_SSO_BUNDLE_KEY_CUSTOMER_LOGO"></A>
+
+<div class="jd-details api apilevel-KNOX_2.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        SAMSUNG_SSO_BUNDLE_KEY_CUSTOMER_LOGO
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_2.0">API Level KNOX_2.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>Customer Logo Key defined in bundle for <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#pushSSOData(java.lang.String, android.os.Bundle)">pushSSOData(String, Bundle)</a></code>.
+ It's key is of type String and it's value is of type byte[] eg: {String, byte[]);</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "SSO_CUSTOMER_LOGO"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="SAMSUNG_SSO_BUNDLE_KEY_CUSTOMER_NAME"></A>
+
+<div class="jd-details api apilevel-KNOX_2.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        SAMSUNG_SSO_BUNDLE_KEY_CUSTOMER_NAME
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_2.0">API Level KNOX_2.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>Customer Name Key defined in bundle for <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#pushSSOData(java.lang.String, android.os.Bundle)">pushSSOData(String, Bundle)</a></code>.
+ It's key is of type String and it's value is of type byte[] eg: {String, String);</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "SSO_CUSTOMER_NAME"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="SAMSUNG_SSO_BUNDLE_KEY_IDP_CONF_DATA"></A>
+
+<div class="jd-details api apilevel-KNOX_2.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        SAMSUNG_SSO_BUNDLE_KEY_IDP_CONF_DATA
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_2.0">API Level KNOX_2.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>Idp Conf data Key defined in bundle for <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#pushSSOData(java.lang.String, android.os.Bundle)">pushSSOData(String, Bundle)</a></code>.
+ It's key is of type String and it's value is of type byte[] eg: {String, byte[]);</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "SSO_IDP_CONF_DATA"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="SAMSUNG_SSO_BUNDLE_KEY_KRB_CONF_DATA"></A>
+
+<div class="jd-details api apilevel-KNOX_2.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        SAMSUNG_SSO_BUNDLE_KEY_KRB_CONF_DATA
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_2.0">API Level KNOX_2.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>Conf data Key defined in bundle for <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#pushSSOData(java.lang.String, android.os.Bundle)">pushSSOData(String, Bundle)</a></code>.
+ It's key is of type String and it's value is of type byte[] eg: {String, byte[]);</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "SSO_KRB_CONF_DATA"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="SAMSUNG_SSO_PKG"></A>
+
+<div class="jd-details api apilevel-KNOX_2.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        SAMSUNG_SSO_PKG
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_2.0">API Level KNOX_2.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>SSO Service package corresponding to Samsung</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "com.sec.android.service.singlesignon"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="SSO_RESULT_FAILURE"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        int
+      </span>
+        SSO_RESULT_FAILURE
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>This result code is returned when the api call fails.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                1
+                (0x00000001)
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="SSO_RESULT_FAILURE_NOT_ENROLLED"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        int
+      </span>
+        SSO_RESULT_FAILURE_NOT_ENROLLED
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>This result code is returned when the api call fails because the device is not yet enrolled.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                2
+                (0x00000002)
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="SSO_RESULT_SUCCESS"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        int
+      </span>
+        SSO_RESULT_SUCCESS
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>This result code is returned when the api call is successful.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                0
+                (0x00000000)
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="SSO_SAMSUNG_SERVICE_PACKAGE_PATH"></A>
+
+<div class="jd-details api apilevel-KNOX_2.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        SSO_SAMSUNG_SERVICE_PACKAGE_PATH
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_2.0">API Level KNOX_2.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> Not supported since  KNOX 2.4
+
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>Samsung's SSO Service apk package path on the device. </p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.0</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "/system/preloadedsso/samsungsso.apk_"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="SSO_SERVICE_PACKAGE_PATH"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0.2"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        SSO_SERVICE_PACKAGE_PATH
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0.2">API Level KNOX_1.0.2</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> Not supported since  KNOX 2.6
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>Centrify's SSO Service apk package path on the device. </p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0.1</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "/system/preloadedsso/ssoservice.apk_"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="SSO_TYPE_CENTRIFY"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        SSO_TYPE_CENTRIFY
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>SSO type corresponding to Centrify. </p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "centrify"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="SSO_TYPE_SAMSUNG"></A>
+
+<div class="jd-details api apilevel-KNOX_2.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        SSO_TYPE_SAMSUNG
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_2.0">API Level KNOX_2.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>SSO type corresponding to Samsung SSO. </p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "samsung"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+
+<!-- Fields -->
+
+
+<!-- Public ctors -->
+
+
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<!-- Protected ctors -->
+
+
+
+<!-- ========= METHOD DETAIL ======== -->
+<!-- Public methdos -->
+
+<h2>Public Methods</h2>
+
+
+
+<A NAME="deleteSSOWhiteList(java.lang.String, java.lang.String, java.util.List<java.lang.String>)"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        int
+      </span>
+      <span class="sympad">deleteSSOWhiteList</span>
+      <span class="normal">(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> customerId, <a href="http://developer.android.com/reference/java/util/List.html">List</a>&lt;<a href="http://developer.android.com/reference/java/lang/String.html">String</a>&gt; packageName)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>API used to disallow a package from using the SSO service. 
+ <p></p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>type</td>
+          <td>Unique value for each SSO vendor. e.g., <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_TYPE_CENTRIFY">SSO_TYPE_CENTRIFY</a></code>, <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_TYPE_SAMSUNG">SSO_TYPE_SAMSUNG</a></code></td>
+        </tr>
+        <tr>
+          <th>customerId</td>
+          <td>Unique ID for each enterprise to map the request with an
+            Active Directory.</td>
+        </tr>
+        <tr>
+          <th>packageName</td>
+          <td>List of package names which the administrator wants to
+            delete from the whitelist.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li><p><code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_RESULT_SUCCESS">SSO_RESULT_SUCCESS</a></code><br /><code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_RESULT_FAILURE">SSO_RESULT_FAILURE</a></code></p></li></ul>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Throws</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/SecurityException.html">SecurityException</a></td>
+            <td>If caller does not have required permissions.</td>
+        </tr>  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/UnsupportedOperationException.html">UnsupportedOperationException</a></td>
+            <td>The API is not supported by the SSO
+             type.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>This API is used to remove a package from the whitelist. Only the applications that are included
+ in this list are allowed to use SSO service. An administrator has to enter the correct package name in order to 
+ provide that application access to the SSO service.Since Knox 2.0 customerId has been depricated and has no 
+ meaning and hence can be set to null</p>
+ <p>
+ <pre>     
+ List&lt;String&gt; packageList = new Arraylist&lt;String&gt;();
+ packageList.add(&quot;com.android.nfc&quot;);
+ packageList.add(&quot;com.android.apps.tag&quot;);
+ try {
+     int deleteWhiteListStatus = mEnterpriseSSOPolicy.deleteSSOWhiteList(<code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_TYPE_CENTRIFY">SSO_TYPE_CENTRIFY</a></code>, null, packageList);
+ } catch (SecurityException e) {
+     Log.w(TAG, &quot;Exception&quot; + e);
+ } catch (UnsupportedOperationException e) {
+     Log.w(TAG, &quot;Exception&quot; + e);
+ }
+ </pre>
+ </p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "android.permission.sec.MDM_ENTERPRISE_SSO" permission which
+             has a protection level of signature.
+             <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="forceReauthenticate(java.lang.String)"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        int
+      </span>
+      <span class="sympad">forceReauthenticate</span>
+      <span class="normal">(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>The API is used to force the user to reauthenticate.
+ <p></p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>type</td>
+          <td>Unique value for each SSO vendor. e.g., <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_TYPE_CENTRIFY">SSO_TYPE_CENTRIFY</a></code>, <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_TYPE_SAMSUNG">SSO_TYPE_SAMSUNG</a></code> </td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li><p><code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_RESULT_SUCCESS">SSO_RESULT_SUCCESS</a></code><br /><code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_RESULT_FAILURE">SSO_RESULT_FAILURE</a></code></p></li></ul>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Throws</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/SecurityException.html">SecurityException</a></td>
+            <td>If caller does not have required permissions.</td>
+        </tr>  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/UnsupportedOperationException.html">UnsupportedOperationException</a></td>
+            <td>The API is not supported by the SSO
+             type.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>This API is used to force the user to login again. Under normal circumstances, the user has to 
+ login only once at the setup time.</p>
+ <p>
+ <pre>
+ try {
+     int forceReauthenticateStatus = mEnterpriseSSOPolicy.forceReauthenticate(<code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_TYPE_CENTRIFY">SSO_TYPE_CENTRIFY</a></code>);
+ } catch (SecurityException e) {
+     Log.w(TAG, &quot;Exception&quot; + e);
+ } catch (UnsupportedOperationException e) {
+     Log.w(TAG, &quot;Exception&quot; + e);
+ }
+ </pre>
+ </p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "android.permission.sec.MDM_ENTERPRISE_SSO" permission which
+             has a protection level of signature.
+             <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="getAppAllowedState(java.lang.String, java.lang.String)"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        boolean
+      </span>
+      <span class="sympad">getAppAllowedState</span>
+      <span class="normal">(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> packageName)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>API to check whether a particular application is included in the SSO service whitelist.
+ <p></p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>type</td>
+          <td>Unique value for each SSO vendor. e.g., <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_TYPE_CENTRIFY">SSO_TYPE_CENTRIFY</a></code>,<code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_TYPE_SAMSUNG">SSO_TYPE_SAMSUNG</a></code></td>
+        </tr>
+        <tr>
+          <th>packageName</td>
+          <td>Name of the package for which the administrator wants to
+            check the whitelist status.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>true if package is part of the whitelist else false</li></ul>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Throws</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/SecurityException.html">SecurityException</a></td>
+            <td>If caller does not have required permissions.</td>
+        </tr>  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/UnsupportedOperationException.html">UnsupportedOperationException</a></td>
+            <td>The API is not supported by the SSO
+             type.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>This API is used to check if a particular application is part of the whitelist or not. An administrator can use this API to first 
+ get the current state of the package and can then add or delete that package from the whitelist.</p>
+ <br>
+ <p><strong>KNOX 1.0</strong></p>
+ <p>
+ <pre>
+ try {
+     boolean getAppAllowedStatus = mEnterpriseSSOPolicy.getAppAllowedState(<code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_TYPE_CENTRIFY">SSO_TYPE_CENTRIFY</a></code>,&quot;com.android.nfc&quot;);
+ } catch (SecurityException e) {
+     Log.w(TAG, &quot;Exception&quot; + e);
+ } catch (UnsupportedOperationException e) {
+     Log.w(TAG, &quot;Exception&quot; + e);
+ }
+ </pre>
+ </p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "android.permission.sec.MDM_ENTERPRISE_SSO" permission which
+             has a protection level of signature.
+             <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="getSSOCustomerId(java.lang.String)"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+      <span class="sympad">getSSOCustomerId</span>
+      <span class="normal">(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> Since KNOX 2.0
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>API to retrieve the customer ID that was previously set.
+ <p></p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>type</td>
+          <td>Unique value for each SSO vendor. e.g., <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_TYPE_CENTRIFY">SSO_TYPE_CENTRIFY</a></code></td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>Customer ID if it was set else returns 'null'.</li></ul>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Throws</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/SecurityException.html">SecurityException</a></td>
+            <td>If caller does not have required permissions.</td>
+        </tr>  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/UnsupportedOperationException.html">UnsupportedOperationException</a></td>
+            <td>The API is not supported by the SSO
+             type.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>This API is used to retrieve the enterprise customerID that was set by the administrator.
+ The administrator can use this to verify the customerID.</p>
+ <p>
+ <pre>
+ try {
+     String response = mEnterpriseSSOPolicy.getSSOCustomerId(<code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_TYPE_CENTRIFY">SSO_TYPE_CENTRIFY</a></code>);
+ } catch (SecurityException e) {
+     Log.w(TAG, &quot;Exception&quot; + e);
+ } catch (UnsupportedOperationException e) {
+     Log.w(TAG, &quot;Exception&quot; + e);
+ }
+ </pre>
+ <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "android.permission.sec.MDM_ENTERPRISE_SSO" permission which
+             has a protection level of signature.
+             <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.0
+</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="isSSOReady(java.lang.String)"></A>
+
+<div class="jd-details api apilevel-KNOX_2.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        boolean
+      </span>
+      <span class="sympad">isSSOReady</span>
+      <span class="normal">(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_2.0">API Level KNOX_2.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>API to check the status of SSO.
+ <p>
+ SSO Policy will be processed only when the SSO service
+ is running and bound. This API can be used to check the status of an SSO service.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>true if the SSO is ready, false if not</li></ul>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Throws</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/SecurityException.html">SecurityException</a></td>
+            <td>If caller does not have required permissions</td>
+        </tr>  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/UnsupportedOperationException.html">UnsupportedOperationException</a></td>
+            <td>The API is not supported by the SSO type.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td></p>
+ <p><strong>KNOX 2.0</strong></p>
+ <p>
+ <pre>
+ try {
+     boolean result = mEnterpriseSSOPolicy.isSSOReady(<code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_TYPE_CENTRIFY">SSO_TYPE_CENTRIFY</a></code>);
+ } catch (SecurityException e) {
+     Log.w(TAG, &quot;Exception&quot; + e);
+ } catch (UnsupportedOperationException e) {
+     Log.w(TAG, &quot;Exception&quot; + e);
+ }</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "android.permission.sec.MDM_ENTERPRISE_SSO" permission which
+             has a protection level of signature.
+             <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="pushSSOData(java.lang.String, android.os.Bundle)"></A>
+
+<div class="jd-details api apilevel-KNOX_2.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        int
+      </span>
+      <span class="sympad">pushSSOData</span>
+      <span class="normal">(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type, <a href="http://developer.android.com/reference/android/os/Bundle.html">Bundle</a> dataBundle)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_2.0">API Level KNOX_2.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>The API is used to push data to vendors ssoservice.
+ <p></p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>type</td>
+          <td>Unique value for each SSO vendor. e.g., <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_TYPE_SAMSUNG">SSO_TYPE_SAMSUNG</a></code> </td>
+        </tr>
+        <tr>
+          <th>dataBundle</td>
+          <td>bundled data passed on to sso service.  </td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li><p><code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_RESULT_SUCCESS">SSO_RESULT_SUCCESS</a></code><br /><code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_RESULT_FAILURE">SSO_RESULT_FAILURE</a></code></p></li></ul>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Throws</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/SecurityException.html">SecurityException</a></td>
+            <td>If caller does not have required permissions.</td>
+        </tr>  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/UnsupportedOperationException.html">UnsupportedOperationException</a></td>
+            <td>The API is not supported by the SSO
+             type.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The API is used to push data relevant to vendors ssoservice. This data can be configuration file, logo files, etc.; which is passed using a bundle.
+ The data can be interpreted and stored by ssoservice in a predefined manner.<br></p>
+ <p><strong>KNOX 2.0</strong></p>
+ <p>Samsung's SSO solution requires setting of company's logo, company's name, Kerberos configuration file (krb5.conf) and SAML Identity Provider URL.  
+ All the four items are packed in a bundle and pushed. The key-value pairs are defined as follows:</p>
+ <p>
+ <table style="border:1px solid #000000;collapse">
+ <tr style="border:1px solid #000000;">
+ <th style="border:1px solid #000000;"><strong>
+ Keys</strong>
+ </th>
+ <th><strong>
+ Values</strong>
+ </th>
+ </tr>
+ <tr style="border:1px solid #000000">
+ <td style="border:1px solid #000000;">
+ <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SAMSUNG_SSO_BUNDLE_KEY_KRB_CONF_DATA">SAMSUNG_SSO_BUNDLE_KEY_KRB_CONF_DATA</a></code>
+ </td>
+ <td>
+ byte[] confData
+ </td>
+ </tr>
+ <tr style="border:1px solid #000000;">
+ <td style="border:1px solid #000000;">
+ <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SAMSUNG_SSO_BUNDLE_KEY_IDP_CONF_DATA">SAMSUNG_SSO_BUNDLE_KEY_IDP_CONF_DATA</a></code>
+ </td>
+ <td>
+ byte[] samlConfData
+ </td>
+ </tr>
+ <tr style="border:1px solid #000000;">
+ <td style="border:1px solid #000000;">
+ <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SAMSUNG_SSO_BUNDLE_KEY_CUSTOMER_LOGO">SAMSUNG_SSO_BUNDLE_KEY_CUSTOMER_LOGO</a></code>
+ </td>
+ <td>
+ byte[] customerLogo
+ </td>
+ </tr>
+ <tr style="border:1px solid #000000;">
+ <td style="border:1px solid #000000;">
+ <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SAMSUNG_SSO_BUNDLE_KEY_CUSTOMER_NAME">SAMSUNG_SSO_BUNDLE_KEY_CUSTOMER_NAME</a></code>
+ </td>
+ <td>
+ String customerName
+ </td>
+ </tr>	 
+ </table>
+ </p>
+ <pre>
+ try {
+     Bundle bundle = new Bundle();
+     byte[] customerLogoBytes = null;
+     byte[] confDataBytes = null;
+     byte[] samlIDPUrl = null;
+     String customerName = null;
+ 
+     ...
+     
+     StringBuffer MDMRevisedIDPUrl = null;
+     MDMRevisedIDPUrl = new StringBuffer();
+     MDMRevisedIDPUrl.append("[IDPLocationURL]\n\t");  //necessary part for backward compatibility
+     MDMRevisedIDPUrl.append(samlIDPUrl);
+ 
+     bundle.putByteArray(SAMSUNG_SSO_BUNDLE_KEY_CUSTOMER_LOGO, customerLogoBytes);
+     bundle.putByteArray(SAMSUNG_SSO_BUNDLE_KEY_KRB_CONF_DATA, confDataBytes);
+     bundle.putString(SAMSUNG_SSO_BUNDLE_KEY_CUSTOMER_NAME, customerName);
+     bundle.putByteArray(SAMSUNG_SSO_BUNDLE_KEY_IDP_CONF_DATA, MDMRevisedIDPUrl.toString().getBytes());
+ 
+     int pushSSODataStatus = mEnterpriseSSOPolicy.pushSSOData(<code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_TYPE_SAMSUNG">SSO_TYPE_SAMSUNG</a></code>, bundle);
+ } catch (SecurityException e) {
+     Log.w(TAG, &quot;Exception&quot; + e);
+ } catch (UnsupportedOperationException e) {
+     Log.w(TAG, &quot;Exception&quot; + e);
+ }
+ </pre>
+ <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "android.permission.sec.MDM_ENTERPRISE_SSO" permission which
+             has a protection level of signature.
+             <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="setCustomerInfo(java.lang.String, java.lang.String, java.lang.String)"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        int
+      </span>
+      <span class="sympad">setCustomerInfo</span>
+      <span class="normal">(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> companyName, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> logo)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>The API is used to set the customer info.
+ <p></p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>type</td>
+          <td>Unique value for each SSO vendor. e.g., <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_TYPE_CENTRIFY">SSO_TYPE_CENTRIFY</a></code> </td>
+        </tr>
+        <tr>
+          <th>companyName</td>
+          <td>The customer's company name</td>
+        </tr>
+        <tr>
+          <th>logo</td>
+          <td>Base64 encoded logo file.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li><p><code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_RESULT_SUCCESS">SSO_RESULT_SUCCESS</a></code><br /><code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_RESULT_FAILURE">SSO_RESULT_FAILURE</a></code></p></li></ul>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Throws</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/SecurityException.html">SecurityException</a></td>
+            <td>If caller does not have required permissions.</td>
+        </tr>  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/UnsupportedOperationException.html">UnsupportedOperationException</a></td>
+            <td>The API is not supported by the SSO
+             type.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>This API is used to set the information of the enterprise that is using the SSO Service. This is an optional 
+ api, which an administrator can use to set the company name and logo. The logo file needs to be present on device. 
+ The logo and the company name is displayed on the login screen. This login screen is displayed once at the 
+ setup time or if the administrator has invoked force-reauthentication.</p>
+ <p>
+ <pre>
+
+ try {
+     int customerInfoStatus = mEnterpriseSSOPolicy.setCustomerInfo(<code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_TYPE_CENTRIFY">SSO_TYPE_CENTRIFY</a></code>, &quot;companyName&quot;, &quot;logoFilePath&quot;);
+ } catch (SecurityException e) {
+     Log.w(TAG, &quot;Exception&quot; + e);
+ } catch (UnsupportedOperationException e) {
+     Log.w(TAG, &quot;Exception&quot; + e);
+ }
+ </pre>
+ <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "android.permission.sec.MDM_ENTERPRISE_SSO" permission which
+             has a protection level of signature.
+             <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="setSSOCustomerId(java.lang.String, java.lang.String)"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        int
+      </span>
+      <span class="sympad">setSSOCustomerId</span>
+      <span class="normal">(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> customerId)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> Since KNOX 2.0
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>API used to set the enterprise customerID.
+ <p></p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>type</td>
+          <td>Unique value for each SSO vendor. e.g., <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_TYPE_CENTRIFY">SSO_TYPE_CENTRIFY</a></code></td>
+        </tr>
+        <tr>
+          <th>customerId</td>
+          <td>Unique ID for each enterprise generated by the SSO Vendor.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li><p><code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_RESULT_SUCCESS">SSO_RESULT_SUCCESS</a></code><br /><code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_RESULT_FAILURE">SSO_RESULT_FAILURE</a></code></p></li></ul>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Throws</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/SecurityException.html">SecurityException</a></td>
+            <td>If caller does not have required permissions.</td>
+        </tr>  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/UnsupportedOperationException.html">UnsupportedOperationException</a></td>
+            <td>The API is not supported by the SSO
+             type.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>API used to set the enterprise customerID. This is a unique ID generated by the
+ SSO Vendor for each enterprise. This id is used by the SSO Vendor to identify the enterprise's account
+ on the server side. It is mandatory to set the customerID before using any other APIs.</p>
+ <p>
+ <pre>
+ try {
+     int customerId = mEnterpriseSSOPolicy.setSSOCustomerId(<code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_TYPE_CENTRIFY">SSO_TYPE_CENTRIFY</a></code>, &quot;customerId&quot;);
+ } catch (SecurityException e) {
+     Log.w(TAG, &quot;Exception&quot; + e);
+ } catch (UnsupportedOperationException e) {
+     Log.w(TAG, &quot;Exception&quot; + e);
+ }
+ </pre>
+        <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "android.permission.sec.MDM_ENTERPRISE_SSO" permission which
+             has a protection level of signature.
+             <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.0
+</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="setSSOWhiteList(java.lang.String, java.lang.String, java.util.List<java.lang.String>)"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        int
+      </span>
+      <span class="sympad">setSSOWhiteList</span>
+      <span class="normal">(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> customerId, <a href="http://developer.android.com/reference/java/util/List.html">List</a>&lt;<a href="http://developer.android.com/reference/java/lang/String.html">String</a>&gt; packageName)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>API used to allow a package to use the SSO service.
+ <p></p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>type</td>
+          <td>Unique value for each SSO vendor. e.g., <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_TYPE_CENTRIFY">SSO_TYPE_CENTRIFY</a></code>,<code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_TYPE_SAMSUNG">SSO_TYPE_SAMSUNG</a></code></td>
+        </tr>
+        <tr>
+          <th>customerId</td>
+          <td>Unique ID for each enterprise to map the request with
+            Active Directory.</td>
+        </tr>
+        <tr>
+          <th>packageName</td>
+          <td>List of package names which the administrator wants to add
+            into the whitelist.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li><p><code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_RESULT_SUCCESS">SSO_RESULT_SUCCESS</a></code><br /><code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_RESULT_FAILURE">SSO_RESULT_FAILURE</a></code></p></li></ul>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Throws</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/SecurityException.html">SecurityException</a></td>
+            <td>If caller does not have required permissions.</td>
+        </tr>  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/UnsupportedOperationException.html">UnsupportedOperationException</a></td>
+            <td>The API is not supported by the SSO
+             type.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>This API is used to add a package to the whitelist. Only the
+        applications that are included in this list are allowed to use the SSO
+        service. An administrator has to enter the correct package name
+        of an applications in order for that application to access the SSO
+        service.Since Knox 2.0 customerId has been depricated and has no 
+ 		  meaning and hence can be set to null</p></p><br>
+ </p>
+ <p><strong>KNOX 1.0</strong></p>
+ <p>
+ <pre>
+ List&lt;String&gt; packageList = new Arraylist&lt;String&gt;();
+ packageList.add(&quot;com.android.nfc&quot;);
+ packageList.add(&quot;com.android.apps.tag&quot;);
+ try {
+     int addWhiteListStatus = mEnterpriseSSOPolicy.setSSOWhiteList(<code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_TYPE_CENTRIFY">SSO_TYPE_CENTRIFY</a></code>, &quot;customerId&quot;, packageList);
+ } catch (SecurityException e) {
+     Log.w(TAG, &quot;Exception&quot; + e);
+ } catch (UnsupportedOperationException e) {
+     Log.w(TAG, &quot;Exception&quot; + e);
+ }
+ </pre>
+ </p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "android.permission.sec.MDM_ENTERPRISE_SSO" permission which
+             has a protection level of signature.
+             <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="setupSSO(java.lang.String)"></A>
+
+<div class="jd-details api apilevel-KNOX_2.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        int
+      </span>
+      <span class="sympad">setupSSO</span>
+      <span class="normal">(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_2.0">API Level KNOX_2.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>The API is used to bind to a specific SSO service.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>type</td>
+          <td>Unique value for each SSO vendor. e.g., <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_TYPE_CENTRIFY">SSO_TYPE_CENTRIFY</a></code> or <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_TYPE_SAMSUNG">SSO_TYPE_SAMSUNG</a></code> </td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>true if the SSO binding has been triggered, false if there is no
+         service in the input type that can be bound or the binding
+         service fails</li></ul>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Throws</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/SecurityException.html">SecurityException</a></td>
+            <td>If caller does not have required permissions</td>
+        </tr>  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/UnsupportedOperationException.html">UnsupportedOperationException</a></td>
+            <td>The API is not supported by the SSO type.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><p>
+        The specified SSO solution should be installed in user space before calling this api.
+        This API should be called for requesting platform
+        EnterpriseSSOPolicy service to bind to an SSO service.
+ </p>	
+ <p><strong>KNOX 2.0</strong></p>
+ <p>
+ <pre>
+ try {
+     mEnterpriseSSOPolicy.setupSSO(<code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_TYPE_CENTRIFY">SSO_TYPE_CENTRIFY</a></code>);
+ } catch (SecurityException e) {
+     Log.w(TAG, &quot;Exception&quot; + e);
+ } catch (UnsupportedOperationException e) {
+     Log.w(TAG, &quot;Exception&quot; + e);
+ }
+ </pre>
+ <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "android.permission.sec.MDM_ENTERPRISE_SSO" permission which
+             has a protection level of signature.
+             <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="unenroll(java.lang.String)"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        int
+      </span>
+      <span class="sympad">unenroll</span>
+      <span class="normal">(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>The API is used to un-enroll the device.
+ <p></p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>type</td>
+          <td>Unique value for each SSO vendor. e.g., <code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_TYPE_CENTRIFY">SSO_TYPE_CENTRIFY</a></code> ,<code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_TYPE_SAMSUNG">SSO_TYPE_SAMSUNG</a></code> </td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li><p><code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_RESULT_SUCCESS">SSO_RESULT_SUCCESS</a></code><br /><code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_RESULT_FAILURE">SSO_RESULT_FAILURE</a></code></p></li></ul>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Throws</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/SecurityException.html">SecurityException</a></td>
+            <td>If caller does not have required permissions.</td>
+        </tr>  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/UnsupportedOperationException.html">UnsupportedOperationException</a></td>
+            <td>The API is not supported by the SSO
+             type.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The API is used to unenroll the device and delete everything in the SSO service context. 
+ The customerId will be reset to null, the whitelist will be deleted and the enterprise information will
+ be reset to null. </p>
+ <p>
+ <pre>
+ try {
+     int unenrollStatus = mEnterpriseSSOPolicy.unenroll(<code><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html#SSO_TYPE_CENTRIFY">SSO_TYPE_CENTRIFY</a></code>);
+ } catch (SecurityException e) {
+     Log.w(TAG, &quot;Exception&quot; + e);
+ } catch (UnsupportedOperationException e) {
+     Log.w(TAG, &quot;Exception&quot; + e);
+ }
+ </pre>
+ </p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "android.permission.sec.MDM_ENTERPRISE_SSO" permission which
+             has a protection level of signature.
+             <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+
+
+
+<!-- ========= METHOD DETAIL ======== -->
+
+
+
+<!-- ========= END OF CLASS DATA ========= -->
+<A NAME="navbar_top"></A>
+
+<div id="footer">
+<a href="http://www.samsung.com">Samsung Electronics</a>.<br/>SDK Knox_2.9 - August 28 2017
+</div> <!-- end footer -->
+
+</div> <!-- jd-content -->
+
+</div><!-- end doc-content -->
+
+</div> <!-- end body-content --> 
+
+<script type="text/javascript">
+init(); /* initialize doclava-developer-docs.js */
+</script>
+
+</body>
+</html>

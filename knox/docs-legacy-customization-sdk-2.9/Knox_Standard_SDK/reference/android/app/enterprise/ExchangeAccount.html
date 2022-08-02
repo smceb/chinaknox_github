@@ -1,0 +1,3240 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+  <meta name="description" content="Javadoc API documentation for Knox Standard SDK." />
+
+<link rel="shortcut icon" type="image/x-icon" href="../../../favicon.ico" />
+<title>
+
+  ExchangeAccount
+
+
+| Knox Standard SDK
+
+</title>
+<link href="../../../../assets/doclava-developer-docs.css" rel="stylesheet" type="text/css" />
+<link href="../../../../assets/customizations.css" rel="stylesheet" type="text/css" />
+<script src="../../../../assets/search_autocomplete.js" type="text/javascript"></script>
+<script src="../../../../assets/jquery-resizable.min.js" type="text/javascript"></script>
+<script src="../../../../assets/doclava-developer-docs.js" type="text/javascript"></script>
+<script src="../../../../assets/prettify.js" type="text/javascript"></script>
+<script type="text/javascript">
+  setToRoot("../../../", "../../../../assets/");
+</script>
+<script src="../../../../assets/doclava-developer-reference.js" type="text/javascript"></script>
+<script src="../../../../assets/navtree_data.js" type="text/javascript"></script>
+<script src="../../../../assets/customizations.js" type="text/javascript"></script>
+<noscript>
+  <style type="text/css">
+    html,body{overflow:auto;}
+    #body-content{position:relative; top:0;}
+    #doc-content{overflow:visible;border-left:3px solid #666;}
+    #side-nav{padding:0;}
+    #side-nav .toggle-list ul {display:block;}
+    #resize-packages-nav{border-bottom:3px solid #666;}
+  </style>
+</noscript>
+</head>
+
+<body class="MDM_5.0">
+
+<div id="header">
+    <div id="headerLeft">
+    <a href="http://www.samsung.com">
+    <img src="../../../../assets/images/samsung.jpg" alt="Samsung Electronics" width="80" height="48"/></a>
+    
+      <h1 id="masthead-title">Knox Standard SDK</h1>
+    
+    </div>
+    <div id="headerRight">
+      
+  <div id="search" >
+      <div id="searchForm">
+          <form accept-charset="utf-8" class="gsc-search-box" 
+                onsubmit="return submit_search()">
+            <table class="gsc-search-box" cellpadding="0" cellspacing="0"><tbody>
+                <tr>
+                  <td class="gsc-input">
+                    <input id="search_autocomplete" class="gsc-input" type="text" size="33" autocomplete="off"
+                      title="search developer docs" name="q"
+                      value="search developer docs"
+                      onFocus="search_focus_changed(this, true)"
+                      onBlur="search_focus_changed(this, false)"
+                      onkeydown="return search_changed(event, true, '../../../')"
+                      onkeyup="return search_changed(event, false, '../../../')" />
+                  <div id="search_filtered_div" class="no-display">
+                      <table id="search_filtered" cellspacing=0>
+                      </table>
+                  </div>
+                  </td>
+                  <td class="gsc-search-button">
+                    <input type="submit" value="Search" title="search" id="search-button" class="gsc-search-button" />
+                  </td>
+                  <td class="gsc-clear-button">
+                    <div title="clear results" class="gsc-clear-button">&nbsp;</div>
+                  </td>
+                </tr></tbody>
+              </table>
+          </form>
+      </div><!-- searchForm -->
+  </div><!-- search -->
+      
+        
+  <div id="api-level-toggle">
+    <input type="checkbox" id="apiLevelCheckbox" onclick="toggleApiLevelSelector(this)" />
+    <label for="apiLevelCheckbox" class="disabled">Filter by API Level: </label>
+    <select id="apiLevelSelector">
+      <!-- option elements added by buildApiLevelSelector() -->
+    </select>
+  </div>
+  <script>
+   var SINCE_DATA = [ 'MDM_1.0', 'MDM_2.0', 'MDM_2.1', 'MDM_2.2', 'MDM_3.0', 'MDM_4.0', 'MDM_4.0.1', 'MDM_4.1', 'MDM_5.0', 'MDM_5.1', 'MDM_5.2', 'MDM_5.3', 'MDM_5.4', 'MDM_5.4.1', 'MDM_5.5', 'MDM_5.6', 'MDM_5.7', 'MDM_5.7.1', 'MDM_5.8', 'MDM_5.9' ];
+    
+    var SINCE_LABELS = [ 'MDM_1.0', 'MDM_2.0', 'MDM_2.1', 'MDM_2.2', 'MDM_3.0', 'MDM_4.0', 'MDM_4.0.1', 'MDM_4.1', 'MDM_5.0', 'MDM_5.1', 'MDM_5.2', 'MDM_5.3', 'MDM_5.4', 'MDM_5.4.1', 'MDM_5.5', 'MDM_5.6', 'MDM_5.7', 'MDM_5.7.1', 'MDM_5.8', 'MDM_5.9' ];
+    buildApiLevelSelector();
+    addLoadEvent(changeApiLevel);
+  </script>
+
+
+      
+    </div>
+</div><!-- header -->
+
+
+  <div class="g-section g-tpl-240" id="body-content">
+    <div class="g-unit g-first side-nav-resizable" id="side-nav">
+      <div id="swapper">
+        <div id="nav-panels">
+          <div id="resize-packages-nav">
+            <div id="packages-nav">
+              <div id="index-links"><nobr>
+                <a href="../../../packages.html"  >Package Index</a> | 
+                <a href="../../../classes.html" >Class Index</a></nobr>
+              </div>
+              <ul>
+                
+    <li class="selected api apilevel-MDM_1.0">
+  <a href="../../../android/app/enterprise/package-summary.html">android.app.enterprise</a></li>
+    <li class="api apilevel-MDM_5.0">
+  <a href="../../../android/app/enterprise/devicesettings/package-summary.html">android.app.enterprise.devicesettings</a></li>
+    <li class="api apilevel-MDM_4.0">
+  <a href="../../../android/app/enterprise/geofencing/package-summary.html">android.app.enterprise.geofencing</a></li>
+    <li class="api apilevel-MDM_3.0">
+  <a href="../../../android/app/enterprise/kioskmode/package-summary.html">android.app.enterprise.kioskmode</a></li>
+    <li class="api apilevel-MDM_4.0">
+  <a href="../../../android/app/enterprise/license/package-summary.html">android.app.enterprise.license</a></li>
+    <li class="api apilevel-MDM_4.0">
+  <a href="../../../android/app/enterprise/lso/package-summary.html">android.app.enterprise.lso</a></li>
+    <li class="api apilevel-MDM_4.0">
+  <a href="../../../android/app/enterprise/multiuser/package-summary.html">android.app.enterprise.multiuser</a></li>
+    <li class="api apilevel-MDM_2.1">
+  <a href="../../../android/app/enterprise/remotecontrol/package-summary.html">android.app.enterprise.remotecontrol</a></li>
+    <li class="api apilevel-MDM_5.2">
+  <a href="../../../android/app/enterprise/sso/package-summary.html">android.app.enterprise.sso</a></li>
+    <li class="api apilevel-MDM_5.5">
+  <a href="../../../com/sec/enterprise/package-summary.html">com.sec.enterprise</a></li>
+    <li class="api apilevel-MDM_5.5">
+  <a href="../../../com/sec/enterprise/firewall/package-summary.html">com.sec.enterprise.firewall</a></li>
+    <li class="api apilevel-MDM_5.4">
+  <a href="../../../com/sec/enterprise/identity/package-summary.html">com.sec.enterprise.identity</a></li>
+    <li class="api apilevel-MDM_5.7">
+  <a href="../../../com/sec/enterprise/network/package-summary.html">com.sec.enterprise.network</a></li>
+    <li class="api apilevel-MDM_5.6">
+  <a href="../../../com/sec/enterprise/spd/package-summary.html">com.sec.enterprise.spd</a></li>
+              </ul><br/>
+            </div> <!-- end packages -->
+          </div> <!-- end resize-packages -->
+          <div id="classes-nav">
+            <ul>
+              
+              
+    <li><h2>Classes</h2>
+      <ul>
+          <li class="api apilevel-MDM_1.0"><a href="../../../android/app/enterprise/Account.html">Account</a></li>
+          <li class="api apilevel-MDM_4.0"><a href="../../../android/app/enterprise/AccountControlInfo.html">AccountControlInfo</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/ApnSettings.html">ApnSettings</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/ApnSettingsPolicy.html">ApnSettingsPolicy</a></li>
+          <li class="api apilevel-MDM_2.1"><a href="../../../android/app/enterprise/AppControlInfo.html">AppControlInfo</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/AppInfo.html">AppInfo</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/AppInfoLastUsage.html">AppInfoLastUsage</a></li>
+          <li class="api apilevel-MDM_3.0"><a href="../../../android/app/enterprise/ApplicationPermissionControlPolicy.html">ApplicationPermissionControlPolicy</a></li>
+          <li class="api apilevel-MDM_1.0"><a href="../../../android/app/enterprise/ApplicationPolicy.html">ApplicationPolicy</a></li>
+          <li class="api apilevel-MDM_3.0"><a href="../../../android/app/enterprise/AppPermissionControlInfo.html">AppPermissionControlInfo</a></li>
+          <li class="api apilevel-MDM_5.0"><a href="../../../android/app/enterprise/BasePasswordPolicy.html">BasePasswordPolicy</a></li>
+          <li class="api apilevel-MDM_2.2"><a href="../../../android/app/enterprise/BluetoothControlInfo.html">BluetoothControlInfo</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/BluetoothPolicy.html">BluetoothPolicy</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/BluetoothPolicy.BluetoothProfile.html">BluetoothPolicy.BluetoothProfile</a></li>
+          <li class="api apilevel-MDM_2.2"><a href="../../../android/app/enterprise/BluetoothPolicy.BluetoothUUID.html">BluetoothPolicy.BluetoothUUID</a></li>
+          <li class="api apilevel-MDM_4.0"><a href="../../../android/app/enterprise/BluetoothSecureModeConfig.html">BluetoothSecureModeConfig</a></li>
+          <li class="api apilevel-MDM_4.0"><a href="../../../android/app/enterprise/BluetoothSecureModePolicy.html">BluetoothSecureModePolicy</a></li>
+          <li class="api apilevel-MDM_4.0"><a href="../../../android/app/enterprise/BluetoothSecureModeWhitelistConfig.html">BluetoothSecureModeWhitelistConfig</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/BrowserPolicy.html">BrowserPolicy</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/CertificateInfo.html">CertificateInfo</a></li>
+          <li class="api apilevel-MDM_2.2"><a href="../../../android/app/enterprise/ControlInfo.html">ControlInfo</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/DateTimePolicy.html">DateTimePolicy</a></li>
+          <li class="api apilevel-MDM_5.4"><a href="../../../android/app/enterprise/DefaultAppConfiguration.html">DefaultAppConfiguration</a></li>
+          <li class="api apilevel-MDM_4.0"><a href="../../../android/app/enterprise/DeviceAccountPolicy.html">DeviceAccountPolicy</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/DeviceInventory.html">DeviceInventory</a></li>
+          <li class="api apilevel-MDM_5.0"><a href="../../../android/app/enterprise/EmailAccount.html">EmailAccount</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/EmailAccountPolicy.html">EmailAccountPolicy</a></li>
+          <li class="api apilevel-MDM_3.0"><a href="../../../android/app/enterprise/EmailPolicy.html">EmailPolicy</a></li>
+          <li class="api apilevel-MDM_1.0"><a href="../../../android/app/enterprise/EnterpriseDeviceManager.html">EnterpriseDeviceManager</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/EnterpriseVpnConnection.html">EnterpriseVpnConnection</a></li>
+          <li class="api apilevel-MDM_4.0"><a href="../../../android/app/enterprise/EnterpriseVpnConnectionBase.html">EnterpriseVpnConnectionBase</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/EnterpriseVpnPolicy.html">EnterpriseVpnPolicy</a></li>
+          <li class="selected api apilevel-MDM_5.0"><a href="../../../android/app/enterprise/ExchangeAccount.html">ExchangeAccount</a></li>
+          <li class="api apilevel-MDM_1.0"><a href="../../../android/app/enterprise/ExchangeAccountPolicy.html">ExchangeAccountPolicy</a></li>
+          <li class="api apilevel-MDM_5.0"><a href="../../../android/app/enterprise/FirewallAllowRule.html">FirewallAllowRule</a></li>
+          <li class="api apilevel-MDM_5.0"><a href="../../../android/app/enterprise/FirewallDenyRule.html">FirewallDenyRule</a></li>
+          <li class="api apilevel-MDM_5.0"><a href="../../../android/app/enterprise/FirewallExceptionRule.html">FirewallExceptionRule</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/FirewallPolicy.html">FirewallPolicy</a></li>
+          <li class="api apilevel-MDM_5.0"><a href="../../../android/app/enterprise/FirewallRerouteRule.html">FirewallRerouteRule</a></li>
+          <li class="api apilevel-MDM_1.0"><a href="../../../android/app/enterprise/HostAuth.html">HostAuth</a></li>
+          <li class="api apilevel-MDM_4.0"><a href="../../../android/app/enterprise/LDAPAccount.html">LDAPAccount</a></li>
+          <li class="api apilevel-MDM_4.0"><a href="../../../android/app/enterprise/LDAPAccountPolicy.html">LDAPAccountPolicy</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/LocationPolicy.html">LocationPolicy</a></li>
+          <li class="api apilevel-MDM_4.0"><a href="../../../android/app/enterprise/LogManager.html">LogManager</a></li>
+          <li class="api apilevel-MDM_1.0"><a href="../../../android/app/enterprise/ManagedAppInfo.html">ManagedAppInfo</a></li>
+          <li class="api apilevel-MDM_1.0"><a href="../../../android/app/enterprise/MiscPolicy.html">MiscPolicy</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/NetworkStats.html">NetworkStats</a></li>
+          <li class="api apilevel-MDM_5.5"><a href="../../../android/app/enterprise/NtpInfo.html">NtpInfo</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/PasswordPolicy.html">PasswordPolicy</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/PhoneRestrictionPolicy.html">PhoneRestrictionPolicy</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/RestrictionPolicy.html">RestrictionPolicy</a></li>
+          <li class="api apilevel-MDM_1.0"><a href="../../../android/app/enterprise/RoamingPolicy.html">RoamingPolicy</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/SecurityPolicy.html">SecurityPolicy</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/SimChangeInfo.html">SimChangeInfo</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/SimInfo.html">SimInfo</a></li>
+          <li class="api apilevel-MDM_5.0"><a href="../../../android/app/enterprise/SSOPolicy.html">SSOPolicy</a></li>
+          <li class="api apilevel-MDM_5.1"><a href="../../../android/app/enterprise/UsbDeviceConfig.html">UsbDeviceConfig</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/VpnAdminProfile.html">VpnAdminProfile</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/VpnPolicy.html">VpnPolicy</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/WifiAdminProfile.html">WifiAdminProfile</a></li>
+          <li class="api apilevel-MDM_2.2"><a href="../../../android/app/enterprise/WifiControlInfo.html">WifiControlInfo</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/WifiPolicy.html">WifiPolicy</a></li>
+      </ul>
+    </li>
+              
+              
+    <li><h2>Enums</h2>
+      <ul>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/EnterpriseDeviceManager.EnterpriseKeyVersion.html">EnterpriseDeviceManager.EnterpriseKeyVersion</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/EnterpriseDeviceManager.EnterpriseSdkVersion.html">EnterpriseDeviceManager.EnterpriseSdkVersion</a></li>
+          <li class="api apilevel-MDM_5.9"><a href="../../../android/app/enterprise/RestrictionPolicy.USBInterface.html">RestrictionPolicy.USBInterface</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/WifiAdminProfile.PolicyState.html">WifiAdminProfile.PolicyState</a></li>
+      </ul>
+    </li>
+              
+              
+            </ul><br/>
+          </div><!-- end classes -->
+        </div><!-- end nav-panels -->
+        <div id="nav-tree" style="display:none">
+          <div id="index-links"><nobr>
+            <a href="../../../packages.html"  >Package Index</a> | 
+            <a href="../../../classes.html" >Class Index</a></nobr>
+          </div>
+        </div><!-- end nav-tree -->
+      </div><!-- end swapper -->
+    </div> <!-- end side-nav -->
+    <script>
+      if (!isMobile) {
+        $("<a href='#' id='nav-swap' onclick='swapNav();return false;' style='font-size:10px;line-height:9px;margin-left:1em;text-decoration:none;'><span id='tree-link'>Use Tree Navigation</span><span id='panel-link' style='display:none'>Use Panel Navigation</span></a>").appendTo("#side-nav");
+        chooseDefaultNav();
+        if ($("#nav-tree").is(':visible')) {
+          init_default_navtree("../../../");
+        } else {
+          addLoadEvent(function() {
+            scrollIntoView("packages-nav");
+            scrollIntoView("classes-nav");
+          });
+        }
+        $("#swapper").css({borderBottom:"2px solid #aaa"});
+      } else {
+        swapNav(); // tree view should be used on mobile
+      }
+    </script>
+
+
+
+<div class="g-unit" id="doc-content">
+
+<div id="api-info-block">
+
+
+
+  
+   
+  
+  
+  
+  
+
+  
+   
+  
+  
+   
+  
+  
+  
+
+
+<div class="sum-details-links">
+
+
+Summary:
+
+
+
+
+
+  <a href="#constants">Constants</a>
+  
+
+
+  &#124; <a href="#inhconstants">Inherited Constants</a>
+  
+
+
+  &#124; <a href="#lfields">Fields</a>
+  
+
+
+
+  &#124; <a href="#pubctors">Ctors</a>
+  
+
+
+
+
+
+  &#124; <a href="#inhmethods">Inherited Methods</a>
+
+&#124; <a href="#" onclick="return toggleAllClassInherited()" id="toggleAllClassInherited">[Expand All]</a>
+
+</div><!-- end sum-details-links -->
+<div class="api-level">
+  
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+  
+  
+
+</div>
+</div><!-- end api-info-block -->
+
+
+<!-- ======== START OF CLASS DATA ======== -->
+
+<div id="jd-header">
+    public
+     
+     
+    
+    class
+<h1>ExchangeAccount</h1>
+
+
+
+  
+    extends <a href="http://developer.android.com/reference/java/lang/Object.html">Object</a><br/>
+  
+  
+  
+
+  
+  
+      implements 
+      
+        <a href="http://developer.android.com/reference/android/os/Parcelable.html">Parcelable</a> 
+      
+  
+  
+
+
+</div><!-- end header -->
+
+<div id="naMessage"></div>
+
+<div id="jd-content" class="api apilevel-MDM_5.0">
+<table class="jd-inheritance-table">
+
+
+    <tr>
+         	
+        <td colspan="2" class="jd-inheritance-class-cell"><a href="http://developer.android.com/reference/java/lang/Object.html">java.lang.Object</a></td>
+    </tr>
+    
+
+    <tr>
+        
+            <td class="jd-inheritance-space">&nbsp;&nbsp;&nbsp;&#x21b3;</td>
+         	
+        <td colspan="1" class="jd-inheritance-class-cell">android.app.enterprise.ExchangeAccount</td>
+    </tr>
+    
+
+</table>
+
+
+
+
+
+
+
+<div class="jd-descr">
+
+
+<h2>Class Overview</h2>
+<p>This class contains all the account information for a given email (EAS) account.  Some configuration value has dependency on Microsoft Exchange ActiveSync protocol version. </p>
+
+      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0</td>
+        </tr>
+      </table>
+  </div>
+
+
+
+</div><!-- jd-descr -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="jd-descr">
+
+
+<h2>Summary</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- =========== ENUM CONSTANT SUMMARY =========== -->
+<table id="constants" class="jd-sumtable"><tr><th colspan="12">Constants</th></tr>
+
+
+    
+    <tr class="alt-color api apilevel-MDM_5.0" >
+        <td class="jd-typecol">int</td>
+        <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#SET_SMIME_CERTIFICATE_ALL">SET_SMIME_CERTIFICATE_ALL</a></td>
+        <td class="jd-descrcol" width="100%">SMIME certificate mode by encryption and signing  </td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-MDM_5.0" >
+        <td class="jd-typecol">int</td>
+        <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#SET_SMIME_CERTIFICATE_BY_ECRYPTION">SET_SMIME_CERTIFICATE_BY_ECRYPTION</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      Use <code><a href="../../../android/app/enterprise/ExchangeAccount.html#SET_SMIME_CERTIFICATE_BY_ENCRYPTION">SET_SMIME_CERTIFICATE_BY_ENCRYPTION</a></code>.</em></td>
+    </tr>
+    
+    
+    <tr class="alt-color api apilevel-MDM_5.7" >
+        <td class="jd-typecol">int</td>
+        <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#SET_SMIME_CERTIFICATE_BY_ENCRYPTION">SET_SMIME_CERTIFICATE_BY_ENCRYPTION</a></td>
+        <td class="jd-descrcol" width="100%">SMIME certificate mode by encryption</td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-MDM_5.0" >
+        <td class="jd-typecol">int</td>
+        <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#SET_SMIME_CERTIFICATE_BY_SIGNING">SET_SMIME_CERTIFICATE_BY_SIGNING</a></td>
+        <td class="jd-descrcol" width="100%">SMIME certificate mode by signing</td>
+    </tr>
+    
+    
+
+</table>
+
+
+
+
+
+<!-- =========== ENUM CONSTANT SUMMARY =========== -->
+<table id="inhconstants" class="jd-sumtable"><tr><th>
+  <a href="#" class="toggle-all" onclick="return toggleAllInherited(this, null)">[Expand]</a>
+  <div style="clear:left;">Inherited Constants</div></th></tr>
+
+
+
+
+<tr class="api apilevel-" >
+<td colspan="12">
+
+  <a href="#" onclick="return toggleInherited(this, null)" id="inherited-constants-android.os.Parcelable" class="jd-expando-trigger closed"
+          ><img id="inherited-constants-android.os.Parcelable-trigger"
+          src="../../../../assets/images/triangle-closed.png"
+          class="jd-expando-trigger-img" /></a>From interface
+android.os.Parcelable
+<div id="inherited-constants-android.os.Parcelable">
+  <div id="inherited-constants-android.os.Parcelable-list"
+        class="jd-inheritedlinks">
+  </div>
+  <div id="inherited-constants-android.os.Parcelable-summary" style="display: none;">
+    <table class="jd-sumtable-expando">
+    
+
+    
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">int</td>
+        <td class="jd-linkcol">CONTENTS_FILE_DESCRIPTOR</td>
+        <td class="jd-descrcol" width="100%"></td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">int</td>
+        <td class="jd-linkcol">PARCELABLE_WRITE_RETURN_VALUE</td>
+        <td class="jd-descrcol" width="100%"></td>
+    </tr>
+    
+    
+</table>
+  </div>
+</div>
+</td></tr>
+
+
+</table>
+
+
+
+
+<!-- =========== FIELD SUMMARY =========== -->
+<table id="lfields" class="jd-sumtable"><tr><th colspan="12">Fields</th></tr>
+
+
+    
+      <tr class="alt-color api apilevel-MDM_5.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          boolean</nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mAcceptAllCertificates">mAcceptAllCertificates</a></td>
+          <td class="jd-descrcol" width="100%">True to accept all certificates sent by the server</td>
+      </tr>
+      
+    
+      <tr class=" api apilevel-MDM_5.7" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          <a href="http://developer.android.com/reference/java/lang/String.html">String</a></nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mCertificate_alias">mCertificate_alias</a></td>
+          <td class="jd-descrcol" width="100%">Authentication certificate alias to be set upon account creation (optional; can be null).</td>
+      </tr>
+      
+    
+      <tr class="alt-color api apilevel-MDM_5.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          byte[]</nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mCertificate_data">mCertificate_data</a></td>
+          <td class="jd-descrcol" width="100%">Certificate binary (optional can be null)</td>
+      </tr>
+      
+    
+      <tr class=" api apilevel-MDM_5.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          <a href="http://developer.android.com/reference/java/lang/String.html">String</a></nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mCertificate_password">mCertificate_password</a></td>
+          <td class="jd-descrcol" width="100%">Certificate password to extract information (optional; can be null)</td>
+      </tr>
+      
+    
+      <tr class="alt-color api apilevel-MDM_5.7" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          <a href="http://developer.android.com/reference/java/lang/String.html">String</a></nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mCertificate_storagename">mCertificate_storagename</a></td>
+          <td class="jd-descrcol" width="100%">Credential storage name where <code><a href="../../../android/app/enterprise/ExchangeAccount.html#mCertificate_alias">mCertificate_alias</a></code> shall be stored (optional; can be null).</td>
+      </tr>
+      
+    
+      <tr class=" api apilevel-MDM_5.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          <a href="http://developer.android.com/reference/java/lang/String.html">String</a></nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mDisplayName">mDisplayName</a></td>
+          <td class="jd-descrcol" width="100%">The display name of the account</td>
+      </tr>
+      
+    
+      <tr class="alt-color api apilevel-MDM_5.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          <a href="http://developer.android.com/reference/java/lang/String.html">String</a></nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mEasDomain">mEasDomain</a></td>
+          <td class="jd-descrcol" width="100%">Account domain</td>
+      </tr>
+      
+    
+      <tr class=" api apilevel-MDM_5.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          <a href="http://developer.android.com/reference/java/lang/String.html">String</a></nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mEasUser">mEasUser</a></td>
+          <td class="jd-descrcol" width="100%">The user of the account</td>
+      </tr>
+      
+    
+      <tr class="alt-color api apilevel-MDM_5.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          <a href="http://developer.android.com/reference/java/lang/String.html">String</a></nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mEmailAddress">mEmailAddress</a></td>
+          <td class="jd-descrcol" width="100%">The email address corresponding to the account</td>
+      </tr>
+      
+    
+      <tr class=" api apilevel-MDM_5.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          boolean</nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mEmailNotificationVibrateAlways">mEmailNotificationVibrateAlways</a></td>
+          <td class="jd-descrcol" width="100%">True to always vibrate on email notification</td>
+      </tr>
+      
+    
+      <tr class="alt-color api apilevel-MDM_5.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          boolean</nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mEmailNotificationVibrateWhenSilent">mEmailNotificationVibrateWhenSilent</a></td>
+          <td class="jd-descrcol" width="100%">
+      <em>
+  This field is deprecated.
+      Not Supported
+</em></td>
+      </tr>
+      
+    
+      <tr class=" api apilevel-MDM_5.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          boolean</nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mIsDefault">mIsDefault</a></td>
+          <td class="jd-descrcol" width="100%">True to make this account the default</td>
+      </tr>
+      
+    
+      <tr class="alt-color api apilevel-MDM_5.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          boolean</nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mIsNotify">mIsNotify</a></td>
+          <td class="jd-descrcol" width="100%">true to notify user on receiving new mail</td>
+      </tr>
+      
+    
+      <tr class=" api apilevel-MDM_5.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          int</nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mOffPeak">mOffPeak</a></td>
+          <td class="jd-descrcol" width="100%">Frequency to sync email during off-peak time
+              Value  -2  - Automatic push
+   Value  -1  - Never
+   Value   5  - 5 minutes
+   Value  10  - 10 minutes
+   Value  15  - 15 minutes
+   Value  30  - 30 minutes
+   Value  60  - 1 hour
+   Value 240  - 4 hours
+   Value 720  - 12 hours</td>
+      </tr>
+      
+    
+      <tr class="alt-color api apilevel-MDM_5.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          int</nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mPeakDays">mPeakDays</a></td>
+          <td class="jd-descrcol" width="100%">Peak days for sync schedule.</td>
+      </tr>
+      
+    
+      <tr class=" api apilevel-MDM_5.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          int</nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mPeakEndtime">mPeakEndtime</a></td>
+          <td class="jd-descrcol" width="100%">Peak end time in minutes.</td>
+      </tr>
+      
+    
+      <tr class="alt-color api apilevel-MDM_5.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          int</nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mPeakStarttime">mPeakStarttime</a></td>
+          <td class="jd-descrcol" width="100%">Peak start time in minutes.</td>
+      </tr>
+      
+    
+      <tr class=" api apilevel-MDM_5.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          int</nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mPeriodCalendar">mPeriodCalendar</a></td>
+          <td class="jd-descrcol" width="100%">Number of previous days Calendar to sync
+    Value 0  - All
+    Value 4  - 2 weeks
+    Value 5  - 1 month
+    Value 6  - 3 months
+    Value 7  - 6 months</td>
+      </tr>
+      
+    
+      <tr class="alt-color api apilevel-MDM_5.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          <a href="http://developer.android.com/reference/java/lang/String.html">String</a></nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mProtocolVersion">mProtocolVersion</a></td>
+          <td class="jd-descrcol" width="100%">Protocol version of Microsoft Exchange ActiveSync (EAS only) </td>
+      </tr>
+      
+    
+      <tr class=" api apilevel-MDM_5.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          int</nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mRetrivalSize">mRetrivalSize</a></td>
+          <td class="jd-descrcol" width="100%">Email retrieval size 
+    Value 0  - Headers only
+    Value 1  - 0.5 KB
+    Value 2  - 1 KB
+    Value 3  - 2 KB
+    Value 4  - 5 KB
+    Value 5  - 10 KB
+    Value 6  - 20 KB
+    Value 7  - 50 KB
+    Value 8  - 100 KB
+    Value 9  - All<br>
+ <b>NOTE: Some ActiveSync protocol versions with EAS 2003 do not support value 9.</td>
+      </tr>
+      
+    
+      <tr class="alt-color api apilevel-MDM_5.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          int</nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mRoamingSchedule">mRoamingSchedule</a></td>
+          <td class="jd-descrcol" width="100%">0 - Manual
+            1 - Use sync settings</td>
+      </tr>
+      
+    
+      <tr class=" api apilevel-MDM_5.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          int</nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mSMIMECertificareMode">mSMIMECertificareMode</a></td>
+          <td class="jd-descrcol" width="100%">
+      <em>
+  This field is deprecated.
+      Use <code><a href="../../../android/app/enterprise/ExchangeAccount.html#mSMIMECertificateMode">mSMIMECertificateMode</a></code>.</em></td>
+      </tr>
+      
+    
+      <tr class="alt-color api apilevel-MDM_5.7" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          int</nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mSMIMECertificateMode">mSMIMECertificateMode</a></td>
+          <td class="jd-descrcol" width="100%">set certificate mode when account creation time</td>
+      </tr>
+      
+    
+      <tr class=" api apilevel-MDM_5.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          <a href="http://developer.android.com/reference/java/lang/String.html">String</a></nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mSMIMECertificatePassWord">mSMIMECertificatePassWord</a></td>
+          <td class="jd-descrcol" width="100%">SMIME certificate password when account creation time</td>
+      </tr>
+      
+    
+      <tr class="alt-color api apilevel-MDM_5.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          <a href="http://developer.android.com/reference/java/lang/String.html">String</a></nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mSMIMECertificatePath">mSMIMECertificatePath</a></td>
+          <td class="jd-descrcol" width="100%">SMIME certificate path when account creation time</td>
+      </tr>
+      
+    
+      <tr class=" api apilevel-MDM_5.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          <a href="http://developer.android.com/reference/java/lang/String.html">String</a></nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mSenderName">mSenderName</a></td>
+          <td class="jd-descrcol" width="100%">User name for outgoing messages </td>
+      </tr>
+      
+    
+      <tr class="alt-color api apilevel-MDM_5.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          <a href="http://developer.android.com/reference/java/lang/String.html">String</a></nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mServerAddress">mServerAddress</a></td>
+          <td class="jd-descrcol" width="100%">The server address corresponding to this account </td>
+      </tr>
+      
+    
+      <tr class=" api apilevel-MDM_5.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          <a href="http://developer.android.com/reference/java/lang/String.html">String</a></nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mServerPassword">mServerPassword</a></td>
+          <td class="jd-descrcol" width="100%">The server password corresponding to this account </td>
+      </tr>
+      
+    
+      <tr class="alt-color api apilevel-MDM_5.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          <a href="http://developer.android.com/reference/java/lang/String.html">String</a></nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mServerPathPrefix">mServerPathPrefix</a></td>
+          <td class="jd-descrcol" width="100%">The server path Prefix corresponding to this account </td>
+      </tr>
+      
+    
+      <tr class=" api apilevel-MDM_5.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          <a href="http://developer.android.com/reference/java/lang/String.html">String</a></nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mSignature">mSignature</a></td>
+          <td class="jd-descrcol" width="100%">Signature to use with the account </td>
+      </tr>
+      
+    
+      <tr class="alt-color api apilevel-MDM_5.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          int</nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mSyncCalendar">mSyncCalendar</a></td>
+          <td class="jd-descrcol" width="100%">syncCalendar = true, then account syncs calendar information
+ syncCalendar = false, then account does not sync calendar information</td>
+      </tr>
+      
+    
+      <tr class=" api apilevel-MDM_5.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          int</nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mSyncContacts">mSyncContacts</a></td>
+          <td class="jd-descrcol" width="100%">syncContacts = true, then account syncs contacts information
+ syncContacts = false ,then account does not sync contacts information</td>
+      </tr>
+      
+    
+      <tr class="alt-color api apilevel-MDM_5.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          int</nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mSyncInterval">mSyncInterval</a></td>
+          <td class="jd-descrcol" width="100%">Frequency to sync email during peak time
+  Value  -2  - Automatic push, Value -1 - Never, Value 5 - 5 minutes, Value 10 - 10 minutes, Value 15 - 15 minutes
+  Value  30  - 30 minutes, Value  60  - 1 hour, Value  60 - 1 hour, Value 240 - 4 hours, Value 720 - 12 hours</td>
+      </tr>
+      
+    
+      <tr class=" api apilevel-MDM_5.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          int</nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mSyncLookback">mSyncLookback</a></td>
+          <td class="jd-descrcol" width="100%">Number of previous days to sync email
+  Value 1 - 1 day, Value 2 - 3 days, Value 3 - 1 week, Value 4 - 2 weeks, Value 5 - 1 month</td>
+      </tr>
+      
+    
+      <tr class="alt-color api apilevel-MDM_5.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          boolean</nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mUseSSL">mUseSSL</a></td>
+          <td class="jd-descrcol" width="100%">True to use Secure Sockets Layer (SSL)</td>
+      </tr>
+      
+    
+      <tr class=" api apilevel-MDM_5.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          boolean</nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/ExchangeAccount.html#mUseTLS">mUseTLS</a></td>
+          <td class="jd-descrcol" width="100%">
+      <em>
+  This field is deprecated.
+      Not supported (Never supported in platform since MDM 1.0)</em></td>
+      </tr>
+      
+    
+
+</table>
+
+
+
+
+
+
+
+<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+<table id="pubctors" class="jd-sumtable"><tr><th colspan="12">Public Constructors</th></tr>
+
+
+
+	 
+    <tr class="alt-color api apilevel-MDM_5.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            </nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../android/app/enterprise/ExchangeAccount.html#ExchangeAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)">ExchangeAccount</a></span>(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> emailAddress, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> easUser, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> easDomain, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> serverAddress, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> serverPassword)</nobr>
+        
+        <div class="jd-descrdiv">Struct to add a new Microsoft Exchange account with base parameters.</div>
+  
+  </td></tr>
+
+
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+<table id="inhmethods" class="jd-sumtable"><tr><th>
+  <a href="#" class="toggle-all" onclick="return toggleAllInherited(this, null)">[Expand]</a>
+  <div style="clear:left;">Inherited Methods</div></th></tr>
+
+
+<tr class="api apilevel-" >
+<td colspan="12">
+  <a href="#" onclick="return toggleInherited(this, null)" id="inherited-methods-java.lang.Object" class="jd-expando-trigger closed"
+          ><img id="inherited-methods-java.lang.Object-trigger"
+          src="../../../../assets/images/triangle-closed.png"
+          class="jd-expando-trigger-img" /></a>
+From class
+
+  <a href="http://developer.android.com/reference/java/lang/Object.html">java.lang.Object</a>
+
+<div id="inherited-methods-java.lang.Object">
+  <div id="inherited-methods-java.lang.Object-list"
+        class="jd-inheritedlinks">
+  </div>
+  <div id="inherited-methods-java.lang.Object-summary" style="display: none;">
+    <table class="jd-sumtable-expando">
+    
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            <a href="http://developer.android.com/reference/java/lang/Object.html">Object</a></nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">clone</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">equals</span>(<a href="http://developer.android.com/reference/java/lang/Object.html">Object</a> arg0)</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">finalize</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            <a href="http://developer.android.com/reference/java/lang/Class.html">Class</a>&lt;?&gt;</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">getClass</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            int</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">hashCode</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">notify</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">notifyAll</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            <a href="http://developer.android.com/reference/java/lang/String.html">String</a></nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">toString</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">wait</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">wait</span>(long arg0, int arg1)</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">wait</span>(long arg0)</nobr>
+        
+  </td></tr>
+
+
+</table>
+  </div>
+</div>
+</td></tr>
+
+
+
+<tr class="api apilevel-" >
+<td colspan="12">
+  <a href="#" onclick="return toggleInherited(this, null)" id="inherited-methods-android.os.Parcelable" class="jd-expando-trigger closed"
+          ><img id="inherited-methods-android.os.Parcelable-trigger"
+          src="../../../../assets/images/triangle-closed.png"
+          class="jd-expando-trigger-img" /></a>
+From interface
+
+  <a href="http://developer.android.com/reference/android/os/Parcelable.html">android.os.Parcelable</a>
+
+<div id="inherited-methods-android.os.Parcelable">
+  <div id="inherited-methods-android.os.Parcelable-list"
+        class="jd-inheritedlinks">
+  </div>
+  <div id="inherited-methods-android.os.Parcelable-summary" style="display: none;">
+    <table class="jd-sumtable-expando">
+    
+
+
+	 
+    <tr class="alt-color api apilevel-MDM_1.0" >
+        <td class="jd-typecol"><nobr>
+            abstract
+            
+            
+            
+            
+            int</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">describeContents</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-MDM_1.0" >
+        <td class="jd-typecol"><nobr>
+            abstract
+            
+            
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">writeToParcel</span>(<a href="http://developer.android.com/reference/android/os/Parcel.html">Parcel</a> arg0, int arg1)</nobr>
+        
+  </td></tr>
+
+
+</table>
+  </div>
+</div>
+</td></tr>
+
+
+</table>
+
+
+</div><!-- jd-descr (summary) -->
+
+<!-- Details -->
+
+
+
+
+
+
+
+
+<!-- XML Attributes -->
+
+
+<!-- Enum Values -->
+
+
+<!-- Constants -->
+
+
+<!-- ========= ENUM CONSTANTS DETAIL ======== -->
+<h2>Constants</h2>
+
+
+
+
+<A NAME="SET_SMIME_CERTIFICATE_ALL"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        int
+      </span>
+        SET_SMIME_CERTIFICATE_ALL
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>SMIME certificate mode by encryption and signing  </p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                1
+                (0x00000001)
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="SET_SMIME_CERTIFICATE_BY_ECRYPTION"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        int
+      </span>
+        SET_SMIME_CERTIFICATE_BY_ECRYPTION
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> Use <code><a href="../../../android/app/enterprise/ExchangeAccount.html#SET_SMIME_CERTIFICATE_BY_ENCRYPTION">SET_SMIME_CERTIFICATE_BY_ENCRYPTION</a></code>.
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>SMIME certificate mode by encryption</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.7 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                2
+                (0x00000002)
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="SET_SMIME_CERTIFICATE_BY_ENCRYPTION"></A>
+
+<div class="jd-details api apilevel-MDM_5.7"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        int
+      </span>
+        SET_SMIME_CERTIFICATE_BY_ENCRYPTION
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.7">API Level MDM_5.7</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>SMIME certificate mode by encryption</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.7 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                2
+                (0x00000002)
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="SET_SMIME_CERTIFICATE_BY_SIGNING"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        int
+      </span>
+        SET_SMIME_CERTIFICATE_BY_SIGNING
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>SMIME certificate mode by signing</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                3
+                (0x00000003)
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+
+<!-- Fields -->
+
+
+<!-- ========= FIELD DETAIL ======== -->
+<h2>Fields</h2>
+
+
+
+
+<A NAME="mAcceptAllCertificates"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        boolean
+      </span>
+        mAcceptAllCertificates
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>True to accept all certificates sent by the server</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mCertificate_alias"></A>
+
+<div class="jd-details api apilevel-MDM_5.7"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        mCertificate_alias
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.7">API Level MDM_5.7</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Authentication certificate alias to be set upon account creation (optional; can be null).
+ If not empty, takes precedence over certificate data from <code><a href="../../../android/app/enterprise/ExchangeAccount.html#mCertificate_data">mCertificate_data</a></code> and
+ <code><a href="../../../android/app/enterprise/ExchangeAccount.html#mCertificate_password">mCertificate_password</a></code>.<br><br>
+ If <code><a href="../../../android/app/enterprise/ExchangeAccount.html#mCertificate_storagename">mCertificate_storagename</a></code> is <code>null</code>, certificate
+ must be installed either in Client Certificate Manager (CCM) or
+ <code><a href="../../../android/app/enterprise/SecurityPolicy.html#KEYSTORE_FOR_VPN_AND_APPS">KEYSTORE_FOR_VPN_AND_APPS</a></code> keystore.
+ Please refer either to CCM APIs (KNOX Premium SDK) or
+ <code><a href="../../../android/app/enterprise/SecurityPolicy.html#installCertificateToKeystore(java.lang.String, byte[], java.lang.String, java.lang.String, int)">installCertificateToKeystore(String, byte[], String, String, int)</a></code>
+ for further details on how to install a certificate to those keystores, respectively.
+ In case same alias is present on both keystores, the certificate at
+ CCM will be enforced, taking precedence over the one installed at VPN and APPS keystore.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.7 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mCertificate_data"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        byte[]
+      </span>
+        mCertificate_data
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Certificate binary (optional can be null)</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mCertificate_password"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        mCertificate_password
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Certificate password to extract information (optional; can be null)</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mCertificate_storagename"></A>
+
+<div class="jd-details api apilevel-MDM_5.7"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        mCertificate_storagename
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.7">API Level MDM_5.7</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Credential storage name where <code><a href="../../../android/app/enterprise/ExchangeAccount.html#mCertificate_alias">mCertificate_alias</a></code> shall be stored (optional; can be null).
+ In order to see how to install certificates to credential storage, please refer to Universal
+ Credential Manager (UCM) DEV guide.
+ Leave it as <code>null</code> if certificate is installed either at Client Certificate Manager (CCM) or
+ <code><a href="../../../android/app/enterprise/SecurityPolicy.html#KEYSTORE_FOR_VPN_AND_APPS">KEYSTORE_FOR_VPN_AND_APPS</a></code> keystore.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.7 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mDisplayName"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        mDisplayName
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>The display name of the account</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mEasDomain"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        mEasDomain
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Account domain</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mEasUser"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        mEasUser
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>The user of the account</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mEmailAddress"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        mEmailAddress
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>The email address corresponding to the account</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mEmailNotificationVibrateAlways"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        boolean
+      </span>
+        mEmailNotificationVibrateAlways
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>True to always vibrate on email notification</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mEmailNotificationVibrateWhenSilent"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        boolean
+      </span>
+        mEmailNotificationVibrateWhenSilent
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This field is deprecated.</strong><br/> Not Supported
+
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>True to vibrate on email notification only when silent</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mIsDefault"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        boolean
+      </span>
+        mIsDefault
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>True to make this account the default</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mIsNotify"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        boolean
+      </span>
+        mIsNotify
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>true to notify user on receiving new mail</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mOffPeak"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        int
+      </span>
+        mOffPeak
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Frequency to sync email during off-peak time
+              Value  -2  - Automatic push
+   Value  -1  - Never
+   Value   5  - 5 minutes
+   Value  10  - 10 minutes
+   Value  15  - 15 minutes
+   Value  30  - 30 minutes
+   Value  60  - 1 hour
+   Value 240  - 4 hours
+   Value 720  - 12 hours</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mPeakDays"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        int
+      </span>
+        mPeakDays
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Peak days for sync schedule. For example: 
+              62 (0x3e) for Mon|Tue|Wed|Thu|Fri (0111110)
+              73 (0x49) for Sun|Wed|Sat (1001001)</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mPeakEndtime"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        int
+      </span>
+        mPeakEndtime
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Peak end time in minutes. For example:
+              5PM 17hr x 60 = 1020
+              6PM 18hr x 60 = 1080</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mPeakStarttime"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        int
+      </span>
+        mPeakStarttime
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Peak start time in minutes. For example: 
+              8AM 8hr x 60 = 480
+              9AM 9hr x 60 = 540</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mPeriodCalendar"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        int
+      </span>
+        mPeriodCalendar
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Number of previous days Calendar to sync
+    Value 0  - All
+    Value 4  - 2 weeks
+    Value 5  - 1 month
+    Value 6  - 3 months
+    Value 7  - 6 months</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mProtocolVersion"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        mProtocolVersion
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Protocol version of Microsoft Exchange ActiveSync (EAS only) </p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mRetrivalSize"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        int
+      </span>
+        mRetrivalSize
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Email retrieval size 
+    Value 0  - Headers only
+    Value 1  - 0.5 KB
+    Value 2  - 1 KB
+    Value 3  - 2 KB
+    Value 4  - 5 KB
+    Value 5  - 10 KB
+    Value 6  - 20 KB
+    Value 7  - 50 KB
+    Value 8  - 100 KB
+    Value 9  - All<br>
+ <b>NOTE: Some ActiveSync protocol versions with EAS 2003 do not support value 9. 
+ Please see <a href="https://msdn.microsoft.com/en-us/library/gg675441(v=exchg.80).aspx">
+ https://msdn.microsoft.com/en-us/library/gg675441(v=exchg.80).aspx</a> for more details.</b></p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mRoamingSchedule"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        int
+      </span>
+        mRoamingSchedule
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>0 - Manual
+            1 - Use sync settings</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mSMIMECertificareMode"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        int
+      </span>
+        mSMIMECertificareMode
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This field is deprecated.</strong><br/> Use <code><a href="../../../android/app/enterprise/ExchangeAccount.html#mSMIMECertificateMode">mSMIMECertificateMode</a></code>.
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>set certificate mode when account creation time</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.7 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mSMIMECertificateMode"></A>
+
+<div class="jd-details api apilevel-MDM_5.7"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        int
+      </span>
+        mSMIMECertificateMode
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.7">API Level MDM_5.7</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>set certificate mode when account creation time</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.7 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mSMIMECertificatePassWord"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        mSMIMECertificatePassWord
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>SMIME certificate password when account creation time</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mSMIMECertificatePath"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        mSMIMECertificatePath
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>SMIME certificate path when account creation time</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mSenderName"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        mSenderName
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>User name for outgoing messages </p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mServerAddress"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        mServerAddress
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>The server address corresponding to this account </p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mServerPassword"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        mServerPassword
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>The server password corresponding to this account </p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mServerPathPrefix"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        mServerPathPrefix
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>The server path Prefix corresponding to this account </p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mSignature"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        mSignature
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Signature to use with the account </p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mSyncCalendar"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        int
+      </span>
+        mSyncCalendar
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>syncCalendar = true, then account syncs calendar information
+ syncCalendar = false, then account does not sync calendar information</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mSyncContacts"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        int
+      </span>
+        mSyncContacts
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>syncContacts = true, then account syncs contacts information
+ syncContacts = false ,then account does not sync contacts information</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mSyncInterval"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        int
+      </span>
+        mSyncInterval
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Frequency to sync email during peak time
+  Value  -2  - Automatic push, Value -1 - Never, Value 5 - 5 minutes, Value 10 - 10 minutes, Value 15 - 15 minutes
+  Value  30  - 30 minutes, Value  60  - 1 hour, Value  60 - 1 hour, Value 240 - 4 hours, Value 720 - 12 hours</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mSyncLookback"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        int
+      </span>
+        mSyncLookback
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Number of previous days to sync email
+  Value 1 - 1 day, Value 2 - 3 days, Value 3 - 1 week, Value 4 - 2 weeks, Value 5 - 1 month</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mUseSSL"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        boolean
+      </span>
+        mUseSSL
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>True to use Secure Sockets Layer (SSL)</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.0 </td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="mUseTLS"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        boolean
+      </span>
+        mUseTLS
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This field is deprecated.</strong><br/> Not supported (Never supported in platform since MDM 1.0)
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>True to use Secure Sockets Layer (TLS)</p></div>
+
+    
+    </div>
+</div>
+
+
+
+
+<!-- Public ctors -->
+
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<h2>Public Constructors</h2>
+
+
+
+<A NAME="ExchangeAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)"></A>
+
+<div class="jd-details api apilevel-MDM_5.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        
+      </span>
+      <span class="sympad">ExchangeAccount</span>
+      <span class="normal">(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> emailAddress, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> easUser, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> easDomain, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> serverAddress, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> serverPassword)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_5.0">API Level MDM_5.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Struct to add a new Microsoft Exchange account with base parameters.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>emailAddress</td>
+          <td>Email address of the account</td>
+        </tr>
+        <tr>
+          <th>easUser</td>
+          <td>User name of the account</td>
+        </tr>
+        <tr>
+          <th>easDomain</td>
+          <td>Domain name of the account</td>
+        </tr>
+        <tr>
+          <th>serverAddress</td>
+          <td>Address of the server (e.g., "mail.xyz.com")</td>
+        </tr>
+        <tr>
+          <th>serverPassword</td>
+          <td>Password of the account
+ <p>
+ NOTE :
+ All other settings values are set to default.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle"> </h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><pre>
+ long  accountId = -1;
+ EnterpriseDeviceManager edm = (EnterpriseDeviceManager) getSystemService(EnterpriseDeviceManager.ENTERPRISE_POLICY_SERVICE);
+ ExchangeAccountPolicy  exchangeAccountPolicy = edm.getExchangeAccountPolicy();
+  try {
+     accountId =  exchangeAccountPolicy.addNewAccount(new ExchangeAccount(
+                 "testeasid@easserver.com", "testeasid","easDomain", "easserver.com",
+                 "Password@123"));
+     if(accountId >= 0){
+         Log.d(TAG,"Add a new exchange account with base parameters succeeded!");
+         // Administrator needs to call sendAccountsChangedBroadcast() API
+         // to notify about the Microsoft Exchange account addition.
+         exchangeAccountPolicy.sendAccountsChangedBroadcast();
+      }else{
+          Log.d(TAG," Add a new exchange account with base parameters failed.");
+      }
+  } catch(SecurityException e) {
+      Log.w(TAG,"SecurityException: "+e);
+  }
+ </pre></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Multiuser Environment</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><a href="../../../../multiuser/multiuser.html">User Scope</a>
+ since 5.0
+</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+
+
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<!-- Protected ctors -->
+
+
+
+<!-- ========= METHOD DETAIL ======== -->
+<!-- Public methdos -->
+
+
+
+<!-- ========= METHOD DETAIL ======== -->
+
+
+
+<!-- ========= END OF CLASS DATA ========= -->
+<A NAME="navbar_top"></A>
+
+<div id="footer">
+<a href="http://www.samsung.com">Samsung Electronics</a>.<br/>SDK MDM_5.9_EarlyAccess - July 14 2017
+</div> <!-- end footer -->
+
+</div> <!-- jd-content -->
+
+</div><!-- end doc-content -->
+
+</div> <!-- end body-content --> 
+
+<script type="text/javascript">
+init(); /* initialize doclava-developer-docs.js */
+</script>
+
+</body>
+</html>

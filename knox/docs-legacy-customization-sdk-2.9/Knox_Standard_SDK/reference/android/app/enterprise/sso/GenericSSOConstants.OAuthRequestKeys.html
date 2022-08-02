@@ -1,0 +1,2803 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+  <meta name="description" content="Javadoc API documentation for Knox Standard SDK." />
+
+<link rel="shortcut icon" type="image/x-icon" href="../../../../favicon.ico" />
+<title>
+
+  GenericSSOConstants.OAuthRequestKeys
+
+
+| Knox Standard SDK
+
+</title>
+<link href="../../../../../assets/doclava-developer-docs.css" rel="stylesheet" type="text/css" />
+<link href="../../../../../assets/customizations.css" rel="stylesheet" type="text/css" />
+<script src="../../../../../assets/search_autocomplete.js" type="text/javascript"></script>
+<script src="../../../../../assets/jquery-resizable.min.js" type="text/javascript"></script>
+<script src="../../../../../assets/doclava-developer-docs.js" type="text/javascript"></script>
+<script src="../../../../../assets/prettify.js" type="text/javascript"></script>
+<script type="text/javascript">
+  setToRoot("../../../../", "../../../../../assets/");
+</script>
+<script src="../../../../../assets/doclava-developer-reference.js" type="text/javascript"></script>
+<script src="../../../../../assets/navtree_data.js" type="text/javascript"></script>
+<script src="../../../../../assets/customizations.js" type="text/javascript"></script>
+<noscript>
+  <style type="text/css">
+    html,body{overflow:auto;}
+    #body-content{position:relative; top:0;}
+    #doc-content{overflow:visible;border-left:3px solid #666;}
+    #side-nav{padding:0;}
+    #side-nav .toggle-list ul {display:block;}
+    #resize-packages-nav{border-bottom:3px solid #666;}
+  </style>
+</noscript>
+</head>
+
+<body class="MDM_5.2">
+
+<div id="header">
+    <div id="headerLeft">
+    <a href="http://www.samsung.com">
+    <img src="../../../../../assets/images/samsung.jpg" alt="Samsung Electronics" width="80" height="48"/></a>
+    
+      <h1 id="masthead-title">Knox Standard SDK</h1>
+    
+    </div>
+    <div id="headerRight">
+      
+  <div id="search" >
+      <div id="searchForm">
+          <form accept-charset="utf-8" class="gsc-search-box" 
+                onsubmit="return submit_search()">
+            <table class="gsc-search-box" cellpadding="0" cellspacing="0"><tbody>
+                <tr>
+                  <td class="gsc-input">
+                    <input id="search_autocomplete" class="gsc-input" type="text" size="33" autocomplete="off"
+                      title="search developer docs" name="q"
+                      value="search developer docs"
+                      onFocus="search_focus_changed(this, true)"
+                      onBlur="search_focus_changed(this, false)"
+                      onkeydown="return search_changed(event, true, '../../../../')"
+                      onkeyup="return search_changed(event, false, '../../../../')" />
+                  <div id="search_filtered_div" class="no-display">
+                      <table id="search_filtered" cellspacing=0>
+                      </table>
+                  </div>
+                  </td>
+                  <td class="gsc-search-button">
+                    <input type="submit" value="Search" title="search" id="search-button" class="gsc-search-button" />
+                  </td>
+                  <td class="gsc-clear-button">
+                    <div title="clear results" class="gsc-clear-button">&nbsp;</div>
+                  </td>
+                </tr></tbody>
+              </table>
+          </form>
+      </div><!-- searchForm -->
+  </div><!-- search -->
+      
+        
+  <div id="api-level-toggle">
+    <input type="checkbox" id="apiLevelCheckbox" onclick="toggleApiLevelSelector(this)" />
+    <label for="apiLevelCheckbox" class="disabled">Filter by API Level: </label>
+    <select id="apiLevelSelector">
+      <!-- option elements added by buildApiLevelSelector() -->
+    </select>
+  </div>
+  <script>
+   var SINCE_DATA = [ 'MDM_1.0', 'MDM_2.0', 'MDM_2.1', 'MDM_2.2', 'MDM_3.0', 'MDM_4.0', 'MDM_4.0.1', 'MDM_4.1', 'MDM_5.0', 'MDM_5.1', 'MDM_5.2', 'MDM_5.3', 'MDM_5.4', 'MDM_5.4.1', 'MDM_5.5', 'MDM_5.6', 'MDM_5.7', 'MDM_5.7.1', 'MDM_5.8', 'MDM_5.9' ];
+    
+    var SINCE_LABELS = [ 'MDM_1.0', 'MDM_2.0', 'MDM_2.1', 'MDM_2.2', 'MDM_3.0', 'MDM_4.0', 'MDM_4.0.1', 'MDM_4.1', 'MDM_5.0', 'MDM_5.1', 'MDM_5.2', 'MDM_5.3', 'MDM_5.4', 'MDM_5.4.1', 'MDM_5.5', 'MDM_5.6', 'MDM_5.7', 'MDM_5.7.1', 'MDM_5.8', 'MDM_5.9' ];
+    buildApiLevelSelector();
+    addLoadEvent(changeApiLevel);
+  </script>
+
+
+      
+    </div>
+</div><!-- header -->
+
+
+  <div class="g-section g-tpl-240" id="body-content">
+    <div class="g-unit g-first side-nav-resizable" id="side-nav">
+      <div id="swapper">
+        <div id="nav-panels">
+          <div id="resize-packages-nav">
+            <div id="packages-nav">
+              <div id="index-links"><nobr>
+                <a href="../../../../packages.html"  >Package Index</a> | 
+                <a href="../../../../classes.html" >Class Index</a></nobr>
+              </div>
+              <ul>
+                
+    <li class="api apilevel-MDM_1.0">
+  <a href="../../../../android/app/enterprise/package-summary.html">android.app.enterprise</a></li>
+    <li class="api apilevel-MDM_5.0">
+  <a href="../../../../android/app/enterprise/devicesettings/package-summary.html">android.app.enterprise.devicesettings</a></li>
+    <li class="api apilevel-MDM_4.0">
+  <a href="../../../../android/app/enterprise/geofencing/package-summary.html">android.app.enterprise.geofencing</a></li>
+    <li class="api apilevel-MDM_3.0">
+  <a href="../../../../android/app/enterprise/kioskmode/package-summary.html">android.app.enterprise.kioskmode</a></li>
+    <li class="api apilevel-MDM_4.0">
+  <a href="../../../../android/app/enterprise/license/package-summary.html">android.app.enterprise.license</a></li>
+    <li class="api apilevel-MDM_4.0">
+  <a href="../../../../android/app/enterprise/lso/package-summary.html">android.app.enterprise.lso</a></li>
+    <li class="api apilevel-MDM_4.0">
+  <a href="../../../../android/app/enterprise/multiuser/package-summary.html">android.app.enterprise.multiuser</a></li>
+    <li class="api apilevel-MDM_2.1">
+  <a href="../../../../android/app/enterprise/remotecontrol/package-summary.html">android.app.enterprise.remotecontrol</a></li>
+    <li class="selected api apilevel-MDM_5.2">
+  <a href="../../../../android/app/enterprise/sso/package-summary.html">android.app.enterprise.sso</a></li>
+    <li class="api apilevel-MDM_5.5">
+  <a href="../../../../com/sec/enterprise/package-summary.html">com.sec.enterprise</a></li>
+    <li class="api apilevel-MDM_5.5">
+  <a href="../../../../com/sec/enterprise/firewall/package-summary.html">com.sec.enterprise.firewall</a></li>
+    <li class="api apilevel-MDM_5.4">
+  <a href="../../../../com/sec/enterprise/identity/package-summary.html">com.sec.enterprise.identity</a></li>
+    <li class="api apilevel-MDM_5.7">
+  <a href="../../../../com/sec/enterprise/network/package-summary.html">com.sec.enterprise.network</a></li>
+    <li class="api apilevel-MDM_5.6">
+  <a href="../../../../com/sec/enterprise/spd/package-summary.html">com.sec.enterprise.spd</a></li>
+              </ul><br/>
+            </div> <!-- end packages -->
+          </div> <!-- end resize-packages -->
+          <div id="classes-nav">
+            <ul>
+              
+              
+    <li><h2>Classes</h2>
+      <ul>
+          <li class="api apilevel-MDM_5.2"><a href="../../../../android/app/enterprise/sso/GenericSSO.html">GenericSSO</a></li>
+          <li class="api apilevel-MDM_5.4"><a href="../../../../android/app/enterprise/sso/GenericSSOConfig.html">GenericSSOConfig</a></li>
+          <li class="api apilevel-MDM_5.2"><a href="../../../../android/app/enterprise/sso/GenericSSOConstants.html">GenericSSOConstants</a></li>
+          <li class="api apilevel-MDM_5.2"><a href="../../../../android/app/enterprise/sso/GenericSSOConstants.KerberosRequestKeys.html">GenericSSOConstants.KerberosRequestKeys</a></li>
+          <li class="selected api apilevel-MDM_5.2"><a href="../../../../android/app/enterprise/sso/GenericSSOConstants.OAuthRequestKeys.html">GenericSSOConstants.OAuthRequestKeys</a></li>
+          <li class="api apilevel-MDM_5.2"><a href="../../../../android/app/enterprise/sso/GenericSSOConstants.SAMLRequestKeys.html">GenericSSOConstants.SAMLRequestKeys</a></li>
+          <li class="api apilevel-MDM_5.2"><a href="../../../../android/app/enterprise/sso/WhiteListPackage.html">WhiteListPackage</a></li>
+      </ul>
+    </li>
+              
+              
+              
+              
+            </ul><br/>
+          </div><!-- end classes -->
+        </div><!-- end nav-panels -->
+        <div id="nav-tree" style="display:none">
+          <div id="index-links"><nobr>
+            <a href="../../../../packages.html"  >Package Index</a> | 
+            <a href="../../../../classes.html" >Class Index</a></nobr>
+          </div>
+        </div><!-- end nav-tree -->
+      </div><!-- end swapper -->
+    </div> <!-- end side-nav -->
+    <script>
+      if (!isMobile) {
+        $("<a href='#' id='nav-swap' onclick='swapNav();return false;' style='font-size:10px;line-height:9px;margin-left:1em;text-decoration:none;'><span id='tree-link'>Use Tree Navigation</span><span id='panel-link' style='display:none'>Use Panel Navigation</span></a>").appendTo("#side-nav");
+        chooseDefaultNav();
+        if ($("#nav-tree").is(':visible')) {
+          init_default_navtree("../../../../");
+        } else {
+          addLoadEvent(function() {
+            scrollIntoView("packages-nav");
+            scrollIntoView("classes-nav");
+          });
+        }
+        $("#swapper").css({borderBottom:"2px solid #aaa"});
+      } else {
+        swapNav(); // tree view should be used on mobile
+      }
+    </script>
+
+
+
+<div class="g-unit" id="doc-content">
+
+<div id="api-info-block">
+
+
+
+  
+   
+  
+  
+  
+  
+
+
+<div class="sum-details-links">
+
+
+Summary:
+
+
+
+
+
+  <a href="#constants">Constants</a>
+  
+
+
+
+
+
+  &#124; <a href="#pubctors">Ctors</a>
+  
+
+
+
+
+
+  &#124; <a href="#inhmethods">Inherited Methods</a>
+
+&#124; <a href="#" onclick="return toggleAllClassInherited()" id="toggleAllClassInherited">[Expand All]</a>
+
+</div><!-- end sum-details-links -->
+<div class="api-level">
+  
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelMDM_5.2">API Level MDM_5.2</a>
+
+
+  
+  
+
+</div>
+</div><!-- end api-info-block -->
+
+
+<!-- ======== START OF CLASS DATA ======== -->
+
+<div id="jd-header">
+    public
+    static 
+     
+    
+    class
+<h1>GenericSSOConstants.OAuthRequestKeys</h1>
+
+
+
+  
+    extends <a href="http://developer.android.com/reference/java/lang/Object.html">Object</a><br/>
+  
+  
+  
+
+  
+  
+  
+
+
+</div><!-- end header -->
+
+<div id="naMessage"></div>
+
+<div id="jd-content" class="api apilevel-MDM_5.2">
+<table class="jd-inheritance-table">
+
+
+    <tr>
+         	
+        <td colspan="2" class="jd-inheritance-class-cell"><a href="http://developer.android.com/reference/java/lang/Object.html">java.lang.Object</a></td>
+    </tr>
+    
+
+    <tr>
+        
+            <td class="jd-inheritance-space">&nbsp;&nbsp;&nbsp;&#x21b3;</td>
+         	
+        <td colspan="1" class="jd-inheritance-class-cell">android.app.enterprise.sso.GenericSSOConstants.OAuthRequestKeys</td>
+    </tr>
+    
+
+</table>
+
+
+
+
+
+
+
+<div class="jd-descr">
+<p>
+  <p class="caution">
+      <strong>
+  This class is deprecated.</strong><br/> since MDM 5.8 
+  </p>
+
+<h2>Class Overview</h2>
+<p>This class contains a set of string constants which serve as keys to
+ provide the parameters needed for an OAuth request to the GenericSSO
+ framework. These keys can be used in a map and provided as arguments to
+ enrollSSOVendor and addWhitelistPackages methods in the GenericSSO class.
+ MDM administrators have to provide these values based on the requirements
+ of the SSO provider that has been configured.</p>
+
+      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.2</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.8
+</td>
+        </tr>
+      </table>
+  </div>
+
+
+
+</div><!-- jd-descr -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="jd-descr">
+
+
+<h2>Summary</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- =========== ENUM CONSTANT SUMMARY =========== -->
+<table id="constants" class="jd-sumtable"><tr><th colspan="12">Constants</th></tr>
+
+
+    
+    <tr class="alt-color api apilevel-MDM_5.2" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../android/app/enterprise/sso/GenericSSOConstants.OAuthRequestKeys.html#ACR_VALUES">ACR_VALUES</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since MDM 5.8</em></td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-MDM_5.2" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../android/app/enterprise/sso/GenericSSOConstants.OAuthRequestKeys.html#AUTHORITY_URI">AUTHORITY_URI</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since MDM 5.8</em></td>
+    </tr>
+    
+    
+    <tr class="alt-color api apilevel-MDM_5.2" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../android/app/enterprise/sso/GenericSSOConstants.OAuthRequestKeys.html#CLAIMS">CLAIMS</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since MDM 5.8</em></td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-MDM_5.2" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../android/app/enterprise/sso/GenericSSOConstants.OAuthRequestKeys.html#CLAIMS_LOCALES">CLAIMS_LOCALES</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since MDM 5.8</em></td>
+    </tr>
+    
+    
+    <tr class="alt-color api apilevel-MDM_5.2" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../android/app/enterprise/sso/GenericSSOConstants.OAuthRequestKeys.html#CLIENT_ID">CLIENT_ID</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since MDM 5.8</em></td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-MDM_5.2" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../android/app/enterprise/sso/GenericSSOConstants.OAuthRequestKeys.html#CLIENT_SECRET">CLIENT_SECRET</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since MDM 5.8</em></td>
+    </tr>
+    
+    
+    <tr class="alt-color api apilevel-MDM_5.2" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../android/app/enterprise/sso/GenericSSOConstants.OAuthRequestKeys.html#DISPLAY">DISPLAY</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since MDM 5.8</em></td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-MDM_5.2" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../android/app/enterprise/sso/GenericSSOConstants.OAuthRequestKeys.html#GRANT_TYPE">GRANT_TYPE</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since MDM 5.8</em></td>
+    </tr>
+    
+    
+    <tr class="alt-color api apilevel-MDM_5.2" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../android/app/enterprise/sso/GenericSSOConstants.OAuthRequestKeys.html#ID_TOKEN_HINT">ID_TOKEN_HINT</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since MDM 5.8</em></td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-MDM_5.2" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../android/app/enterprise/sso/GenericSSOConstants.OAuthRequestKeys.html#LOGIN_HINT">LOGIN_HINT</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since MDM 5.8</em></td>
+    </tr>
+    
+    
+    <tr class="alt-color api apilevel-MDM_5.2" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../android/app/enterprise/sso/GenericSSOConstants.OAuthRequestKeys.html#MAX_AGE">MAX_AGE</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since MDM 5.8</em></td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-MDM_5.2" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../android/app/enterprise/sso/GenericSSOConstants.OAuthRequestKeys.html#NONCE">NONCE</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since MDM 5.8</em></td>
+    </tr>
+    
+    
+    <tr class="alt-color api apilevel-MDM_5.2" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../android/app/enterprise/sso/GenericSSOConstants.OAuthRequestKeys.html#ORGANIZATION">ORGANIZATION</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since MDM 5.8</em></td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-MDM_5.2" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../android/app/enterprise/sso/GenericSSOConstants.OAuthRequestKeys.html#PASSWORD">PASSWORD</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since MDM 5.8</em></td>
+    </tr>
+    
+    
+    <tr class="alt-color api apilevel-MDM_5.2" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../android/app/enterprise/sso/GenericSSOConstants.OAuthRequestKeys.html#PROMPT">PROMPT</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since MDM 5.8</em></td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-MDM_5.2" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../android/app/enterprise/sso/GenericSSOConstants.OAuthRequestKeys.html#REDIRECT_URI">REDIRECT_URI</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since MDM 5.8</em></td>
+    </tr>
+    
+    
+    <tr class="alt-color api apilevel-MDM_5.2" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../android/app/enterprise/sso/GenericSSOConstants.OAuthRequestKeys.html#REGISTRATION">REGISTRATION</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since MDM 5.8</em></td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-MDM_5.2" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../android/app/enterprise/sso/GenericSSOConstants.OAuthRequestKeys.html#REQUEST">REQUEST</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since MDM 5.8</em></td>
+    </tr>
+    
+    
+    <tr class="alt-color api apilevel-MDM_5.2" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../android/app/enterprise/sso/GenericSSOConstants.OAuthRequestKeys.html#REQUEST_URI">REQUEST_URI</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since MDM 5.8</em></td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-MDM_5.2" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../android/app/enterprise/sso/GenericSSOConstants.OAuthRequestKeys.html#RESOURCE_URI">RESOURCE_URI</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since MDM 5.8</em></td>
+    </tr>
+    
+    
+    <tr class="alt-color api apilevel-MDM_5.2" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../android/app/enterprise/sso/GenericSSOConstants.OAuthRequestKeys.html#RESPONSE_TYPE">RESPONSE_TYPE</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since MDM 5.8</em></td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-MDM_5.2" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../android/app/enterprise/sso/GenericSSOConstants.OAuthRequestKeys.html#SCOPE">SCOPE</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since MDM 5.8</em></td>
+    </tr>
+    
+    
+    <tr class="alt-color api apilevel-MDM_5.2" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../android/app/enterprise/sso/GenericSSOConstants.OAuthRequestKeys.html#STATE">STATE</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since MDM 5.8</em></td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-MDM_5.2" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../android/app/enterprise/sso/GenericSSOConstants.OAuthRequestKeys.html#TRUSTCERTS">TRUSTCERTS</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since MDM 5.8</em></td>
+    </tr>
+    
+    
+    <tr class="alt-color api apilevel-MDM_5.2" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../android/app/enterprise/sso/GenericSSOConstants.OAuthRequestKeys.html#UIRPREFIX">UIRPREFIX</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since MDM 5.8</em></td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-MDM_5.2" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../android/app/enterprise/sso/GenericSSOConstants.OAuthRequestKeys.html#UI_LOCALES">UI_LOCALES</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since MDM 5.8</em></td>
+    </tr>
+    
+    
+    <tr class="alt-color api apilevel-MDM_5.2" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../android/app/enterprise/sso/GenericSSOConstants.OAuthRequestKeys.html#USERNAME">USERNAME</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      since MDM 5.8</em></td>
+    </tr>
+    
+    
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+<table id="pubctors" class="jd-sumtable"><tr><th colspan="12">Public Constructors</th></tr>
+
+
+
+	 
+    <tr class="alt-color api apilevel-MDM_5.2" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            </nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../android/app/enterprise/sso/GenericSSOConstants.OAuthRequestKeys.html#GenericSSOConstants.OAuthRequestKeys()">GenericSSOConstants.OAuthRequestKeys</a></span>()</nobr>
+        
+  </td></tr>
+
+
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+<table id="inhmethods" class="jd-sumtable"><tr><th>
+  <a href="#" class="toggle-all" onclick="return toggleAllInherited(this, null)">[Expand]</a>
+  <div style="clear:left;">Inherited Methods</div></th></tr>
+
+
+<tr class="api apilevel-" >
+<td colspan="12">
+  <a href="#" onclick="return toggleInherited(this, null)" id="inherited-methods-java.lang.Object" class="jd-expando-trigger closed"
+          ><img id="inherited-methods-java.lang.Object-trigger"
+          src="../../../../../assets/images/triangle-closed.png"
+          class="jd-expando-trigger-img" /></a>
+From class
+
+  <a href="http://developer.android.com/reference/java/lang/Object.html">java.lang.Object</a>
+
+<div id="inherited-methods-java.lang.Object">
+  <div id="inherited-methods-java.lang.Object-list"
+        class="jd-inheritedlinks">
+  </div>
+  <div id="inherited-methods-java.lang.Object-summary" style="display: none;">
+    <table class="jd-sumtable-expando">
+    
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            <a href="http://developer.android.com/reference/java/lang/Object.html">Object</a></nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">clone</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">equals</span>(<a href="http://developer.android.com/reference/java/lang/Object.html">Object</a> arg0)</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">finalize</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            <a href="http://developer.android.com/reference/java/lang/Class.html">Class</a>&lt;?&gt;</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">getClass</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            int</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">hashCode</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">notify</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">notifyAll</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            <a href="http://developer.android.com/reference/java/lang/String.html">String</a></nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">toString</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">wait</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">wait</span>(long arg0, int arg1)</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">wait</span>(long arg0)</nobr>
+        
+  </td></tr>
+
+
+</table>
+  </div>
+</div>
+</td></tr>
+
+
+</table>
+
+
+</div><!-- jd-descr (summary) -->
+
+<!-- Details -->
+
+
+
+
+
+
+
+
+<!-- XML Attributes -->
+
+
+<!-- Enum Values -->
+
+
+<!-- Constants -->
+
+
+<!-- ========= ENUM CONSTANTS DETAIL ======== -->
+<h2>Constants</h2>
+
+
+
+
+<A NAME="ACR_VALUES"></A>
+
+<div class="jd-details api apilevel-MDM_5.2"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        ACR_VALUES
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelMDM_5.2">API Level MDM_5.2</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since MDM 5.8
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>Use this key to specify the requested Authentication Context Class
+ Reference values.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.2</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.8
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "OAUTH_REQUEST_ACR_VALUES"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="AUTHORITY_URI"></A>
+
+<div class="jd-details api apilevel-MDM_5.2"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        AUTHORITY_URI
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelMDM_5.2">API Level MDM_5.2</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since MDM 5.8
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>Use this key to specify the URI of the authenticating authority.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.2</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.8
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "OAUTH_REQUEST_AUTHORITY_URI"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="CLAIMS"></A>
+
+<div class="jd-details api apilevel-MDM_5.2"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        CLAIMS
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelMDM_5.2">API Level MDM_5.2</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since MDM 5.8
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>Use this key to specify the request that specific Claims be returned.
+ The value is a JSON object listing the requested Claims.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.2</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.8
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "OAUTH_REQUEST_CLAIMS"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="CLAIMS_LOCALES"></A>
+
+<div class="jd-details api apilevel-MDM_5.2"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        CLAIMS_LOCALES
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelMDM_5.2">API Level MDM_5.2</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since MDM 5.8
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>Use this key to specify end-user's preferred languages and scripts
+ for Claims being returned</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.2</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.8
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "OAUTH_REQUEST_CLAIMS_LOCALES"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="CLIENT_ID"></A>
+
+<div class="jd-details api apilevel-MDM_5.2"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        CLIENT_ID
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelMDM_5.2">API Level MDM_5.2</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since MDM 5.8
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>Use this key to specify the client identifier issued to the client
+ during the registration process.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.2</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.8
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "OAUTH_REQUEST_CLIENT_ID"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="CLIENT_SECRET"></A>
+
+<div class="jd-details api apilevel-MDM_5.2"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        CLIENT_SECRET
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelMDM_5.2">API Level MDM_5.2</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since MDM 5.8
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>Use this key to specify the client secret. The client MAY omit the
+ parameter if the client secret is an empty string.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.2</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.8
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "OAUTH_REQUEST_CLIENT_SECRET"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="DISPLAY"></A>
+
+<div class="jd-details api apilevel-MDM_5.2"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        DISPLAY
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelMDM_5.2">API Level MDM_5.2</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since MDM 5.8
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>Use this key to specify ASCII string value that provides
+ specification on how the Authorization Server displays the
+ authentication and consent user interface pages to the End-User.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.2</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.8
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "OAUTH_REQUEST_DISPLAY"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="GRANT_TYPE"></A>
+
+<div class="jd-details api apilevel-MDM_5.2"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        GRANT_TYPE
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelMDM_5.2">API Level MDM_5.2</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since MDM 5.8
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>Use this key to specify the grant type. Constant string values used
+ to inform the server of the type of request being made by the server.
+ The constant values are "authorization_code", "password",
+ "client_credentials", "refresh_token" and standard extended formats.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.2</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.8
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "OAUTH_REQUEST_GRANT_TYPE"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="ID_TOKEN_HINT"></A>
+
+<div class="jd-details api apilevel-MDM_5.2"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        ID_TOKEN_HINT
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelMDM_5.2">API Level MDM_5.2</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since MDM 5.8
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>Use this key to specify the ID Token previously issued by the
+ Authorization Server being passed as a hint about the End-User's
+ current or past authenticated session with the Client. If the
+ End-User identified by the ID Token is logged in or is logged in by
+ the request, then the Authorization Server returns a positive
+ response; otherwise, it SHOULD return an error, such as
+ login_required. When possible, an id_token_hint SHOULD be present
+ when prompt=none is used and an invalid_request error MAY be returned
+ if it is not; however, the server SHOULD respond successfully when
+ possible, even if it is not present. The Authorization Server need
+ not be listed as an audience of the ID Token when it is used as an
+ id_token_hint value.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.2</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.8
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "OAUTH_REQUEST_ID_TOKEN_HINT"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="LOGIN_HINT"></A>
+
+<div class="jd-details api apilevel-MDM_5.2"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        LOGIN_HINT
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelMDM_5.2">API Level MDM_5.2</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since MDM 5.8
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>Use this key to specify hint to the Authorization Server about the
+ login identifier the End-User might use to log in (if necessary).
+ This hint can be used by an RP if it first asks the End-User for
+ their e-mail address (or other identifier) and then wants to pass
+ that value as a hint to the discovered authorization service.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.2</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.8
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "OAUTH_REQUEST_LOGIN_HINT"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="MAX_AGE"></A>
+
+<div class="jd-details api apilevel-MDM_5.2"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        MAX_AGE
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelMDM_5.2">API Level MDM_5.2</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since MDM 5.8
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>Use this key to specify maximum authentication age. This parameter
+ provides information about the allowable elapsed time in seconds
+ since the last time the End-User was actively authenticated by the
+ OP. If the elapsed time is greater than this value, the OP MUST
+ attempt to actively re-authenticate the End-User.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.2</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.8
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "OAUTH_REQUEST_MAX_AGE"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="NONCE"></A>
+
+<div class="jd-details api apilevel-MDM_5.2"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        NONCE
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelMDM_5.2">API Level MDM_5.2</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since MDM 5.8
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>Use this key to specify pseudo-random number used for session and
+ security.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.2</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.8
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "OAUTH_REQUEST_NONCE"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="ORGANIZATION"></A>
+
+<div class="jd-details api apilevel-MDM_5.2"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        ORGANIZATION
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelMDM_5.2">API Level MDM_5.2</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since MDM 5.8
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>Use this key to specify the organization value of the authenticated
+ user.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.2</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.8
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "OAUTH_REQUEST_ORGANIZATION"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="PASSWORD"></A>
+
+<div class="jd-details api apilevel-MDM_5.2"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        PASSWORD
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelMDM_5.2">API Level MDM_5.2</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since MDM 5.8
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>Use this key to specify the resource owner password.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.2</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.8
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "OAUTH_REQUEST_PASSWORD"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="PROMPT"></A>
+
+<div class="jd-details api apilevel-MDM_5.2"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        PROMPT
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelMDM_5.2">API Level MDM_5.2</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since MDM 5.8
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>Use this key to specify the space delimited, case sensitive list of
+ ASCII string values that specifies whether the Authorization Server
+ prompts the End-User for reauthentication and consent.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.2</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.8
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "OAUTH_REQUEST_PROMPT"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="REDIRECT_URI"></A>
+
+<div class="jd-details api apilevel-MDM_5.2"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        REDIRECT_URI
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelMDM_5.2">API Level MDM_5.2</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since MDM 5.8
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>Use this key to specify the redirection URI. After completing its
+ interaction with the resource owner, the authorization server directs
+ the resource owner's user-agent back to the client. The authorization
+ server redirects the user-agent to the client's redirection endpoint
+ previously established with the authorization server during the
+ client registration process or when making the authorization request.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.2</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.8
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "OAUTH_REQUEST_REDIRECT_URI"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="REGISTRATION"></A>
+
+<div class="jd-details api apilevel-MDM_5.2"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        REGISTRATION
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelMDM_5.2">API Level MDM_5.2</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since MDM 5.8
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>Use this key to specify the client's request provide information
+ about itself to a Self-Issued OP that would normally be provided to
+ an OP during Dynamic Client Registration. The value is a JSON object
+ containing Client metadata values,</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.2</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.8
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "OAUTH_REQUEST_REGISTRATION"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="REQUEST"></A>
+
+<div class="jd-details api apilevel-MDM_5.2"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        REQUEST
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelMDM_5.2">API Level MDM_5.2</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since MDM 5.8
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>Use this key to specify an authentication request. The value is an
+ OAuth 2.0 Authorization Request that requests that the End-User be
+ authenticated by the Authorization Server.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.2</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.8
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "OAUTH_REQUEST_REQUEST"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="REQUEST_URI"></A>
+
+<div class="jd-details api apilevel-MDM_5.2"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        REQUEST_URI
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelMDM_5.2">API Level MDM_5.2</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since MDM 5.8
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>Use this key to specify the request URI. The request_uri value is a
+ URL using the https scheme referencing a resource containing a
+ Request Object value, which is a JWT containing the request
+ parameters.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.2</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.8
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "OAUTH_REQUEST_REQUEST_URI"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="RESOURCE_URI"></A>
+
+<div class="jd-details api apilevel-MDM_5.2"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        RESOURCE_URI
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelMDM_5.2">API Level MDM_5.2</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since MDM 5.8
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>Use this key to specify the URI of the resource.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.2</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.8
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "OAUTH_REQUEST_RESOURCE_URI"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="RESPONSE_TYPE"></A>
+
+<div class="jd-details api apilevel-MDM_5.2"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        RESPONSE_TYPE
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelMDM_5.2">API Level MDM_5.2</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since MDM 5.8
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>Use this key to specify the response type of the OAuth request. The
+ value MUST be "code" for requesting an authorization code, "token"
+ for requesting an access token (implicit grant) or a registered
+ extension value.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.2</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.8
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "OAUTH_REQUEST_RESPONSE_TYPE"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="SCOPE"></A>
+
+<div class="jd-details api apilevel-MDM_5.2"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        SCOPE
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelMDM_5.2">API Level MDM_5.2</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since MDM 5.8
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>Use this key to specify the scope of OAuth request. The authorization
+ and token endpoints allow the client to specify the scope of the
+ access request using the "scope" request parameter. In turn, the
+ authorization server uses the "scope" response parameter to inform
+ the client of the scope of the access token issued.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.2</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.8
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "OAUTH_REQUEST_SCOPE"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="STATE"></A>
+
+<div class="jd-details api apilevel-MDM_5.2"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        STATE
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelMDM_5.2">API Level MDM_5.2</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since MDM 5.8
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>Use this key to specify the state of the OAuth request. An opaque
+ value used by the client to maintain state between the request and
+ callback. The authorization server includes this value when
+ redirecting the user-agent back to the client. The parameter SHOULD
+ be used for preventing cross-site request forgery</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.2</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.8
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "OAUTH_REQUEST_STATE"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="TRUSTCERTS"></A>
+
+<div class="jd-details api apilevel-MDM_5.2"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        TRUSTCERTS
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelMDM_5.2">API Level MDM_5.2</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since MDM 5.8
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>Use this key to specify the trusted public certificates used for
+ authentication.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.2</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.8
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "OAUTH_REQUEST_TRUSTCERTS"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="UIRPREFIX"></A>
+
+<div class="jd-details api apilevel-MDM_5.2"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        UIRPREFIX
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelMDM_5.2">API Level MDM_5.2</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since MDM 5.8
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>Use this key to specify the client dependent prefix of the URI.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.2</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.8
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "OAUTH_REQUEST_UIRPREFIX"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="UI_LOCALES"></A>
+
+<div class="jd-details api apilevel-MDM_5.2"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        UI_LOCALES
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelMDM_5.2">API Level MDM_5.2</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since MDM 5.8
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>Use this key to specify end-user's preferred languages and scripts
+ for the user interface.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.2</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.8
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "OAUTH_REQUEST_UI_LOCALES"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="USERNAME"></A>
+
+<div class="jd-details api apilevel-MDM_5.2"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        USERNAME
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelMDM_5.2">API Level MDM_5.2</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> since MDM 5.8
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>Use this key to specify the resource owner username.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.2</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 5.8
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "OAUTH_REQUEST_USERNAME"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+
+<!-- Fields -->
+
+
+<!-- Public ctors -->
+
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<h2>Public Constructors</h2>
+
+
+
+<A NAME="GenericSSOConstants.OAuthRequestKeys()"></A>
+
+<div class="jd-details api apilevel-MDM_5.2"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        
+      </span>
+      <span class="sympad">GenericSSOConstants.OAuthRequestKeys</span>
+      <span class="normal">()</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelMDM_5.2">API Level MDM_5.2</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p></p></div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+
+
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<!-- Protected ctors -->
+
+
+
+<!-- ========= METHOD DETAIL ======== -->
+<!-- Public methdos -->
+
+
+
+<!-- ========= METHOD DETAIL ======== -->
+
+
+
+<!-- ========= END OF CLASS DATA ========= -->
+<A NAME="navbar_top"></A>
+
+<div id="footer">
+<a href="http://www.samsung.com">Samsung Electronics</a>.<br/>SDK MDM_5.9_EarlyAccess - July 14 2017
+</div> <!-- end footer -->
+
+</div> <!-- jd-content -->
+
+</div><!-- end doc-content -->
+
+</div> <!-- end body-content --> 
+
+<script type="text/javascript">
+init(); /* initialize doclava-developer-docs.js */
+</script>
+
+</body>
+</html>

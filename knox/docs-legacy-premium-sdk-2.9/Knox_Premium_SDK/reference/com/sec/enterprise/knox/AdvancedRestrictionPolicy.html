@@ -1,0 +1,2867 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+  <meta name="description" content="Javadoc API documentation for Knox Premium SDK." />
+
+<link rel="shortcut icon" type="image/x-icon" href="../../../../favicon.ico" />
+<title>
+
+  AdvancedRestrictionPolicy
+
+
+| Knox Premium SDK
+
+</title>
+<link href="../../../../../assets/doclava-developer-docs.css" rel="stylesheet" type="text/css" />
+<link href="../../../../../assets/customizations.css" rel="stylesheet" type="text/css" />
+<script src="../../../../../assets/search_autocomplete.js" type="text/javascript"></script>
+<script src="../../../../../assets/jquery-resizable.min.js" type="text/javascript"></script>
+<script src="../../../../../assets/doclava-developer-docs.js" type="text/javascript"></script>
+<script src="../../../../../assets/prettify.js" type="text/javascript"></script>
+<script type="text/javascript">
+  setToRoot("../../../../", "../../../../../assets/");
+</script>
+<script src="../../../../../assets/doclava-developer-reference.js" type="text/javascript"></script>
+<script src="../../../../../assets/navtree_data.js" type="text/javascript"></script>
+<script src="../../../../../assets/customizations.js" type="text/javascript"></script>
+<noscript>
+  <style type="text/css">
+    html,body{overflow:auto;}
+    #body-content{position:relative; top:0;}
+    #doc-content{overflow:visible;border-left:3px solid #666;}
+    #side-nav{padding:0;}
+    #side-nav .toggle-list ul {display:block;}
+    #resize-packages-nav{border-bottom:3px solid #666;}
+  </style>
+</noscript>
+</head>
+
+<body class="KNOX_2.0">
+
+<div id="header">
+    <div id="headerLeft">
+    <a href="http://www.samsung.com">
+    <img src="../../../../../assets/images/samsung.jpg" alt="Samsung Electronics" width="80" height="48"/></a>
+    
+      <h1 id="masthead-title">Knox Premium SDK</h1>
+    
+    </div>
+    <div id="headerRight">
+      
+  <div id="search" >
+      <div id="searchForm">
+          <form accept-charset="utf-8" class="gsc-search-box" 
+                onsubmit="return submit_search()">
+            <table class="gsc-search-box" cellpadding="0" cellspacing="0"><tbody>
+                <tr>
+                  <td class="gsc-input">
+                    <input id="search_autocomplete" class="gsc-input" type="text" size="33" autocomplete="off"
+                      title="search developer docs" name="q"
+                      value="search developer docs"
+                      onFocus="search_focus_changed(this, true)"
+                      onBlur="search_focus_changed(this, false)"
+                      onkeydown="return search_changed(event, true, '../../../../')"
+                      onkeyup="return search_changed(event, false, '../../../../')" />
+                  <div id="search_filtered_div" class="no-display">
+                      <table id="search_filtered" cellspacing=0>
+                      </table>
+                  </div>
+                  </td>
+                  <td class="gsc-search-button">
+                    <input type="submit" value="Search" title="search" id="search-button" class="gsc-search-button" />
+                  </td>
+                  <td class="gsc-clear-button">
+                    <div title="clear results" class="gsc-clear-button">&nbsp;</div>
+                  </td>
+                </tr></tbody>
+              </table>
+          </form>
+      </div><!-- searchForm -->
+  </div><!-- search -->
+      
+        
+  <div id="api-level-toggle">
+    <input type="checkbox" id="apiLevelCheckbox" onclick="toggleApiLevelSelector(this)" />
+    <label for="apiLevelCheckbox" class="disabled">Filter by API Level: </label>
+    <select id="apiLevelSelector">
+      <!-- option elements added by buildApiLevelSelector() -->
+    </select>
+  </div>
+  <script>
+   var SINCE_DATA = [ 'KNOX_1.0', 'KNOX_1.0.1', 'KNOX_1.0.2', 'KNOX_1.1.0', 'KNOX_1.2.0', 'KNOX_2.0', 'KNOX_2.1', 'KNOX_2.2', 'KNOX_2.3', 'KNOX_2.4', 'KNOX_2.4.1', 'KNOX_2.5', 'KNOX_2.6', 'KNOX_2.7', 'KNOX_2.7.1', 'KNOX_2.8', 'Knox_2.9' ];
+    
+    var SINCE_LABELS = [ 'KNOX_1.0', 'KNOX_1.0.1', 'KNOX_1.0.2', 'KNOX_1.1.0', 'KNOX_1.2.0', 'KNOX_2.0', 'KNOX_2.1', 'KNOX_2.2', 'KNOX_2.3', 'KNOX_2.4', 'KNOX_2.4.1', 'KNOX_2.5', 'KNOX_2.6', 'KNOX_2.7', 'KNOX_2.7.1', 'KNOX_2.8', 'Knox_2.9' ];
+    buildApiLevelSelector();
+    addLoadEvent(changeApiLevel);
+  </script>
+
+
+      
+    </div>
+</div><!-- header -->
+
+
+  <div class="g-section g-tpl-240" id="body-content">
+    <div class="g-unit g-first side-nav-resizable" id="side-nav">
+      <div id="swapper">
+        <div id="nav-panels">
+          <div id="resize-packages-nav">
+            <div id="packages-nav">
+              <div id="index-links"><nobr>
+                <a href="../../../../packages.html"  >Package Index</a> | 
+                <a href="../../../../classes.html" >Class Index</a></nobr>
+              </div>
+              <ul>
+                
+    <li class="api apilevel-">
+  <a href="../../../../android/app/enterprise/package-summary.html">android.app.enterprise</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../android/app/enterprise/geofencing/package-summary.html">android.app.enterprise.geofencing</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../android/app/enterprise/kioskmode/package-summary.html">android.app.enterprise.kioskmode</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../android/app/enterprise/sso/package-summary.html">android.app.enterprise.sso</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../com/sec/enterprise/package-summary.html">com.sec.enterprise</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../com/sec/enterprise/firewall/package-summary.html">com.sec.enterprise.firewall</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../com/sec/enterprise/identity/package-summary.html">com.sec.enterprise.identity</a></li>
+    <li class="selected api apilevel-KNOX_1.0">
+  <a href="../../../../com/sec/enterprise/knox/package-summary.html">com.sec.enterprise.knox</a></li>
+    <li class="api apilevel-KNOX_1.0">
+  <a href="../../../../com/sec/enterprise/knox/auditlog/package-summary.html">com.sec.enterprise.knox.auditlog</a></li>
+    <li class="api apilevel-KNOX_2.2">
+  <a href="../../../../com/sec/enterprise/knox/billing/package-summary.html">com.sec.enterprise.knox.billing</a></li>
+    <li class="api apilevel-KNOX_2.1">
+  <a href="../../../../com/sec/enterprise/knox/ccm/package-summary.html">com.sec.enterprise.knox.ccm</a></li>
+    <li class="api apilevel-KNOX_2.1">
+  <a href="../../../../com/sec/enterprise/knox/certenroll/package-summary.html">com.sec.enterprise.knox.certenroll</a></li>
+    <li class="api apilevel-KNOX_1.0">
+  <a href="../../../../com/sec/enterprise/knox/certificate/package-summary.html">com.sec.enterprise.knox.certificate</a></li>
+    <li class="api apilevel-KNOX_2.0">
+  <a href="../../../../com/sec/enterprise/knox/container/package-summary.html">com.sec.enterprise.knox.container</a></li>
+    <li class="api apilevel-KNOX_2.6">
+  <a href="../../../../com/sec/enterprise/knox/dlp/package-summary.html">com.sec.enterprise.knox.dlp</a></li>
+    <li class="api apilevel-KNOX_2.0">
+  <a href="../../../../com/sec/enterprise/knox/keystore/package-summary.html">com.sec.enterprise.knox.keystore</a></li>
+    <li class="api apilevel-KNOX_1.0.1">
+  <a href="../../../../com/sec/enterprise/knox/license/package-summary.html">com.sec.enterprise.knox.license</a></li>
+    <li class="api apilevel-KNOX_2.8">
+  <a href="../../../../com/sec/enterprise/knox/nap/package-summary.html">com.sec.enterprise.knox.nap</a></li>
+    <li class="api apilevel-KNOX_2.0">
+  <a href="../../../../com/sec/enterprise/knox/seams/package-summary.html">com.sec.enterprise.knox.seams</a></li>
+    <li class="api apilevel-KNOX_1.0">
+  <a href="../../../../com/sec/enterprise/knox/seandroid/package-summary.html">com.sec.enterprise.knox.seandroid</a></li>
+    <li class="api apilevel-KNOX_1.0">
+  <a href="../../../../com/sec/enterprise/knox/smartcard/policy/package-summary.html">com.sec.enterprise.knox.smartcard.policy</a></li>
+    <li class="api apilevel-KNOX_2.4">
+  <a href="../../../../com/sec/enterprise/knox/vpn/package-summary.html">com.sec.enterprise.knox.vpn</a></li>
+              </ul><br/>
+            </div> <!-- end packages -->
+          </div> <!-- end resize-packages -->
+          <div id="classes-nav">
+            <ul>
+              
+              
+    <li><h2>Classes</h2>
+      <ul>
+          <li class="selected api apilevel-KNOX_2.0"><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html">AdvancedRestrictionPolicy</a></li>
+          <li class="api apilevel-KNOX_1.0.1"><a href="../../../../com/sec/enterprise/knox/Attestation.html">Attestation</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/ContainerApplicationPolicy.html">ContainerApplicationPolicy</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/ContainerFirewallPolicy.html">ContainerFirewallPolicy</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/ContainerPasswordPolicy.html">ContainerPasswordPolicy</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/ContainerRestrictionPolicy.html">ContainerRestrictionPolicy</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/ContainerVpnPolicy.html">ContainerVpnPolicy</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/EnterpriseContainerCallback.html">EnterpriseContainerCallback</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/EnterpriseContainerManager.html">EnterpriseContainerManager</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/EnterpriseContainerObject.html">EnterpriseContainerObject</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/EnterpriseISLPolicy.html">EnterpriseISLPolicy</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/EnterpriseKnoxManager.html">EnterpriseKnoxManager</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/EnterprisePremiumVpnConnection.html">EnterprisePremiumVpnConnection</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/EnterprisePremiumVpnPolicy.html">EnterprisePremiumVpnPolicy</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html">EnterpriseSSOPolicy</a></li>
+          <li class="api apilevel-KNOX_1.0.1"><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOResponse.html">EnterpriseSSOResponse</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/EnterpriseVpnStatusCallback.html">EnterpriseVpnStatusCallback</a></li>
+          <li class="api apilevel-KNOX_1.1.0"><a href="../../../../com/sec/enterprise/knox/GenericVpnPolicy.html">GenericVpnPolicy</a></li>
+      </ul>
+    </li>
+              
+              
+    <li><h2>Enums</h2>
+      <ul>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/EnterpriseKnoxManager.EnterpriseKnoxSdkVersion.html">EnterpriseKnoxManager.EnterpriseKnoxSdkVersion</a></li>
+      </ul>
+    </li>
+              
+              
+            </ul><br/>
+          </div><!-- end classes -->
+        </div><!-- end nav-panels -->
+        <div id="nav-tree" style="display:none">
+          <div id="index-links"><nobr>
+            <a href="../../../../packages.html"  >Package Index</a> | 
+            <a href="../../../../classes.html" >Class Index</a></nobr>
+          </div>
+        </div><!-- end nav-tree -->
+      </div><!-- end swapper -->
+    </div> <!-- end side-nav -->
+    <script>
+      if (!isMobile) {
+        $("<a href='#' id='nav-swap' onclick='swapNav();return false;' style='font-size:10px;line-height:9px;margin-left:1em;text-decoration:none;'><span id='tree-link'>Use Tree Navigation</span><span id='panel-link' style='display:none'>Use Panel Navigation</span></a>").appendTo("#side-nav");
+        chooseDefaultNav();
+        if ($("#nav-tree").is(':visible')) {
+          init_default_navtree("../../../../");
+        } else {
+          addLoadEvent(function() {
+            scrollIntoView("packages-nav");
+            scrollIntoView("classes-nav");
+          });
+        }
+        $("#swapper").css({borderBottom:"2px solid #aaa"});
+      } else {
+        swapNav(); // tree view should be used on mobile
+      }
+    </script>
+
+
+
+<div class="g-unit" id="doc-content">
+
+<div id="api-info-block">
+
+
+
+  
+   
+  
+  
+  
+  
+
+
+<div class="sum-details-links">
+
+
+Summary:
+
+
+
+
+
+  <a href="#constants">Constants</a>
+  
+
+
+
+
+
+
+
+  &#124; <a href="#pubmethods">Methods</a>
+  
+
+
+
+  &#124; <a href="#inhmethods">Inherited Methods</a>
+
+&#124; <a href="#" onclick="return toggleAllClassInherited()" id="toggleAllClassInherited">[Expand All]</a>
+
+</div><!-- end sum-details-links -->
+<div class="api-level">
+  
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_2.0">API Level KNOX_2.0</a>
+
+
+  
+  
+
+</div>
+</div><!-- end api-info-block -->
+
+
+<!-- ======== START OF CLASS DATA ======== -->
+
+<div id="jd-header">
+    public
+     
+     
+    
+    class
+<h1>AdvancedRestrictionPolicy</h1>
+
+
+
+  
+    extends <a href="http://developer.android.com/reference/java/lang/Object.html">Object</a><br/>
+  
+  
+  
+
+  
+  
+  
+
+
+</div><!-- end header -->
+
+<div id="naMessage"></div>
+
+<div id="jd-content" class="api apilevel-KNOX_2.0">
+<table class="jd-inheritance-table">
+
+
+    <tr>
+         	
+        <td colspan="2" class="jd-inheritance-class-cell"><a href="http://developer.android.com/reference/java/lang/Object.html">java.lang.Object</a></td>
+    </tr>
+    
+
+    <tr>
+        
+            <td class="jd-inheritance-space">&nbsp;&nbsp;&nbsp;&#x21b3;</td>
+         	
+        <td colspan="1" class="jd-inheritance-class-cell">com.sec.enterprise.knox.AdvancedRestrictionPolicy</td>
+    </tr>
+    
+
+</table>
+
+
+
+
+
+
+
+<div class="jd-descr">
+
+
+<h2>Class Overview</h2>
+<p>This class provides APIs to restrict advanced features.</p>
+
+      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.0
+</td>
+        </tr>
+      </table>
+  </div>
+
+
+
+</div><!-- jd-descr -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="jd-descr">
+
+
+<h2>Summary</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- =========== ENUM CONSTANT SUMMARY =========== -->
+<table id="constants" class="jd-sumtable"><tr><th colspan="12">Constants</th></tr>
+
+
+    
+    <tr class="alt-color api apilevel-KNOX_2.4" >
+        <td class="jd-typecol">int</td>
+        <td class="jd-linkcol"><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#CCMODE_STATE_DISABLED">CCMODE_STATE_DISABLED</a></td>
+        <td class="jd-descrcol" width="100%">This state is returned by <code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#getCCModeState()">getCCModeState()</a></code> API specifying
+ the device has failed to enable CC mode.</td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-KNOX_2.4" >
+        <td class="jd-typecol">int</td>
+        <td class="jd-linkcol"><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#CCMODE_STATE_ENABLED">CCMODE_STATE_ENABLED</a></td>
+        <td class="jd-descrcol" width="100%">This state is returned by <code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#getCCModeState()">getCCModeState()</a></code> API specifying
+ CC mode is enabled on device.</td>
+    </tr>
+    
+    
+    <tr class="alt-color api apilevel-KNOX_2.4" >
+        <td class="jd-typecol">int</td>
+        <td class="jd-linkcol"><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#CCMODE_STATE_ENFORCING">CCMODE_STATE_ENFORCING</a></td>
+        <td class="jd-descrcol" width="100%">This state is returned by <code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#getCCModeState()">getCCModeState()</a></code> API specifying
+ the device is enforced and wait for meeting all prerequisites.</td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-KNOX_2.4" >
+        <td class="jd-typecol">int</td>
+        <td class="jd-linkcol"><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#CCMODE_STATE_NONE">CCMODE_STATE_NONE</a></td>
+        <td class="jd-descrcol" width="100%">This state is returned by <code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#getCCModeState()">getCCModeState()</a></code> API specifying
+ the device needs factory reset for Ready State (<code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#CCMODE_STATE_READY">CCMODE_STATE_READY</a></code>).</td>
+    </tr>
+    
+    
+    <tr class="alt-color api apilevel-KNOX_2.4" >
+        <td class="jd-typecol">int</td>
+        <td class="jd-linkcol"><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#CCMODE_STATE_NOT_SUPPORTED">CCMODE_STATE_NOT_SUPPORTED</a></td>
+        <td class="jd-descrcol" width="100%">This state is returned by <code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#getCCModeState()">getCCModeState()</a></code> API specifying
+ the device doesn't support CC mode.</td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-KNOX_2.4" >
+        <td class="jd-typecol">int</td>
+        <td class="jd-linkcol"><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#CCMODE_STATE_READY">CCMODE_STATE_READY</a></td>
+        <td class="jd-descrcol" width="100%">This state is returned by <code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#getCCModeState()">getCCModeState()</a></code> API specifying
+ the device is ready to enable CC mode.</td>
+    </tr>
+    
+    
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+<table id="pubmethods" class="jd-sumtable"><tr><th colspan="12">Public Methods</th></tr>
+
+
+
+	 
+    <tr class="alt-color api apilevel-KNOX_2.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#addNewAdminActivationAppWhiteList(java.util.List<java.lang.String>)">addNewAdminActivationAppWhiteList</a></span>(<a href="http://developer.android.com/reference/java/util/List.html">List</a>&lt;<a href="http://developer.android.com/reference/java/lang/String.html">String</a>&gt; packageNames)</nobr>
+        
+        <div class="jd-descrdiv">API to add list of whitelisted applications that can be activated as an administrator.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-KNOX_2.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#allowFirmwareAutoUpdate(boolean)">allowFirmwareAutoUpdate</a></span>(boolean allow)</nobr>
+        
+        <div class="jd-descrdiv">API to enforce checking for Firmware Update automatically (Auto update) in the Device Settings.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-KNOX_2.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#clearNewAdminActivationAppWhiteList()">clearNewAdminActivationAppWhiteList</a></span>()</nobr>
+        
+        <div class="jd-descrdiv">API to clear list of whitelisted applications that can be activated as an administrator.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-KNOX_2.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#enableODETrustedBootVerification(boolean)">enableODETrustedBootVerification</a></span>(boolean enable)</nobr>
+        
+        <div class="jd-descrdiv">API to enable or disable ODE Trusted Boot verification.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-KNOX_2.4" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            int</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#getCCModeState()">getCCModeState</a></span>()</nobr>
+        
+        <div class="jd-descrdiv">API to check state for CC (Common Criteria) mode.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-KNOX_2.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            <a href="http://developer.android.com/reference/java/util/List.html">List</a>&lt;<a href="http://developer.android.com/reference/java/lang/String.html">String</a>&gt;</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#getNewAdminActivationAppWhiteList()">getNewAdminActivationAppWhiteList</a></span>()</nobr>
+        
+        <div class="jd-descrdiv">API to get list of whitelisted applications that can be activated as an administrator.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-KNOX_2.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#isCCModeEnabled(boolean)">isCCModeEnabled</a></span>(boolean showMsg)</nobr>
+        
+        <div class="jd-descrdiv">
+      <em>
+  This method is deprecated.
+      Use
+                        <code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#getCCModeState()">getCCModeState()</a></code>     </em></div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-KNOX_2.1" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#isCCModeSupported(boolean)">isCCModeSupported</a></span>(boolean showMsg)</nobr>
+        
+        <div class="jd-descrdiv">API to check whether CC (Common Criteria) mode is supported</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-KNOX_2.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#isFirmwareAutoUpdateAllowed(boolean)">isFirmwareAutoUpdateAllowed</a></span>(boolean showMsg)</nobr>
+        
+        <div class="jd-descrdiv">API to check whether or not option for checking Firmware Update automatically (Auto update) is enforced in Device Settings.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-KNOX_2.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#isNewAdminActivationEnabled(boolean)">isNewAdminActivationEnabled</a></span>(boolean showMsg)</nobr>
+        
+        <div class="jd-descrdiv">API to check whether new administrator activation is enabled.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-KNOX_2.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#isNewAdminInstallationEnabled(boolean)">isNewAdminInstallationEnabled</a></span>(boolean showMsg)</nobr>
+        
+        <div class="jd-descrdiv">API to check whether new administrator installation is enabled.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-KNOX_2.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#isODETrustedBootVerificationEnabled()">isODETrustedBootVerificationEnabled</a></span>()</nobr>
+        
+        <div class="jd-descrdiv">API to check whether ODE Trusted Boot verification is enabled or not.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-KNOX_2.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#preventNewAdminActivation(boolean)">preventNewAdminActivation</a></span>(boolean prevent)</nobr>
+        
+        <div class="jd-descrdiv">API to prevent activation of another administrator application.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-KNOX_2.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#preventNewAdminInstallation(boolean)">preventNewAdminInstallation</a></span>(boolean prevent)</nobr>
+        
+        <div class="jd-descrdiv">API to prevent installation of another administrator application.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-KNOX_2.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#setCCMode(boolean)">setCCMode</a></span>(boolean enable)</nobr>
+        
+        <div class="jd-descrdiv">API to enable or disable CC (Common Criteria) mode.</div>
+  
+  </td></tr>
+
+
+
+</table>
+
+
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+<table id="inhmethods" class="jd-sumtable"><tr><th>
+  <a href="#" class="toggle-all" onclick="return toggleAllInherited(this, null)">[Expand]</a>
+  <div style="clear:left;">Inherited Methods</div></th></tr>
+
+
+<tr class="api apilevel-" >
+<td colspan="12">
+  <a href="#" onclick="return toggleInherited(this, null)" id="inherited-methods-java.lang.Object" class="jd-expando-trigger closed"
+          ><img id="inherited-methods-java.lang.Object-trigger"
+          src="../../../../../assets/images/triangle-closed.png"
+          class="jd-expando-trigger-img" /></a>
+From class
+
+  <a href="http://developer.android.com/reference/java/lang/Object.html">java.lang.Object</a>
+
+<div id="inherited-methods-java.lang.Object">
+  <div id="inherited-methods-java.lang.Object-list"
+        class="jd-inheritedlinks">
+  </div>
+  <div id="inherited-methods-java.lang.Object-summary" style="display: none;">
+    <table class="jd-sumtable-expando">
+    
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            <a href="http://developer.android.com/reference/java/lang/Object.html">Object</a></nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">clone</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">equals</span>(<a href="http://developer.android.com/reference/java/lang/Object.html">Object</a> arg0)</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">finalize</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            <a href="http://developer.android.com/reference/java/lang/Class.html">Class</a>&lt;?&gt;</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">getClass</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            int</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">hashCode</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">notify</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">notifyAll</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            <a href="http://developer.android.com/reference/java/lang/String.html">String</a></nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">toString</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">wait</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">wait</span>(long arg0, int arg1)</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">wait</span>(long arg0)</nobr>
+        
+  </td></tr>
+
+
+</table>
+  </div>
+</div>
+</td></tr>
+
+
+</table>
+
+
+</div><!-- jd-descr (summary) -->
+
+<!-- Details -->
+
+
+
+
+
+
+
+
+<!-- XML Attributes -->
+
+
+<!-- Enum Values -->
+
+
+<!-- Constants -->
+
+
+<!-- ========= ENUM CONSTANTS DETAIL ======== -->
+<h2>Constants</h2>
+
+
+
+
+<A NAME="CCMODE_STATE_DISABLED"></A>
+
+<div class="jd-details api apilevel-KNOX_2.4"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        int
+      </span>
+        CCMODE_STATE_DISABLED
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_2.4">API Level KNOX_2.4</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>This state is returned by <code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#getCCModeState()">getCCModeState()</a></code> API specifying
+ the device has failed to enable CC mode. This Device blocked by Lockscreen and need factory-reset for restore.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.4
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                1
+                (0x00000001)
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="CCMODE_STATE_ENABLED"></A>
+
+<div class="jd-details api apilevel-KNOX_2.4"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        int
+      </span>
+        CCMODE_STATE_ENABLED
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_2.4">API Level KNOX_2.4</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>This state is returned by <code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#getCCModeState()">getCCModeState()</a></code> API specifying
+ CC mode is enabled on device.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.4
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                4
+                (0x00000004)
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="CCMODE_STATE_ENFORCING"></A>
+
+<div class="jd-details api apilevel-KNOX_2.4"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        int
+      </span>
+        CCMODE_STATE_ENFORCING
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_2.4">API Level KNOX_2.4</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>This state is returned by <code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#getCCModeState()">getCCModeState()</a></code> API specifying
+ the device is enforced and wait for meeting all prerequisites. (<code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#setCCMode(boolean)">setCCMode(boolean)</a></code>). </p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.4
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                3
+                (0x00000003)
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="CCMODE_STATE_NONE"></A>
+
+<div class="jd-details api apilevel-KNOX_2.4"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        int
+      </span>
+        CCMODE_STATE_NONE
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_2.4">API Level KNOX_2.4</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>This state is returned by <code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#getCCModeState()">getCCModeState()</a></code> API specifying
+ the device needs factory reset for Ready State (<code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#CCMODE_STATE_READY">CCMODE_STATE_READY</a></code>). </p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.4
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                0
+                (0x00000000)
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="CCMODE_STATE_NOT_SUPPORTED"></A>
+
+<div class="jd-details api apilevel-KNOX_2.4"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        int
+      </span>
+        CCMODE_STATE_NOT_SUPPORTED
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_2.4">API Level KNOX_2.4</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>This state is returned by <code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#getCCModeState()">getCCModeState()</a></code> API specifying
+ the device doesn't support CC mode. </p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.4
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                -1
+                (0xffffffff)
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="CCMODE_STATE_READY"></A>
+
+<div class="jd-details api apilevel-KNOX_2.4"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        int
+      </span>
+        CCMODE_STATE_READY
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_2.4">API Level KNOX_2.4</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>This state is returned by <code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#getCCModeState()">getCCModeState()</a></code> API specifying
+ the device is ready to enable CC mode. (<code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#setCCMode(boolean)">setCCMode(boolean)</a></code>) </p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.4
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                2
+                (0x00000002)
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+
+<!-- Fields -->
+
+
+<!-- Public ctors -->
+
+
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<!-- Protected ctors -->
+
+
+
+<!-- ========= METHOD DETAIL ======== -->
+<!-- Public methdos -->
+
+<h2>Public Methods</h2>
+
+
+
+<A NAME="addNewAdminActivationAppWhiteList(java.util.List<java.lang.String>)"></A>
+
+<div class="jd-details api apilevel-KNOX_2.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        boolean
+      </span>
+      <span class="sympad">addNewAdminActivationAppWhiteList</span>
+      <span class="normal">(<a href="http://developer.android.com/reference/java/util/List.html">List</a>&lt;<a href="http://developer.android.com/reference/java/lang/String.html">String</a>&gt; packageNames)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_2.0">API Level KNOX_2.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>API to add list of whitelisted applications that can be activated as an administrator.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>true if whitelisted administrator activated applications is added, false if not added</li></ul>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>An administrator can use this API to add list of whitelisted applications that
+        are allowed to be activated as an administrator.
+        <p> </td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle"> </h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><pre>
+ EnterpriseKnoxManager ekm = EnterpriseKnoxManager.getInstance();
+ 
+ try {
+     List packageList = new ArrayList();
+     packageList.add("com.android.email");
+
+     if (ekm.getAdvancedRestrictionPolicy().addNewAdminActivationAppWhiteList(packageList)) {
+         Log.w(TAG, &quot; Add new administrator activation whitelist allowed&quot;);
+     } else {
+         Log.w(TAG, &quot;Failed to set the policy.&quot;);
+     }
+ } catch (SecurityException e) {
+     Log.w(TAG, &quot;Exception&quot; + e);
+ }
+ </pre></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">For Container:</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><pre>
+ // When you create container successfully, <i>containerID</i> will be returned via intent.
+ // Use this <i>containerID</i> in below API.
+ EnterpriseKnoxManager ekm = EnterpriseKnoxManager.getInstance();
+ KnoxContainerManager kmcm = ekm.getKnoxContainerManager(mContext, <i>containerID</i>);
+ AdvancedRestrictionPolicy advancedRestrictionPolicy = kmcm.getAdvancedRestrictionPolicy();
+ try {
+     List packageList = new ArrayList();
+     packageList.add("com.android.email");
+     if (advancedRestrictionPolicy.addNewAdminActivationAppWhiteList(packageList)) {
+         Log.w(TAG, &quot; Add administrator activation whitelist allowed&quot;);
+     } else {
+         Log.w(TAG, &quot;Failed to set the policy.&quot;);
+     }
+ } catch (SecurityException e) {
+     Log.w(TAG, &quot;Exception&quot; + e);
+ }
+ </pre>     </td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "com.sec.enterprise.knox.permission.KNOX_RESTRICTION" permission with a protection level of
+             signature.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Multiuser Environment</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><a href="../../../../../multiuser/multiuser.html">User Scope</a>
+</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">See Also</h5>
+      <ul class="nolist"><li><code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#preventNewAdminActivation(boolean)">preventNewAdminActivation(boolean)</a></code></li><li><code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#clearNewAdminActivationAppWhiteList()">clearNewAdminActivationAppWhiteList()</a></code></li><li><code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#getNewAdminActivationAppWhiteList()">getNewAdminActivationAppWhiteList()</a></code></li>
+      </ul>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="allowFirmwareAutoUpdate(boolean)"></A>
+
+<div class="jd-details api apilevel-KNOX_2.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        boolean
+      </span>
+      <span class="sympad">allowFirmwareAutoUpdate</span>
+      <span class="normal">(boolean allow)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_2.0">API Level KNOX_2.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>API to enforce checking for Firmware Update automatically (Auto update) in the Device Settings.
+ <p></p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>allow</td>
+          <td><code>true</code> to enforce checking for auto updates automatically, <code>false</code> to disallow.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li><code>true</code> if operation is successful, else <code>false</code>.</li></ul>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Throws</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/SecurityException.html">SecurityException</a></td>
+            <td>If caller does not have required permissions</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>An administrator can use this API to enforce checking for Firmware Update automatically option in the device Settings.
+        <p>
+ 
+ <pre>
+ EnterpriseKnoxManager ekm = EnterpriseKnoxManager.getInstance();
+ try {
+     boolean allow = false; // disallow firmware auto update
+     if (ekm.getAdvancedRestrictionPolicy().allowFirmwareAutoUpdate(allow)) {
+         Log.w(TAG, &quot;firmware auto update not allowed&quot;);
+     } else {
+         Log.w(TAG, &quot;Failed to set the policy.&quot;);
+     }
+ } catch (SecurityException e) {
+     Log.w(TAG, &quot;Exception&quot; + e);
+ }
+ </pre>
+        <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "com.sec.enterprise.knox.permission.KNOX_RESTRICTION" permission with a protection level of
+             signature.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Multiuser Environment</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><a href="../../../../../multiuser/multiuser.html">Global Scope</a>
+</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="clearNewAdminActivationAppWhiteList()"></A>
+
+<div class="jd-details api apilevel-KNOX_2.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        boolean
+      </span>
+      <span class="sympad">clearNewAdminActivationAppWhiteList</span>
+      <span class="normal">()</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_2.0">API Level KNOX_2.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>API to clear list of whitelisted applications that can be activated as an administrator.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>true if whitelisted administrator activated applications is cleared, false if not cleared</li></ul>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>An administrator can use this API to clear the list of whitelisted applications that
+        are allowed to be activated as an administrator.
+        <p> </td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle"> </h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><pre>
+ EnterpriseKnoxManager ekm = EnterpriseKnoxManager.getInstance();
+ 
+ try {
+     
+     if (ekm.getAdvancedRestrictionPolicy().clearNewAdminActivationAppWhiteList()) {
+         Log.w(TAG, &quot; Clear new administrator activation whitelist allowed&quot;);
+     } else {
+         Log.w(TAG, &quot;Failed to set the policy.&quot;);
+     }
+ } catch (SecurityException e) {
+     Log.w(TAG, &quot;Exception&quot; + e);
+ }
+ </pre></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">For Container:</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><pre>
+ // When you create container successfully, <i>containerID</i> will be returned via intent.
+ // Use this <i>containerID</i> in below API.
+ EnterpriseKnoxManager ekm = EnterpriseKnoxManager.getInstance();
+ KnoxContainerManager kmcm = ekm.getKnoxContainerManager(mContext, <i>containerID</i>);
+ AdvancedRestrictionPolicy advancedRestrictionPolicy = kmcm.getAdvancedRestrictionPolicy();
+ try {
+     boolean prevent = true;
+     if (advancedRestrictionPolicy.clearNewAdminActivationAppWhiteList()) {
+         Log.w(TAG, &quot; Clear administrator activation whitelist allowed&quot;);
+     } else {
+         Log.w(TAG, &quot;Failed to set the policy.&quot;);
+     }
+ } catch (SecurityException e) {
+     Log.w(TAG, &quot;Exception&quot; + e);
+ }
+ </pre>     </td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "com.sec.enterprise.knox.permission.KNOX_RESTRICTION" permission with a protection level of
+             signature.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Multiuser Environment</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><a href="../../../../../multiuser/multiuser.html">User Scope</a>
+</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">See Also</h5>
+      <ul class="nolist"><li><code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#preventNewAdminActivation(boolean)">preventNewAdminActivation(boolean)</a></code></li><li><code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#addNewAdminActivationAppWhiteList(java.util.List<java.lang.String>)">addNewAdminActivationAppWhiteList(List)</a></code></li><li><code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#getNewAdminActivationAppWhiteList()">getNewAdminActivationAppWhiteList()</a></code></li>
+      </ul>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="enableODETrustedBootVerification(boolean)"></A>
+
+<div class="jd-details api apilevel-KNOX_2.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        boolean
+      </span>
+      <span class="sympad">enableODETrustedBootVerification</span>
+      <span class="normal">(boolean enable)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_2.0">API Level KNOX_2.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>API to enable or disable ODE Trusted Boot verification.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>enable</td>
+          <td><code>true</code> to enable, <code>false</code> to disable.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li><code>true</code> if operation is successful, else <code>false</code>.</li></ul>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>When enabled, device decrypts the data partition only when the binary and kernel is official.
+        <p>
+ 
+ <pre>
+ EnterpriseKnoxManager ekm = EnterpriseKnoxManager.getInstance();
+ try {
+     boolean enable = false;
+     if (ekm.getAdvancedRestrictionPolicy().enableODETrustedBootVerification(enable)) {
+         Log.w(TAG, &quot; Enable ODE Trusted Boot verification not allowed&quot;);
+     } else {
+         Log.w(TAG, &quot;Failed to set the policy.&quot;);
+     }
+ } catch (SecurityException e) {
+     Log.w(TAG, &quot;Exception&quot; + e);
+ }
+ </pre>
+        <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "com.sec.enterprise.knox.permission.KNOX_RESTRICTION" permission with a protection level of
+             signature.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Multiuser Environment</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><a href="../../../../../multiuser/multiuser.html">Global Scope</a></td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">See Also</h5>
+      <ul class="nolist"><li><code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#isODETrustedBootVerificationEnabled()">isODETrustedBootVerificationEnabled()</a></code></li>
+      </ul>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="getCCModeState()"></A>
+
+<div class="jd-details api apilevel-KNOX_2.4"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        int
+      </span>
+      <span class="sympad">getCCModeState</span>
+      <span class="normal">()</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_2.4">API Level KNOX_2.4</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>API to check state for CC (Common Criteria) mode.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>CC mode state.<br>
+ <p>
+ <code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#CCMODE_STATE_NOT_SUPPORTED">CCMODE_STATE_NOT_SUPPORTED</a></code><br>
+ <code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#CCMODE_STATE_NONE">CCMODE_STATE_NONE</a></code><br>
+ <code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#CCMODE_STATE_DISABLED">CCMODE_STATE_DISABLED</a></code><br>
+ <code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#CCMODE_STATE_READY">CCMODE_STATE_READY</a></code><br>
+ <code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#CCMODE_STATE_ENFORCING">CCMODE_STATE_ENFORCING</a></code><br>
+ <code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#CCMODE_STATE_ENABLED">CCMODE_STATE_ENABLED</a></code><br></li></ul>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.4</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Multiuser Environment</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><a href="../../../../../multiuser/multiuser.html">Global Scope</a>
+</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">See Also</h5>
+      <ul class="nolist"><li><code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#isCCModeSupported(boolean)">isCCModeSupported(boolean)</a></code></li><li><code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#setCCMode(boolean)">setCCMode(boolean)</a></code></li>
+      </ul>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="getNewAdminActivationAppWhiteList()"></A>
+
+<div class="jd-details api apilevel-KNOX_2.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="http://developer.android.com/reference/java/util/List.html">List</a>&lt;<a href="http://developer.android.com/reference/java/lang/String.html">String</a>&gt;
+      </span>
+      <span class="sympad">getNewAdminActivationAppWhiteList</span>
+      <span class="normal">()</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_2.0">API Level KNOX_2.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>API to get list of whitelisted applications that can be activated as an administrator.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>list of whitelisted applications</li></ul>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>An administrator can use this API to get current list of whitelisted applications that
+        are allowed to be activated as an administrator.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "com.sec.enterprise.knox.permission.KNOX_RESTRICTION" permission with a protection level of
+             signature.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Multiuser Environment</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><a href="../../../../../multiuser/multiuser.html">User Scope</a>
+</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">See Also</h5>
+      <ul class="nolist"><li><code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#preventNewAdminActivation(boolean)">preventNewAdminActivation(boolean)</a></code></li><li><code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#clearNewAdminActivationAppWhiteList()">clearNewAdminActivationAppWhiteList()</a></code></li><li><code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#getNewAdminActivationAppWhiteList()">getNewAdminActivationAppWhiteList()</a></code></li>
+      </ul>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="isCCModeEnabled(boolean)"></A>
+
+<div class="jd-details api apilevel-KNOX_2.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        boolean
+      </span>
+      <span class="sympad">isCCModeEnabled</span>
+      <span class="normal">(boolean showMsg)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_2.0">API Level KNOX_2.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> Use
+                        <code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#getCCModeState()">getCCModeState()</a></code>     
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>API to check whether CC (Common Criteria) mode is enabled.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li><code>true</code> if CC (Commond Criteria) mode is enabled, <code>false</code>
+      if disabled.</li></ul>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.4</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Multiuser Environment</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><a href="../../../../../multiuser/multiuser.html">Global Scope</a></td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">See Also</h5>
+      <ul class="nolist"><li><code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#isCCModeSupported(boolean)">isCCModeSupported(boolean)</a></code></li><li><code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#setCCMode(boolean)">setCCMode(boolean)</a></code></li>
+      </ul>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="isCCModeSupported(boolean)"></A>
+
+<div class="jd-details api apilevel-KNOX_2.1"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        boolean
+      </span>
+      <span class="sympad">isCCModeSupported</span>
+      <span class="normal">(boolean showMsg)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_2.1">API Level KNOX_2.1</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>API to check whether CC (Common Criteria) mode is supported</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li><code>true</code> if the device contains security software which is satisfied with the mandatory requirements of MDFPP(Mobile Device Fundamentals Protection Profile), <code>false</code>
+      if doesn't contain.</li></ul>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.1</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Multiuser Environment</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><a href="../../../../../multiuser/multiuser.html">Global Scope</a></td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">See Also</h5>
+      <ul class="nolist"><li><code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#setCCMode(boolean)">setCCMode(boolean)</a></code></li><li><code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#isCCModeEnabled(boolean)">isCCModeEnabled(boolean)</a></code></li><li><code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#getCCModeState()">getCCModeState()</a></code></li>
+      </ul>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="isFirmwareAutoUpdateAllowed(boolean)"></A>
+
+<div class="jd-details api apilevel-KNOX_2.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        boolean
+      </span>
+      <span class="sympad">isFirmwareAutoUpdateAllowed</span>
+      <span class="normal">(boolean showMsg)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_2.0">API Level KNOX_2.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>API to check whether or not option for checking Firmware Update automatically (Auto update) is enforced in Device Settings.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li><code>true</code> if firmware is allowed to auto update, <code>false</code>
+      if disallowed.</li></ul>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>An administrator can use this API to check whether checking for Firmware Update automatically
+        is enforced or not.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Multiuser Environment</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><a href="../../../../../multiuser/multiuser.html">Global Scope</a></td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">See Also</h5>
+      <ul class="nolist"><li><code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#allowFirmwareAutoUpdate(boolean)">allowFirmwareAutoUpdate(boolean)</a></code></li>
+      </ul>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="isNewAdminActivationEnabled(boolean)"></A>
+
+<div class="jd-details api apilevel-KNOX_2.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        boolean
+      </span>
+      <span class="sympad">isNewAdminActivationEnabled</span>
+      <span class="normal">(boolean showMsg)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_2.0">API Level KNOX_2.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>API to check whether new administrator activation is enabled.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>showMsg</td>
+          <td>Flag to show a warning toast when new administrator activation is disabled</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>true if administrator activation is enabled, false if administrator activation is disabled</li></ul>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>An administrator can use this API to check if a new administrator can be activated
+        or not.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Multiuser Environment</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><a href="../../../../../multiuser/multiuser.html">User Scope</a>
+</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">See Also</h5>
+      <ul class="nolist"><li><code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#preventNewAdminActivation(boolean)">preventNewAdminActivation(boolean)</a></code></li>
+      </ul>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="isNewAdminInstallationEnabled(boolean)"></A>
+
+<div class="jd-details api apilevel-KNOX_2.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        boolean
+      </span>
+      <span class="sympad">isNewAdminInstallationEnabled</span>
+      <span class="normal">(boolean showMsg)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_2.0">API Level KNOX_2.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>API to check whether new administrator installation is enabled.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>showMsg</td>
+          <td>Flag to show a warning toast when new administrator installation is disabled</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>true if administrator installation is enabled, false if administrator installation is disabled</li></ul>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>An administrator can use this API to check if a new administrator can be installed
+        or not.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Multiuser Environment</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><a href="../../../../../multiuser/multiuser.html">User Scope</a>
+</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">See Also</h5>
+      <ul class="nolist"><li><code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#preventNewAdminInstallation(boolean)">preventNewAdminInstallation(boolean)</a></code></li>
+      </ul>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="isODETrustedBootVerificationEnabled()"></A>
+
+<div class="jd-details api apilevel-KNOX_2.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        boolean
+      </span>
+      <span class="sympad">isODETrustedBootVerificationEnabled</span>
+      <span class="normal">()</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_2.0">API Level KNOX_2.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>API to check whether ODE Trusted Boot verification is enabled or not.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li><code>true</code> if ODE Trusted Boot verification is enabled, <code>false</code>
+      if disabled.</li></ul>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "com.sec.enterprise.knox.permission.KNOX_RESTRICTION" permission with a protection level of
+             signature.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Multiuser Environment</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><a href="../../../../../multiuser/multiuser.html">Global Scope</a></td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">See Also</h5>
+      <ul class="nolist"><li><code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#enableODETrustedBootVerification(boolean)">enableODETrustedBootVerification(boolean)</a></code></li>
+      </ul>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="preventNewAdminActivation(boolean)"></A>
+
+<div class="jd-details api apilevel-KNOX_2.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        boolean
+      </span>
+      <span class="sympad">preventNewAdminActivation</span>
+      <span class="normal">(boolean prevent)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_2.0">API Level KNOX_2.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>API to prevent activation of another administrator application.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>prevent</td>
+          <td><code>true</code> to prevent administrator activation, <code>false</code> to allow administrator activation.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li><code>true</code> if operation is successful, else <code>false</code>.</li></ul>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Throws</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/SecurityException.html">SecurityException</a></td>
+            <td>If caller does not have required permissions</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>An administrator can prevent activation of another administrator application unless the application is part of
+        the whitelisted applications. This policy can only be applied if there are no other 
+        administrators activated (with the exception of UMC administrator).
+        <p> </td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle"> </h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><pre>
+ EnterpriseKnoxManager ekm = EnterpriseKnoxManager.getInstance();
+ 
+ try {
+     boolean prevent = true;
+     if (ekm.getAdvancedRestrictionPolicy().preventNewAdminActivation(prevent)) {
+         Log.w(TAG, &quot; Prevent new administrator activation allowed&quot;);
+     } else {
+         Log.w(TAG, &quot;Failed to set the policy.&quot;);
+     }
+ } catch (SecurityException e) {
+     Log.w(TAG, &quot;Exception&quot; + e);
+ }
+ </pre></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">For Container:</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><pre>
+ // When you create container successfully, <i>containerID</i> will be returned via intent.
+ // Use this <i>containerID</i> in below API.
+ EnterpriseKnoxManager ekm = EnterpriseKnoxManager.getInstance();
+ KnoxContainerManager kmcm = ekm.getKnoxContainerManager(mContext, <i>containerID</i>);
+ AdvancedRestrictionPolicy advancedRestrictionPolicy = kmcm.getAdvancedRestrictionPolicy();
+ try {
+     boolean prevent = true;
+     if (advancedRestrictionPolicy.preventNewAdminActivation(prevent)) {
+         Log.w(TAG, &quot; Prevent new administrator activation allowed&quot;);
+     } else {
+         Log.w(TAG, &quot;Failed to set the policy.&quot;);
+     }
+ } catch (SecurityException e) {
+     Log.w(TAG, &quot;Exception&quot; + e);
+ }
+ </pre>     </td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "com.sec.enterprise.knox.permission.KNOX_RESTRICTION" permission with a protection level of
+             signature.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Multiuser Environment</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><a href="../../../../../multiuser/multiuser.html">User Scope</a>
+</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">See Also</h5>
+      <ul class="nolist"><li><code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#clearNewAdminActivationAppWhiteList()">clearNewAdminActivationAppWhiteList()</a></code></li><li><code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#addNewAdminActivationAppWhiteList(java.util.List<java.lang.String>)">addNewAdminActivationAppWhiteList(List)</a></code></li><li><code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#getNewAdminActivationAppWhiteList()">getNewAdminActivationAppWhiteList()</a></code></li>
+      </ul>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="preventNewAdminInstallation(boolean)"></A>
+
+<div class="jd-details api apilevel-KNOX_2.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        boolean
+      </span>
+      <span class="sympad">preventNewAdminInstallation</span>
+      <span class="normal">(boolean prevent)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_2.0">API Level KNOX_2.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>API to prevent installation of another administrator application.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>prevent</td>
+          <td><code>true</code> to prevent administrator installation, <code>false</code> to allow administrator installation.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li><code>true</code> if operation is successful, else <code>false</code>.</li></ul>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Throws</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/SecurityException.html">SecurityException</a></td>
+            <td>If caller does not have required permissions</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>An administrator can prevent installation of another administrator application from all sources
+        unless the application installation is done by the administrator enforcing this policy. This policy can only
+        be applied if there are no other administrators activated (with the exception of UMC administrator).
+        <p> </td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle"> </h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><pre>
+ EnterpriseKnoxManager ekm = EnterpriseKnoxManager.getInstance();
+ 
+ try {
+     boolean prevent = true;
+     if (ekm.getAdvancedRestrictionPolicy().preventNewAdminInstallation(prevent)) {
+         Log.w(TAG, &quot; Prevent new administrator installation allowed&quot;);
+     } else {
+         Log.w(TAG, &quot;Failed to set the policy.&quot;);
+     }
+ } catch (SecurityException e) {
+     Log.w(TAG, &quot;Exception&quot; + e);
+ }
+ </pre></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">For Container:</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><pre>
+ // When you create container successfully, <i>containerID</i> will be returned via intent.
+ // Use this <i>containerID</i> in below API.
+ EnterpriseKnoxManager ekm = EnterpriseKnoxManager.getInstance();
+ KnoxContainerManager kmcm = ekm.getKnoxContainerManager(mContext, <i>containerID</i>);
+ AdvancedRestrictionPolicy advancedRestrictionPolicy = kmcm.getAdvancedRestrictionPolicy();
+ try {
+     boolean prevent = true;
+     if (advancedRestrictionPolicy.preventNewAdminInstallation(prevent)) {
+         Log.w(TAG, &quot; Prevent new administrator installation allowed&quot;);
+     } else {
+         Log.w(TAG, &quot;Failed to set the policy.&quot;);
+     }
+ } catch (SecurityException e) {
+     Log.w(TAG, &quot;Exception&quot; + e);
+ }
+ </pre>     </td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "com.sec.enterprise.knox.permission.KNOX_RESTRICTION" permission with a protection level of
+             signature.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Multiuser Environment</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><a href="../../../../../multiuser/multiuser.html">User Scope</a>
+</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="setCCMode(boolean)"></A>
+
+<div class="jd-details api apilevel-KNOX_2.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        boolean
+      </span>
+      <span class="sympad">setCCMode</span>
+      <span class="normal">(boolean enable)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_2.0">API Level KNOX_2.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>API to enable or disable CC (Common Criteria) mode.
+ <p></p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>enable</td>
+          <td><code>true</code> to enable, <code>false</code> to disable.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li><code>true</code> if operation is successful, else <code>false</code>.</li></ul>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Throws</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/SecurityException.html">SecurityException</a></td>
+            <td>If caller does not have required permissions</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>An administrator can enable the device to be placed into the Common Criteria configuration. 
+ When enabled, bootloader will block KIES download mode, enforce to check integrity of kernel, and self-test crypto modules. 
+ In addition, device will verify additional signature on FOTA update using RSA-PSS signature and enforce to use FIPS 140-2 validated crypto module for EAP-TLS Wi-Fi connection. 
+ <br>To fully enable Common Criteria-evaluated configuration, below prerequisites should be satisfied :<br>
+ 1) Enable Device Encryption : Administrator must enable device encryption by using API  <b>android.app.enterprise.SecurityPolicy.setRequireDeviceEncryption(ComponentName, boolean)</b>. Before calling device encryption API, Administrator needs to disable fast encryption using android.app.enterprise.RestrictionPolicy.allowFastEncryption(boolean).<br> 
+ 2) Enable SD Card Encryption : Administrator must enable external storage encryption by using API <b>android.app.enterprise.SecurityPolicy.setRequireStorageCardEncryption(ComponentName, boolean)</b><br>
+ 3) Set maximum Password Attempts before Wipe : Administrator must set maximum failed password attempts for wipe by using API <a href="http://developer.android.com/reference/android/app/admin/DevicePolicyManager.html#setMaximumFailedPasswordsForWipe(android.content.ComponentName, int)">DevicePolicyManager.setMaximumFailedPasswordsForWipe(ComponentName, int)</a><br> 
+ 4) Enable Certificate Revocation (Since KNOX 2.2) : Administrator must enable certificate revocation by using API <code><a href="../../../../com/sec/enterprise/knox/certificate/CertificatePolicy.html#enableRevocationCheck(java.lang.String, boolean)">enableRevocationCheck(String, boolean)</a></code><br>
+ 5) Disable Password History (Since KNOX 2.2) : Administrator must disable password history by using API <code><a href="../../../../android/app/enterprise/PasswordPolicy.html#setPasswordHistory(android.content.ComponentName, int)">setPasswordHistory(ComponentName, int)</a></code><br> 
+ <br><b>Note:</b>
+ <p> Before applying CC policy, the CC mode state will be "Ready". Once policy is applied, the state will change to "Enforced" until device meets all the prerequisites. <br>
+ If device meets all prerequisites, CC mode will be enabled after rebooting and state will change to "Enabled".<br>
+ If the device is tampered or FIPs self-test is failed, the state will change to "Disabled". <br>
+ As enabling CC mode works asynchronously, return value of <code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#setCCMode(boolean)">setCCMode(boolean)</a></code> doesn't mean if CC mode is properly set or not.<br>
+ To check the status of CCMode, use <code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#getCCModeState()">getCCModeState()</a></code>.<br>
+ <br>
+ <pre>
+ EnterpriseKnoxManager ekm = EnterpriseKnoxManager.getInstance();
+ try {
+     boolean enable = false;
+     ekm.getAdvancedRestrictionPolicy().setCCMode(enable);
+     Log.w(TAG, &quot;Set CCMode is called.&quot;);
+ } catch (SecurityException e) {
+     Log.w(TAG, &quot;Exception&quot; + e);
+ }
+ </pre>
+        <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "com.sec.enterprise.knox.permission.KNOX_RESTRICTION" permission with a protection level of
+             signature.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Multiuser Environment</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><a href="../../../../../multiuser/multiuser.html">Global Scope</a></td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">See Also</h5>
+      <ul class="nolist"><li>android.app.enterprise.RestrictionPolicy.isFastEncryptionAllowed(boolean)</li><li><code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#isCCModeEnabled(boolean)">isCCModeEnabled(boolean)</a></code></li><li><code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#isCCModeSupported(boolean)">isCCModeSupported(boolean)</a></code></li><li><code><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html#getCCModeState()">getCCModeState()</a></code></li>
+      </ul>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+
+
+
+<!-- ========= METHOD DETAIL ======== -->
+
+
+
+<!-- ========= END OF CLASS DATA ========= -->
+<A NAME="navbar_top"></A>
+
+<div id="footer">
+<a href="http://www.samsung.com">Samsung Electronics</a>.<br/>SDK Knox_2.9 - August 28 2017
+</div> <!-- end footer -->
+
+</div> <!-- jd-content -->
+
+</div><!-- end doc-content -->
+
+</div> <!-- end body-content --> 
+
+<script type="text/javascript">
+init(); /* initialize doclava-developer-docs.js */
+</script>
+
+</body>
+</html>

@@ -1,0 +1,1384 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+  <meta name="description" content="Javadoc API documentation for Knox Standard SDK." />
+
+<link rel="shortcut icon" type="image/x-icon" href="../../../favicon.ico" />
+<title>
+
+  SimChangeInfo
+
+
+| Knox Standard SDK
+
+</title>
+<link href="../../../../assets/doclava-developer-docs.css" rel="stylesheet" type="text/css" />
+<link href="../../../../assets/customizations.css" rel="stylesheet" type="text/css" />
+<script src="../../../../assets/search_autocomplete.js" type="text/javascript"></script>
+<script src="../../../../assets/jquery-resizable.min.js" type="text/javascript"></script>
+<script src="../../../../assets/doclava-developer-docs.js" type="text/javascript"></script>
+<script src="../../../../assets/prettify.js" type="text/javascript"></script>
+<script type="text/javascript">
+  setToRoot("../../../", "../../../../assets/");
+</script>
+<script src="../../../../assets/doclava-developer-reference.js" type="text/javascript"></script>
+<script src="../../../../assets/navtree_data.js" type="text/javascript"></script>
+<script src="../../../../assets/customizations.js" type="text/javascript"></script>
+<noscript>
+  <style type="text/css">
+    html,body{overflow:auto;}
+    #body-content{position:relative; top:0;}
+    #doc-content{overflow:visible;border-left:3px solid #666;}
+    #side-nav{padding:0;}
+    #side-nav .toggle-list ul {display:block;}
+    #resize-packages-nav{border-bottom:3px solid #666;}
+  </style>
+</noscript>
+</head>
+
+<body class="MDM_2.0">
+
+<div id="header">
+    <div id="headerLeft">
+    <a href="http://www.samsung.com">
+    <img src="../../../../assets/images/samsung.jpg" alt="Samsung Electronics" width="80" height="48"/></a>
+    
+      <h1 id="masthead-title">Knox Standard SDK</h1>
+    
+    </div>
+    <div id="headerRight">
+      
+  <div id="search" >
+      <div id="searchForm">
+          <form accept-charset="utf-8" class="gsc-search-box" 
+                onsubmit="return submit_search()">
+            <table class="gsc-search-box" cellpadding="0" cellspacing="0"><tbody>
+                <tr>
+                  <td class="gsc-input">
+                    <input id="search_autocomplete" class="gsc-input" type="text" size="33" autocomplete="off"
+                      title="search developer docs" name="q"
+                      value="search developer docs"
+                      onFocus="search_focus_changed(this, true)"
+                      onBlur="search_focus_changed(this, false)"
+                      onkeydown="return search_changed(event, true, '../../../')"
+                      onkeyup="return search_changed(event, false, '../../../')" />
+                  <div id="search_filtered_div" class="no-display">
+                      <table id="search_filtered" cellspacing=0>
+                      </table>
+                  </div>
+                  </td>
+                  <td class="gsc-search-button">
+                    <input type="submit" value="Search" title="search" id="search-button" class="gsc-search-button" />
+                  </td>
+                  <td class="gsc-clear-button">
+                    <div title="clear results" class="gsc-clear-button">&nbsp;</div>
+                  </td>
+                </tr></tbody>
+              </table>
+          </form>
+      </div><!-- searchForm -->
+  </div><!-- search -->
+      
+        
+  <div id="api-level-toggle">
+    <input type="checkbox" id="apiLevelCheckbox" onclick="toggleApiLevelSelector(this)" />
+    <label for="apiLevelCheckbox" class="disabled">Filter by API Level: </label>
+    <select id="apiLevelSelector">
+      <!-- option elements added by buildApiLevelSelector() -->
+    </select>
+  </div>
+  <script>
+   var SINCE_DATA = [ 'MDM_1.0', 'MDM_2.0', 'MDM_2.1', 'MDM_2.2', 'MDM_3.0', 'MDM_4.0', 'MDM_4.0.1', 'MDM_4.1', 'MDM_5.0', 'MDM_5.1', 'MDM_5.2', 'MDM_5.3', 'MDM_5.4', 'MDM_5.4.1', 'MDM_5.5', 'MDM_5.6', 'MDM_5.7', 'MDM_5.7.1', 'MDM_5.8', 'MDM_5.9' ];
+    
+    var SINCE_LABELS = [ 'MDM_1.0', 'MDM_2.0', 'MDM_2.1', 'MDM_2.2', 'MDM_3.0', 'MDM_4.0', 'MDM_4.0.1', 'MDM_4.1', 'MDM_5.0', 'MDM_5.1', 'MDM_5.2', 'MDM_5.3', 'MDM_5.4', 'MDM_5.4.1', 'MDM_5.5', 'MDM_5.6', 'MDM_5.7', 'MDM_5.7.1', 'MDM_5.8', 'MDM_5.9' ];
+    buildApiLevelSelector();
+    addLoadEvent(changeApiLevel);
+  </script>
+
+
+      
+    </div>
+</div><!-- header -->
+
+
+  <div class="g-section g-tpl-240" id="body-content">
+    <div class="g-unit g-first side-nav-resizable" id="side-nav">
+      <div id="swapper">
+        <div id="nav-panels">
+          <div id="resize-packages-nav">
+            <div id="packages-nav">
+              <div id="index-links"><nobr>
+                <a href="../../../packages.html"  >Package Index</a> | 
+                <a href="../../../classes.html" >Class Index</a></nobr>
+              </div>
+              <ul>
+                
+    <li class="selected api apilevel-MDM_1.0">
+  <a href="../../../android/app/enterprise/package-summary.html">android.app.enterprise</a></li>
+    <li class="api apilevel-MDM_5.0">
+  <a href="../../../android/app/enterprise/devicesettings/package-summary.html">android.app.enterprise.devicesettings</a></li>
+    <li class="api apilevel-MDM_4.0">
+  <a href="../../../android/app/enterprise/geofencing/package-summary.html">android.app.enterprise.geofencing</a></li>
+    <li class="api apilevel-MDM_3.0">
+  <a href="../../../android/app/enterprise/kioskmode/package-summary.html">android.app.enterprise.kioskmode</a></li>
+    <li class="api apilevel-MDM_4.0">
+  <a href="../../../android/app/enterprise/license/package-summary.html">android.app.enterprise.license</a></li>
+    <li class="api apilevel-MDM_4.0">
+  <a href="../../../android/app/enterprise/lso/package-summary.html">android.app.enterprise.lso</a></li>
+    <li class="api apilevel-MDM_4.0">
+  <a href="../../../android/app/enterprise/multiuser/package-summary.html">android.app.enterprise.multiuser</a></li>
+    <li class="api apilevel-MDM_2.1">
+  <a href="../../../android/app/enterprise/remotecontrol/package-summary.html">android.app.enterprise.remotecontrol</a></li>
+    <li class="api apilevel-MDM_5.2">
+  <a href="../../../android/app/enterprise/sso/package-summary.html">android.app.enterprise.sso</a></li>
+    <li class="api apilevel-MDM_5.5">
+  <a href="../../../com/sec/enterprise/package-summary.html">com.sec.enterprise</a></li>
+    <li class="api apilevel-MDM_5.5">
+  <a href="../../../com/sec/enterprise/firewall/package-summary.html">com.sec.enterprise.firewall</a></li>
+    <li class="api apilevel-MDM_5.4">
+  <a href="../../../com/sec/enterprise/identity/package-summary.html">com.sec.enterprise.identity</a></li>
+    <li class="api apilevel-MDM_5.7">
+  <a href="../../../com/sec/enterprise/network/package-summary.html">com.sec.enterprise.network</a></li>
+    <li class="api apilevel-MDM_5.6">
+  <a href="../../../com/sec/enterprise/spd/package-summary.html">com.sec.enterprise.spd</a></li>
+              </ul><br/>
+            </div> <!-- end packages -->
+          </div> <!-- end resize-packages -->
+          <div id="classes-nav">
+            <ul>
+              
+              
+    <li><h2>Classes</h2>
+      <ul>
+          <li class="api apilevel-MDM_1.0"><a href="../../../android/app/enterprise/Account.html">Account</a></li>
+          <li class="api apilevel-MDM_4.0"><a href="../../../android/app/enterprise/AccountControlInfo.html">AccountControlInfo</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/ApnSettings.html">ApnSettings</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/ApnSettingsPolicy.html">ApnSettingsPolicy</a></li>
+          <li class="api apilevel-MDM_2.1"><a href="../../../android/app/enterprise/AppControlInfo.html">AppControlInfo</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/AppInfo.html">AppInfo</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/AppInfoLastUsage.html">AppInfoLastUsage</a></li>
+          <li class="api apilevel-MDM_3.0"><a href="../../../android/app/enterprise/ApplicationPermissionControlPolicy.html">ApplicationPermissionControlPolicy</a></li>
+          <li class="api apilevel-MDM_1.0"><a href="../../../android/app/enterprise/ApplicationPolicy.html">ApplicationPolicy</a></li>
+          <li class="api apilevel-MDM_3.0"><a href="../../../android/app/enterprise/AppPermissionControlInfo.html">AppPermissionControlInfo</a></li>
+          <li class="api apilevel-MDM_5.0"><a href="../../../android/app/enterprise/BasePasswordPolicy.html">BasePasswordPolicy</a></li>
+          <li class="api apilevel-MDM_2.2"><a href="../../../android/app/enterprise/BluetoothControlInfo.html">BluetoothControlInfo</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/BluetoothPolicy.html">BluetoothPolicy</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/BluetoothPolicy.BluetoothProfile.html">BluetoothPolicy.BluetoothProfile</a></li>
+          <li class="api apilevel-MDM_2.2"><a href="../../../android/app/enterprise/BluetoothPolicy.BluetoothUUID.html">BluetoothPolicy.BluetoothUUID</a></li>
+          <li class="api apilevel-MDM_4.0"><a href="../../../android/app/enterprise/BluetoothSecureModeConfig.html">BluetoothSecureModeConfig</a></li>
+          <li class="api apilevel-MDM_4.0"><a href="../../../android/app/enterprise/BluetoothSecureModePolicy.html">BluetoothSecureModePolicy</a></li>
+          <li class="api apilevel-MDM_4.0"><a href="../../../android/app/enterprise/BluetoothSecureModeWhitelistConfig.html">BluetoothSecureModeWhitelistConfig</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/BrowserPolicy.html">BrowserPolicy</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/CertificateInfo.html">CertificateInfo</a></li>
+          <li class="api apilevel-MDM_2.2"><a href="../../../android/app/enterprise/ControlInfo.html">ControlInfo</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/DateTimePolicy.html">DateTimePolicy</a></li>
+          <li class="api apilevel-MDM_5.4"><a href="../../../android/app/enterprise/DefaultAppConfiguration.html">DefaultAppConfiguration</a></li>
+          <li class="api apilevel-MDM_4.0"><a href="../../../android/app/enterprise/DeviceAccountPolicy.html">DeviceAccountPolicy</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/DeviceInventory.html">DeviceInventory</a></li>
+          <li class="api apilevel-MDM_5.0"><a href="../../../android/app/enterprise/EmailAccount.html">EmailAccount</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/EmailAccountPolicy.html">EmailAccountPolicy</a></li>
+          <li class="api apilevel-MDM_3.0"><a href="../../../android/app/enterprise/EmailPolicy.html">EmailPolicy</a></li>
+          <li class="api apilevel-MDM_1.0"><a href="../../../android/app/enterprise/EnterpriseDeviceManager.html">EnterpriseDeviceManager</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/EnterpriseVpnConnection.html">EnterpriseVpnConnection</a></li>
+          <li class="api apilevel-MDM_4.0"><a href="../../../android/app/enterprise/EnterpriseVpnConnectionBase.html">EnterpriseVpnConnectionBase</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/EnterpriseVpnPolicy.html">EnterpriseVpnPolicy</a></li>
+          <li class="api apilevel-MDM_5.0"><a href="../../../android/app/enterprise/ExchangeAccount.html">ExchangeAccount</a></li>
+          <li class="api apilevel-MDM_1.0"><a href="../../../android/app/enterprise/ExchangeAccountPolicy.html">ExchangeAccountPolicy</a></li>
+          <li class="api apilevel-MDM_5.0"><a href="../../../android/app/enterprise/FirewallAllowRule.html">FirewallAllowRule</a></li>
+          <li class="api apilevel-MDM_5.0"><a href="../../../android/app/enterprise/FirewallDenyRule.html">FirewallDenyRule</a></li>
+          <li class="api apilevel-MDM_5.0"><a href="../../../android/app/enterprise/FirewallExceptionRule.html">FirewallExceptionRule</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/FirewallPolicy.html">FirewallPolicy</a></li>
+          <li class="api apilevel-MDM_5.0"><a href="../../../android/app/enterprise/FirewallRerouteRule.html">FirewallRerouteRule</a></li>
+          <li class="api apilevel-MDM_1.0"><a href="../../../android/app/enterprise/HostAuth.html">HostAuth</a></li>
+          <li class="api apilevel-MDM_4.0"><a href="../../../android/app/enterprise/LDAPAccount.html">LDAPAccount</a></li>
+          <li class="api apilevel-MDM_4.0"><a href="../../../android/app/enterprise/LDAPAccountPolicy.html">LDAPAccountPolicy</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/LocationPolicy.html">LocationPolicy</a></li>
+          <li class="api apilevel-MDM_4.0"><a href="../../../android/app/enterprise/LogManager.html">LogManager</a></li>
+          <li class="api apilevel-MDM_1.0"><a href="../../../android/app/enterprise/ManagedAppInfo.html">ManagedAppInfo</a></li>
+          <li class="api apilevel-MDM_1.0"><a href="../../../android/app/enterprise/MiscPolicy.html">MiscPolicy</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/NetworkStats.html">NetworkStats</a></li>
+          <li class="api apilevel-MDM_5.5"><a href="../../../android/app/enterprise/NtpInfo.html">NtpInfo</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/PasswordPolicy.html">PasswordPolicy</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/PhoneRestrictionPolicy.html">PhoneRestrictionPolicy</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/RestrictionPolicy.html">RestrictionPolicy</a></li>
+          <li class="api apilevel-MDM_1.0"><a href="../../../android/app/enterprise/RoamingPolicy.html">RoamingPolicy</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/SecurityPolicy.html">SecurityPolicy</a></li>
+          <li class="selected api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/SimChangeInfo.html">SimChangeInfo</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/SimInfo.html">SimInfo</a></li>
+          <li class="api apilevel-MDM_5.0"><a href="../../../android/app/enterprise/SSOPolicy.html">SSOPolicy</a></li>
+          <li class="api apilevel-MDM_5.1"><a href="../../../android/app/enterprise/UsbDeviceConfig.html">UsbDeviceConfig</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/VpnAdminProfile.html">VpnAdminProfile</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/VpnPolicy.html">VpnPolicy</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/WifiAdminProfile.html">WifiAdminProfile</a></li>
+          <li class="api apilevel-MDM_2.2"><a href="../../../android/app/enterprise/WifiControlInfo.html">WifiControlInfo</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/WifiPolicy.html">WifiPolicy</a></li>
+      </ul>
+    </li>
+              
+              
+    <li><h2>Enums</h2>
+      <ul>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/EnterpriseDeviceManager.EnterpriseKeyVersion.html">EnterpriseDeviceManager.EnterpriseKeyVersion</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/EnterpriseDeviceManager.EnterpriseSdkVersion.html">EnterpriseDeviceManager.EnterpriseSdkVersion</a></li>
+          <li class="api apilevel-MDM_5.9"><a href="../../../android/app/enterprise/RestrictionPolicy.USBInterface.html">RestrictionPolicy.USBInterface</a></li>
+          <li class="api apilevel-MDM_2.0"><a href="../../../android/app/enterprise/WifiAdminProfile.PolicyState.html">WifiAdminProfile.PolicyState</a></li>
+      </ul>
+    </li>
+              
+              
+            </ul><br/>
+          </div><!-- end classes -->
+        </div><!-- end nav-panels -->
+        <div id="nav-tree" style="display:none">
+          <div id="index-links"><nobr>
+            <a href="../../../packages.html"  >Package Index</a> | 
+            <a href="../../../classes.html" >Class Index</a></nobr>
+          </div>
+        </div><!-- end nav-tree -->
+      </div><!-- end swapper -->
+    </div> <!-- end side-nav -->
+    <script>
+      if (!isMobile) {
+        $("<a href='#' id='nav-swap' onclick='swapNav();return false;' style='font-size:10px;line-height:9px;margin-left:1em;text-decoration:none;'><span id='tree-link'>Use Tree Navigation</span><span id='panel-link' style='display:none'>Use Panel Navigation</span></a>").appendTo("#side-nav");
+        chooseDefaultNav();
+        if ($("#nav-tree").is(':visible')) {
+          init_default_navtree("../../../");
+        } else {
+          addLoadEvent(function() {
+            scrollIntoView("packages-nav");
+            scrollIntoView("classes-nav");
+          });
+        }
+        $("#swapper").css({borderBottom:"2px solid #aaa"});
+      } else {
+        swapNav(); // tree view should be used on mobile
+      }
+    </script>
+
+
+
+<div class="g-unit" id="doc-content">
+
+<div id="api-info-block">
+
+
+
+  
+   
+  
+  
+  
+  
+
+  
+   
+  
+  
+   
+  
+  
+  
+
+
+<div class="sum-details-links">
+
+
+Summary:
+
+
+
+
+
+  <a href="#constants">Constants</a>
+  
+
+
+  &#124; <a href="#inhconstants">Inherited Constants</a>
+  
+
+
+  &#124; <a href="#lfields">Fields</a>
+  
+
+
+
+  &#124; <a href="#pubctors">Ctors</a>
+  
+
+
+
+
+
+  &#124; <a href="#inhmethods">Inherited Methods</a>
+
+&#124; <a href="#" onclick="return toggleAllClassInherited()" id="toggleAllClassInherited">[Expand All]</a>
+
+</div><!-- end sum-details-links -->
+<div class="api-level">
+  
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_2.0">API Level MDM_2.0</a>
+
+
+  
+  
+
+</div>
+</div><!-- end api-info-block -->
+
+
+<!-- ======== START OF CLASS DATA ======== -->
+
+<div id="jd-header">
+    public
+     
+     
+    
+    class
+<h1>SimChangeInfo</h1>
+
+
+
+  
+    extends <a href="http://developer.android.com/reference/java/lang/Object.html">Object</a><br/>
+  
+  
+  
+
+  
+  
+      implements 
+      
+        <a href="http://developer.android.com/reference/android/os/Parcelable.html">Parcelable</a> 
+      
+  
+  
+
+
+</div><!-- end header -->
+
+<div id="naMessage"></div>
+
+<div id="jd-content" class="api apilevel-MDM_2.0">
+<table class="jd-inheritance-table">
+
+
+    <tr>
+         	
+        <td colspan="2" class="jd-inheritance-class-cell"><a href="http://developer.android.com/reference/java/lang/Object.html">java.lang.Object</a></td>
+    </tr>
+    
+
+    <tr>
+        
+            <td class="jd-inheritance-space">&nbsp;&nbsp;&nbsp;&#x21b3;</td>
+         	
+        <td colspan="1" class="jd-inheritance-class-cell">android.app.enterprise.SimChangeInfo</td>
+    </tr>
+    
+
+</table>
+
+
+
+
+
+
+
+<div class="jd-descr">
+
+
+<h2>Class Overview</h2>
+<p>This class contains information on SIM card changes.</p>
+
+      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 2.0</td>
+        </tr>
+      </table>
+  </div>
+
+
+
+</div><!-- jd-descr -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="jd-descr">
+
+
+<h2>Summary</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- =========== ENUM CONSTANT SUMMARY =========== -->
+<table id="constants" class="jd-sumtable"><tr><th colspan="12">Constants</th></tr>
+
+
+    
+    <tr class="alt-color api apilevel-MDM_2.0" >
+        <td class="jd-typecol">int</td>
+        <td class="jd-linkcol"><a href="../../../android/app/enterprise/SimChangeInfo.html#SIM_CHANGED">SIM_CHANGED</a></td>
+        <td class="jd-descrcol" width="100%">SIM card is changed.</td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-MDM_2.0" >
+        <td class="jd-typecol">int</td>
+        <td class="jd-linkcol"><a href="../../../android/app/enterprise/SimChangeInfo.html#SIM_INSERTED">SIM_INSERTED</a></td>
+        <td class="jd-descrcol" width="100%">New SIM card is inserted into the device, which previously had no SIM card.</td>
+    </tr>
+    
+    
+    <tr class="alt-color api apilevel-MDM_2.0" >
+        <td class="jd-typecol">int</td>
+        <td class="jd-linkcol"><a href="../../../android/app/enterprise/SimChangeInfo.html#SIM_REMOVED">SIM_REMOVED</a></td>
+        <td class="jd-descrcol" width="100%">SIM card is removed from the device.</td>
+    </tr>
+    
+    
+
+</table>
+
+
+
+
+
+<!-- =========== ENUM CONSTANT SUMMARY =========== -->
+<table id="inhconstants" class="jd-sumtable"><tr><th>
+  <a href="#" class="toggle-all" onclick="return toggleAllInherited(this, null)">[Expand]</a>
+  <div style="clear:left;">Inherited Constants</div></th></tr>
+
+
+
+
+<tr class="api apilevel-" >
+<td colspan="12">
+
+  <a href="#" onclick="return toggleInherited(this, null)" id="inherited-constants-android.os.Parcelable" class="jd-expando-trigger closed"
+          ><img id="inherited-constants-android.os.Parcelable-trigger"
+          src="../../../../assets/images/triangle-closed.png"
+          class="jd-expando-trigger-img" /></a>From interface
+android.os.Parcelable
+<div id="inherited-constants-android.os.Parcelable">
+  <div id="inherited-constants-android.os.Parcelable-list"
+        class="jd-inheritedlinks">
+  </div>
+  <div id="inherited-constants-android.os.Parcelable-summary" style="display: none;">
+    <table class="jd-sumtable-expando">
+    
+
+    
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">int</td>
+        <td class="jd-linkcol">CONTENTS_FILE_DESCRIPTOR</td>
+        <td class="jd-descrcol" width="100%"></td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">int</td>
+        <td class="jd-linkcol">PARCELABLE_WRITE_RETURN_VALUE</td>
+        <td class="jd-descrcol" width="100%"></td>
+    </tr>
+    
+    
+</table>
+  </div>
+</div>
+</td></tr>
+
+
+</table>
+
+
+
+
+<!-- =========== FIELD SUMMARY =========== -->
+<table id="lfields" class="jd-sumtable"><tr><th colspan="12">Fields</th></tr>
+
+
+    
+      <tr class="alt-color api apilevel-MDM_2.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          int</nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/SimChangeInfo.html#changeOperation">changeOperation</a></td>
+          <td class="jd-descrcol" width="100%">The type of SIM Change operation: One of <code><a href="../../../android/app/enterprise/SimChangeInfo.html#SIM_REMOVED">SIM_REMOVED</a></code>,  <code><a href="../../../android/app/enterprise/SimChangeInfo.html#SIM_INSERTED">SIM_INSERTED</a></code>, or
+  <code><a href="../../../android/app/enterprise/SimChangeInfo.html#SIM_CHANGED">SIM_CHANGED</a></code>,</td>
+      </tr>
+      
+    
+      <tr class=" api apilevel-MDM_2.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          long</nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/SimChangeInfo.html#changeTime">changeTime</a></td>
+          <td class="jd-descrcol" width="100%">The time at which this SIM card change operation occurred.</td>
+      </tr>
+      
+    
+      <tr class="alt-color api apilevel-MDM_2.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          <a href="../../../android/app/enterprise/SimInfo.html">SimInfo</a></nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/SimChangeInfo.html#currentSimInfo">currentSimInfo</a></td>
+          <td class="jd-descrcol" width="100%">SIM information of the previous SIM card.</td>
+      </tr>
+      
+    
+      <tr class=" api apilevel-MDM_2.0" >
+          <td class="jd-typecol"><nobr>
+          public
+          
+          
+          <a href="../../../android/app/enterprise/SimInfo.html">SimInfo</a></nobr></td>
+          <td class="jd-linkcol"><a href="../../../android/app/enterprise/SimChangeInfo.html#previousSimInfo">previousSimInfo</a></td>
+          <td class="jd-descrcol" width="100%">SIM information of the previous SIM card.</td>
+      </tr>
+      
+    
+
+</table>
+
+
+
+
+
+
+
+<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+<table id="pubctors" class="jd-sumtable"><tr><th colspan="12">Public Constructors</th></tr>
+
+
+
+	 
+    <tr class="alt-color api apilevel-MDM_2.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            </nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../android/app/enterprise/SimChangeInfo.html#SimChangeInfo()">SimChangeInfo</a></span>()</nobr>
+        
+        <div class="jd-descrdiv">Default Constructor</div>
+  
+  </td></tr>
+
+
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+<table id="inhmethods" class="jd-sumtable"><tr><th>
+  <a href="#" class="toggle-all" onclick="return toggleAllInherited(this, null)">[Expand]</a>
+  <div style="clear:left;">Inherited Methods</div></th></tr>
+
+
+<tr class="api apilevel-" >
+<td colspan="12">
+  <a href="#" onclick="return toggleInherited(this, null)" id="inherited-methods-java.lang.Object" class="jd-expando-trigger closed"
+          ><img id="inherited-methods-java.lang.Object-trigger"
+          src="../../../../assets/images/triangle-closed.png"
+          class="jd-expando-trigger-img" /></a>
+From class
+
+  <a href="http://developer.android.com/reference/java/lang/Object.html">java.lang.Object</a>
+
+<div id="inherited-methods-java.lang.Object">
+  <div id="inherited-methods-java.lang.Object-list"
+        class="jd-inheritedlinks">
+  </div>
+  <div id="inherited-methods-java.lang.Object-summary" style="display: none;">
+    <table class="jd-sumtable-expando">
+    
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            <a href="http://developer.android.com/reference/java/lang/Object.html">Object</a></nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">clone</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">equals</span>(<a href="http://developer.android.com/reference/java/lang/Object.html">Object</a> arg0)</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">finalize</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            <a href="http://developer.android.com/reference/java/lang/Class.html">Class</a>&lt;?&gt;</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">getClass</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            int</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">hashCode</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">notify</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">notifyAll</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            <a href="http://developer.android.com/reference/java/lang/String.html">String</a></nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">toString</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">wait</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">wait</span>(long arg0, int arg1)</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">wait</span>(long arg0)</nobr>
+        
+  </td></tr>
+
+
+</table>
+  </div>
+</div>
+</td></tr>
+
+
+
+<tr class="api apilevel-" >
+<td colspan="12">
+  <a href="#" onclick="return toggleInherited(this, null)" id="inherited-methods-android.os.Parcelable" class="jd-expando-trigger closed"
+          ><img id="inherited-methods-android.os.Parcelable-trigger"
+          src="../../../../assets/images/triangle-closed.png"
+          class="jd-expando-trigger-img" /></a>
+From interface
+
+  <a href="http://developer.android.com/reference/android/os/Parcelable.html">android.os.Parcelable</a>
+
+<div id="inherited-methods-android.os.Parcelable">
+  <div id="inherited-methods-android.os.Parcelable-list"
+        class="jd-inheritedlinks">
+  </div>
+  <div id="inherited-methods-android.os.Parcelable-summary" style="display: none;">
+    <table class="jd-sumtable-expando">
+    
+
+
+	 
+    <tr class="alt-color api apilevel-MDM_1.0" >
+        <td class="jd-typecol"><nobr>
+            abstract
+            
+            
+            
+            
+            int</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">describeContents</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-MDM_1.0" >
+        <td class="jd-typecol"><nobr>
+            abstract
+            
+            
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">writeToParcel</span>(<a href="http://developer.android.com/reference/android/os/Parcel.html">Parcel</a> arg0, int arg1)</nobr>
+        
+  </td></tr>
+
+
+</table>
+  </div>
+</div>
+</td></tr>
+
+
+</table>
+
+
+</div><!-- jd-descr (summary) -->
+
+<!-- Details -->
+
+
+
+
+
+
+
+
+<!-- XML Attributes -->
+
+
+<!-- Enum Values -->
+
+
+<!-- Constants -->
+
+
+<!-- ========= ENUM CONSTANTS DETAIL ======== -->
+<h2>Constants</h2>
+
+
+
+
+<A NAME="SIM_CHANGED"></A>
+
+<div class="jd-details api apilevel-MDM_2.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        int
+      </span>
+        SIM_CHANGED
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_2.0">API Level MDM_2.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>SIM card is changed. Old SIM card replaced with a new SIM card.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 2.0
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                2
+                (0x00000002)
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="SIM_INSERTED"></A>
+
+<div class="jd-details api apilevel-MDM_2.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        int
+      </span>
+        SIM_INSERTED
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_2.0">API Level MDM_2.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>New SIM card is inserted into the device, which previously had no SIM card.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 2.0
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                3
+                (0x00000003)
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+<A NAME="SIM_REMOVED"></A>
+
+<div class="jd-details api apilevel-MDM_2.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        int
+      </span>
+        SIM_REMOVED
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_2.0">API Level MDM_2.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>SIM card is removed from the device. Device does not have a SIM card.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 2.0
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                1
+                (0x00000001)
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+
+<!-- Fields -->
+
+
+<!-- ========= FIELD DETAIL ======== -->
+<h2>Fields</h2>
+
+
+
+
+<A NAME="changeOperation"></A>
+
+<div class="jd-details api apilevel-MDM_2.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        int
+      </span>
+        changeOperation
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_2.0">API Level MDM_2.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>The type of SIM Change operation: One of <code><a href="../../../android/app/enterprise/SimChangeInfo.html#SIM_REMOVED">SIM_REMOVED</a></code>,  <code><a href="../../../android/app/enterprise/SimChangeInfo.html#SIM_INSERTED">SIM_INSERTED</a></code>, or
+  <code><a href="../../../android/app/enterprise/SimChangeInfo.html#SIM_CHANGED">SIM_CHANGED</a></code>,</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 2.0
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="changeTime"></A>
+
+<div class="jd-details api apilevel-MDM_2.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        long
+      </span>
+        changeTime
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_2.0">API Level MDM_2.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>The time at which this SIM card change operation occurred.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 2.0
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="currentSimInfo"></A>
+
+<div class="jd-details api apilevel-MDM_2.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        <a href="../../../android/app/enterprise/SimInfo.html">SimInfo</a>
+      </span>
+        currentSimInfo
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_2.0">API Level MDM_2.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>SIM information of the previous SIM card. Is <code>null</code> if SIM
+ change operation is <code><a href="../../../android/app/enterprise/SimChangeInfo.html#SIM_REMOVED">SIM_REMOVED</a></code></p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 2.0
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+<A NAME="previousSimInfo"></A>
+
+<div class="jd-details api apilevel-MDM_2.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        <a href="../../../android/app/enterprise/SimInfo.html">SimInfo</a>
+      </span>
+        previousSimInfo
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_2.0">API Level MDM_2.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>SIM information of the previous SIM card. Is <code>null</code> if SIM
+ change operation is <code><a href="../../../android/app/enterprise/SimChangeInfo.html#SIM_INSERTED">SIM_INSERTED</a></code></p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 2.0
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+    </div>
+</div>
+
+
+
+
+<!-- Public ctors -->
+
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<h2>Public Constructors</h2>
+
+
+
+<A NAME="SimChangeInfo()"></A>
+
+<div class="jd-details api apilevel-MDM_2.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        
+      </span>
+      <span class="sympad">SimChangeInfo</span>
+      <span class="normal">()</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../guide/appendix/api-levels.html#levelMDM_2.0">API Level MDM_2.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Default Constructor</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>MDM 2.0
+</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+
+
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<!-- Protected ctors -->
+
+
+
+<!-- ========= METHOD DETAIL ======== -->
+<!-- Public methdos -->
+
+
+
+<!-- ========= METHOD DETAIL ======== -->
+
+
+
+<!-- ========= END OF CLASS DATA ========= -->
+<A NAME="navbar_top"></A>
+
+<div id="footer">
+<a href="http://www.samsung.com">Samsung Electronics</a>.<br/>SDK MDM_5.9_EarlyAccess - July 14 2017
+</div> <!-- end footer -->
+
+</div> <!-- jd-content -->
+
+</div><!-- end doc-content -->
+
+</div> <!-- end body-content --> 
+
+<script type="text/javascript">
+init(); /* initialize doclava-developer-docs.js */
+</script>
+
+</body>
+</html>

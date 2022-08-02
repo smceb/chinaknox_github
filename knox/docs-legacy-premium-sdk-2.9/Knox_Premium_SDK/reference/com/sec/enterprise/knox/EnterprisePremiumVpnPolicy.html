@@ -1,0 +1,3308 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+  <meta name="description" content="Javadoc API documentation for Knox Premium SDK." />
+
+<link rel="shortcut icon" type="image/x-icon" href="../../../../favicon.ico" />
+<title>
+
+  EnterprisePremiumVpnPolicy
+
+
+| Knox Premium SDK
+
+</title>
+<link href="../../../../../assets/doclava-developer-docs.css" rel="stylesheet" type="text/css" />
+<link href="../../../../../assets/customizations.css" rel="stylesheet" type="text/css" />
+<script src="../../../../../assets/search_autocomplete.js" type="text/javascript"></script>
+<script src="../../../../../assets/jquery-resizable.min.js" type="text/javascript"></script>
+<script src="../../../../../assets/doclava-developer-docs.js" type="text/javascript"></script>
+<script src="../../../../../assets/prettify.js" type="text/javascript"></script>
+<script type="text/javascript">
+  setToRoot("../../../../", "../../../../../assets/");
+</script>
+<script src="../../../../../assets/doclava-developer-reference.js" type="text/javascript"></script>
+<script src="../../../../../assets/navtree_data.js" type="text/javascript"></script>
+<script src="../../../../../assets/customizations.js" type="text/javascript"></script>
+<noscript>
+  <style type="text/css">
+    html,body{overflow:auto;}
+    #body-content{position:relative; top:0;}
+    #doc-content{overflow:visible;border-left:3px solid #666;}
+    #side-nav{padding:0;}
+    #side-nav .toggle-list ul {display:block;}
+    #resize-packages-nav{border-bottom:3px solid #666;}
+  </style>
+</noscript>
+</head>
+
+<body class="KNOX_1.0">
+
+<div id="header">
+    <div id="headerLeft">
+    <a href="http://www.samsung.com">
+    <img src="../../../../../assets/images/samsung.jpg" alt="Samsung Electronics" width="80" height="48"/></a>
+    
+      <h1 id="masthead-title">Knox Premium SDK</h1>
+    
+    </div>
+    <div id="headerRight">
+      
+  <div id="search" >
+      <div id="searchForm">
+          <form accept-charset="utf-8" class="gsc-search-box" 
+                onsubmit="return submit_search()">
+            <table class="gsc-search-box" cellpadding="0" cellspacing="0"><tbody>
+                <tr>
+                  <td class="gsc-input">
+                    <input id="search_autocomplete" class="gsc-input" type="text" size="33" autocomplete="off"
+                      title="search developer docs" name="q"
+                      value="search developer docs"
+                      onFocus="search_focus_changed(this, true)"
+                      onBlur="search_focus_changed(this, false)"
+                      onkeydown="return search_changed(event, true, '../../../../')"
+                      onkeyup="return search_changed(event, false, '../../../../')" />
+                  <div id="search_filtered_div" class="no-display">
+                      <table id="search_filtered" cellspacing=0>
+                      </table>
+                  </div>
+                  </td>
+                  <td class="gsc-search-button">
+                    <input type="submit" value="Search" title="search" id="search-button" class="gsc-search-button" />
+                  </td>
+                  <td class="gsc-clear-button">
+                    <div title="clear results" class="gsc-clear-button">&nbsp;</div>
+                  </td>
+                </tr></tbody>
+              </table>
+          </form>
+      </div><!-- searchForm -->
+  </div><!-- search -->
+      
+        
+  <div id="api-level-toggle">
+    <input type="checkbox" id="apiLevelCheckbox" onclick="toggleApiLevelSelector(this)" />
+    <label for="apiLevelCheckbox" class="disabled">Filter by API Level: </label>
+    <select id="apiLevelSelector">
+      <!-- option elements added by buildApiLevelSelector() -->
+    </select>
+  </div>
+  <script>
+   var SINCE_DATA = [ 'KNOX_1.0', 'KNOX_1.0.1', 'KNOX_1.0.2', 'KNOX_1.1.0', 'KNOX_1.2.0', 'KNOX_2.0', 'KNOX_2.1', 'KNOX_2.2', 'KNOX_2.3', 'KNOX_2.4', 'KNOX_2.4.1', 'KNOX_2.5', 'KNOX_2.6', 'KNOX_2.7', 'KNOX_2.7.1', 'KNOX_2.8', 'Knox_2.9' ];
+    
+    var SINCE_LABELS = [ 'KNOX_1.0', 'KNOX_1.0.1', 'KNOX_1.0.2', 'KNOX_1.1.0', 'KNOX_1.2.0', 'KNOX_2.0', 'KNOX_2.1', 'KNOX_2.2', 'KNOX_2.3', 'KNOX_2.4', 'KNOX_2.4.1', 'KNOX_2.5', 'KNOX_2.6', 'KNOX_2.7', 'KNOX_2.7.1', 'KNOX_2.8', 'Knox_2.9' ];
+    buildApiLevelSelector();
+    addLoadEvent(changeApiLevel);
+  </script>
+
+
+      
+    </div>
+</div><!-- header -->
+
+
+  <div class="g-section g-tpl-240" id="body-content">
+    <div class="g-unit g-first side-nav-resizable" id="side-nav">
+      <div id="swapper">
+        <div id="nav-panels">
+          <div id="resize-packages-nav">
+            <div id="packages-nav">
+              <div id="index-links"><nobr>
+                <a href="../../../../packages.html"  >Package Index</a> | 
+                <a href="../../../../classes.html" >Class Index</a></nobr>
+              </div>
+              <ul>
+                
+    <li class="api apilevel-">
+  <a href="../../../../android/app/enterprise/package-summary.html">android.app.enterprise</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../android/app/enterprise/geofencing/package-summary.html">android.app.enterprise.geofencing</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../android/app/enterprise/kioskmode/package-summary.html">android.app.enterprise.kioskmode</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../android/app/enterprise/sso/package-summary.html">android.app.enterprise.sso</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../com/sec/enterprise/package-summary.html">com.sec.enterprise</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../com/sec/enterprise/firewall/package-summary.html">com.sec.enterprise.firewall</a></li>
+    <li class="api apilevel-">
+  <a href="../../../../com/sec/enterprise/identity/package-summary.html">com.sec.enterprise.identity</a></li>
+    <li class="selected api apilevel-KNOX_1.0">
+  <a href="../../../../com/sec/enterprise/knox/package-summary.html">com.sec.enterprise.knox</a></li>
+    <li class="api apilevel-KNOX_1.0">
+  <a href="../../../../com/sec/enterprise/knox/auditlog/package-summary.html">com.sec.enterprise.knox.auditlog</a></li>
+    <li class="api apilevel-KNOX_2.2">
+  <a href="../../../../com/sec/enterprise/knox/billing/package-summary.html">com.sec.enterprise.knox.billing</a></li>
+    <li class="api apilevel-KNOX_2.1">
+  <a href="../../../../com/sec/enterprise/knox/ccm/package-summary.html">com.sec.enterprise.knox.ccm</a></li>
+    <li class="api apilevel-KNOX_2.1">
+  <a href="../../../../com/sec/enterprise/knox/certenroll/package-summary.html">com.sec.enterprise.knox.certenroll</a></li>
+    <li class="api apilevel-KNOX_1.0">
+  <a href="../../../../com/sec/enterprise/knox/certificate/package-summary.html">com.sec.enterprise.knox.certificate</a></li>
+    <li class="api apilevel-KNOX_2.0">
+  <a href="../../../../com/sec/enterprise/knox/container/package-summary.html">com.sec.enterprise.knox.container</a></li>
+    <li class="api apilevel-KNOX_2.6">
+  <a href="../../../../com/sec/enterprise/knox/dlp/package-summary.html">com.sec.enterprise.knox.dlp</a></li>
+    <li class="api apilevel-KNOX_2.0">
+  <a href="../../../../com/sec/enterprise/knox/keystore/package-summary.html">com.sec.enterprise.knox.keystore</a></li>
+    <li class="api apilevel-KNOX_1.0.1">
+  <a href="../../../../com/sec/enterprise/knox/license/package-summary.html">com.sec.enterprise.knox.license</a></li>
+    <li class="api apilevel-KNOX_2.8">
+  <a href="../../../../com/sec/enterprise/knox/nap/package-summary.html">com.sec.enterprise.knox.nap</a></li>
+    <li class="api apilevel-KNOX_2.0">
+  <a href="../../../../com/sec/enterprise/knox/seams/package-summary.html">com.sec.enterprise.knox.seams</a></li>
+    <li class="api apilevel-KNOX_1.0">
+  <a href="../../../../com/sec/enterprise/knox/seandroid/package-summary.html">com.sec.enterprise.knox.seandroid</a></li>
+    <li class="api apilevel-KNOX_1.0">
+  <a href="../../../../com/sec/enterprise/knox/smartcard/policy/package-summary.html">com.sec.enterprise.knox.smartcard.policy</a></li>
+    <li class="api apilevel-KNOX_2.4">
+  <a href="../../../../com/sec/enterprise/knox/vpn/package-summary.html">com.sec.enterprise.knox.vpn</a></li>
+              </ul><br/>
+            </div> <!-- end packages -->
+          </div> <!-- end resize-packages -->
+          <div id="classes-nav">
+            <ul>
+              
+              
+    <li><h2>Classes</h2>
+      <ul>
+          <li class="api apilevel-KNOX_2.0"><a href="../../../../com/sec/enterprise/knox/AdvancedRestrictionPolicy.html">AdvancedRestrictionPolicy</a></li>
+          <li class="api apilevel-KNOX_1.0.1"><a href="../../../../com/sec/enterprise/knox/Attestation.html">Attestation</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/ContainerApplicationPolicy.html">ContainerApplicationPolicy</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/ContainerFirewallPolicy.html">ContainerFirewallPolicy</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/ContainerPasswordPolicy.html">ContainerPasswordPolicy</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/ContainerRestrictionPolicy.html">ContainerRestrictionPolicy</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/ContainerVpnPolicy.html">ContainerVpnPolicy</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/EnterpriseContainerCallback.html">EnterpriseContainerCallback</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/EnterpriseContainerManager.html">EnterpriseContainerManager</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/EnterpriseContainerObject.html">EnterpriseContainerObject</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/EnterpriseISLPolicy.html">EnterpriseISLPolicy</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/EnterpriseKnoxManager.html">EnterpriseKnoxManager</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/EnterprisePremiumVpnConnection.html">EnterprisePremiumVpnConnection</a></li>
+          <li class="selected api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/EnterprisePremiumVpnPolicy.html">EnterprisePremiumVpnPolicy</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOPolicy.html">EnterpriseSSOPolicy</a></li>
+          <li class="api apilevel-KNOX_1.0.1"><a href="../../../../com/sec/enterprise/knox/EnterpriseSSOResponse.html">EnterpriseSSOResponse</a></li>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/EnterpriseVpnStatusCallback.html">EnterpriseVpnStatusCallback</a></li>
+          <li class="api apilevel-KNOX_1.1.0"><a href="../../../../com/sec/enterprise/knox/GenericVpnPolicy.html">GenericVpnPolicy</a></li>
+      </ul>
+    </li>
+              
+              
+    <li><h2>Enums</h2>
+      <ul>
+          <li class="api apilevel-KNOX_1.0"><a href="../../../../com/sec/enterprise/knox/EnterpriseKnoxManager.EnterpriseKnoxSdkVersion.html">EnterpriseKnoxManager.EnterpriseKnoxSdkVersion</a></li>
+      </ul>
+    </li>
+              
+              
+            </ul><br/>
+          </div><!-- end classes -->
+        </div><!-- end nav-panels -->
+        <div id="nav-tree" style="display:none">
+          <div id="index-links"><nobr>
+            <a href="../../../../packages.html"  >Package Index</a> | 
+            <a href="../../../../classes.html" >Class Index</a></nobr>
+          </div>
+        </div><!-- end nav-tree -->
+      </div><!-- end swapper -->
+    </div> <!-- end side-nav -->
+    <script>
+      if (!isMobile) {
+        $("<a href='#' id='nav-swap' onclick='swapNav();return false;' style='font-size:10px;line-height:9px;margin-left:1em;text-decoration:none;'><span id='tree-link'>Use Tree Navigation</span><span id='panel-link' style='display:none'>Use Panel Navigation</span></a>").appendTo("#side-nav");
+        chooseDefaultNav();
+        if ($("#nav-tree").is(':visible')) {
+          init_default_navtree("../../../../");
+        } else {
+          addLoadEvent(function() {
+            scrollIntoView("packages-nav");
+            scrollIntoView("classes-nav");
+          });
+        }
+        $("#swapper").css({borderBottom:"2px solid #aaa"});
+      } else {
+        swapNav(); // tree view should be used on mobile
+      }
+    </script>
+
+
+
+<div class="g-unit" id="doc-content">
+
+<div id="api-info-block">
+
+
+
+  
+   
+  
+  
+  
+  
+
+
+<div class="sum-details-links">
+
+
+Summary:
+
+
+
+
+
+  <a href="#constants">Constants</a>
+  
+
+
+
+
+
+
+
+  &#124; <a href="#pubmethods">Methods</a>
+  
+
+
+
+  &#124; <a href="#inhmethods">Inherited Methods</a>
+
+&#124; <a href="#" onclick="return toggleAllClassInherited()" id="toggleAllClassInherited">[Expand All]</a>
+
+</div><!-- end sum-details-links -->
+<div class="api-level">
+  
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+
+  
+  
+
+</div>
+</div><!-- end api-info-block -->
+
+
+<!-- ======== START OF CLASS DATA ======== -->
+
+<div id="jd-header">
+    public
+     
+     
+    
+    class
+<h1>EnterprisePremiumVpnPolicy</h1>
+
+
+
+  
+    extends <a href="http://developer.android.com/reference/java/lang/Object.html">Object</a><br/>
+  
+  
+  
+
+  
+  
+  
+
+
+</div><!-- end header -->
+
+<div id="naMessage"></div>
+
+<div id="jd-content" class="api apilevel-KNOX_1.0">
+<table class="jd-inheritance-table">
+
+
+    <tr>
+         	
+        <td colspan="2" class="jd-inheritance-class-cell"><a href="http://developer.android.com/reference/java/lang/Object.html">java.lang.Object</a></td>
+    </tr>
+    
+
+    <tr>
+        
+            <td class="jd-inheritance-space">&nbsp;&nbsp;&nbsp;&#x21b3;</td>
+         	
+        <td colspan="1" class="jd-inheritance-class-cell">com.sec.enterprise.knox.EnterprisePremiumVpnPolicy</td>
+    </tr>
+    
+
+</table>
+
+
+
+
+
+
+
+<div class="jd-descr">
+<p>
+  <p class="caution">
+      <strong>
+  This class is deprecated.</strong><br/> Use <code><a href="../../../../com/sec/enterprise/knox/GenericVpnPolicy.html">GenericVpnPolicy</a></code>
+  </p>
+
+<h2>Class Overview</h2>
+<p>This class provides APIs to setup Enterprise Premium VPN profiles on the device and
+ install certificates to the Enterprise VPN credential storage.</p>
+
+      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7
+</td>
+        </tr>
+      </table>
+  </div>
+
+
+
+</div><!-- jd-descr -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="jd-descr">
+
+
+<h2>Summary</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- =========== ENUM CONSTANT SUMMARY =========== -->
+<table id="constants" class="jd-sumtable"><tr><th colspan="12">Constants</th></tr>
+
+
+    
+    <tr class="alt-color api apilevel-KNOX_1.0" >
+        <td class="jd-typecol"><a href="http://developer.android.com/reference/java/lang/String.html">String</a></td>
+        <td class="jd-linkcol"><a href="../../../../com/sec/enterprise/knox/EnterprisePremiumVpnPolicy.html#VPN_TYPE_KEYVPN">VPN_TYPE_KEYVPN</a></td>
+        <td class="jd-descrcol" width="100%">
+      <em>
+  This constant is deprecated.
+      Since KNOX 2.7</em></td>
+    </tr>
+    
+    
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+<table id="pubmethods" class="jd-sumtable"><tr><th colspan="12">Public Methods</th></tr>
+
+
+
+	 
+    <tr class="alt-color api apilevel-KNOX_1.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/EnterprisePremiumVpnPolicy.html#addVpnProfileToApp(java.lang.String, java.lang.String)">addVpnProfileToApp</a></span>(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> packageName, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> profileName)</nobr>
+        
+        <div class="jd-descrdiv">
+      <em>
+  This method is deprecated.
+      Since KNOX 2.7</em></div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-KNOX_1.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/EnterprisePremiumVpnPolicy.html#enableDefaultRoute(java.lang.String, java.lang.String, boolean)">enableDefaultRoute</a></span>(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> profileName, boolean enable)</nobr>
+        
+        <div class="jd-descrdiv">
+      <em>
+  This method is deprecated.
+      Since KNOX 2.7</em></div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-KNOX_1.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            <a href="http://developer.android.com/reference/java/util/List.html">List</a>&lt;<a href="../../../../com/sec/enterprise/knox/EnterprisePremiumVpnConnection.html">EnterprisePremiumVpnConnection</a>&gt;</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/EnterprisePremiumVpnPolicy.html#getAllEnterpriseVpnConnections(java.lang.String)">getAllEnterpriseVpnConnections</a></span>(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type)</nobr>
+        
+        <div class="jd-descrdiv">
+      <em>
+  This method is deprecated.
+      Since KNOX 2.7</em></div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-KNOX_1.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            <a href="http://developer.android.com/reference/java/lang/String.html">String[]</a></nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/EnterprisePremiumVpnPolicy.html#getAllPackagesForProfile(java.lang.String)">getAllPackagesForProfile</a></span>(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> profileName)</nobr>
+        
+        <div class="jd-descrdiv">
+      <em>
+  This method is deprecated.
+      Since KNOX 2.7</em></div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-KNOX_1.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            <a href="../../../../android/app/enterprise/CertificateInfo.html">CertificateInfo</a></nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/EnterprisePremiumVpnPolicy.html#getCACertificate(java.lang.String, java.lang.String)">getCACertificate</a></span>(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> profileName)</nobr>
+        
+        <div class="jd-descrdiv">
+      <em>
+  This method is deprecated.
+      Since KNOX 2.7</em></div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-KNOX_1.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            <a href="../../../../com/sec/enterprise/knox/EnterprisePremiumVpnConnection.html">EnterprisePremiumVpnConnection</a></nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/EnterprisePremiumVpnPolicy.html#getEnterprisePremiumVpnConnection(java.lang.String, java.lang.String)">getEnterprisePremiumVpnConnection</a></span>(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> name)</nobr>
+        
+        <div class="jd-descrdiv">
+      <em>
+  This method is deprecated.
+      Since KNOX 2.7</em></div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-KNOX_1.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            <a href="http://developer.android.com/reference/java/util/List.html">List</a>&lt;<a href="http://developer.android.com/reference/java/lang/String.html">String</a>&gt;</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/EnterprisePremiumVpnPolicy.html#getForwardRoutes(java.lang.String, java.lang.String)">getForwardRoutes</a></span>(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> profileName)</nobr>
+        
+        <div class="jd-descrdiv">
+      <em>
+  This method is deprecated.
+      Since KNOX 2.7</em></div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-KNOX_1.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            <a href="../../../../android/app/enterprise/CertificateInfo.html">CertificateInfo</a></nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/EnterprisePremiumVpnPolicy.html#getUserCertificate(java.lang.String, java.lang.String)">getUserCertificate</a></span>(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> profileName)</nobr>
+        
+        <div class="jd-descrdiv">
+      <em>
+  This method is deprecated.
+      Since KNOX 2.7</em></div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-KNOX_1.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            int</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/EnterprisePremiumVpnPolicy.html#getVpnModeOfOperation()">getVpnModeOfOperation</a></span>()</nobr>
+        
+        <div class="jd-descrdiv">
+      <em>
+  This method is deprecated.
+      Since KNOX 2.7</em></div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-KNOX_1.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/EnterprisePremiumVpnPolicy.html#isDefaultRouteEnabled(java.lang.String, java.lang.String)">isDefaultRouteEnabled</a></span>(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> profileName)</nobr>
+        
+        <div class="jd-descrdiv">
+      <em>
+  This method is deprecated.
+      Since KNOX 2.7</em></div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-KNOX_1.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/EnterprisePremiumVpnPolicy.html#removeEnterpriseVpnConnection(java.lang.String, java.lang.String, com.sec.enterprise.knox.EnterpriseVpnStatusCallback)">removeEnterpriseVpnConnection</a></span>(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> name, <a href="../../../../com/sec/enterprise/knox/EnterpriseVpnStatusCallback.html">EnterpriseVpnStatusCallback</a> vpnStatusCallback)</nobr>
+        
+        <div class="jd-descrdiv">
+      <em>
+  This method is deprecated.
+      Since KNOX 2.7</em></div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-KNOX_1.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/EnterprisePremiumVpnPolicy.html#removeVpnForApplication(java.lang.String)">removeVpnForApplication</a></span>(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> packageName)</nobr>
+        
+        <div class="jd-descrdiv">
+      <em>
+  This method is deprecated.
+      Since KNOX 2.7</em></div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-KNOX_1.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/EnterprisePremiumVpnPolicy.html#setCACertificate(java.lang.String, java.lang.String, byte[], java.lang.String)">setCACertificate</a></span>(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> profileName, byte[] certificateBlob, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> password)</nobr>
+        
+        <div class="jd-descrdiv">
+      <em>
+  This method is deprecated.
+      Since KNOX 2.7</em></div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-KNOX_1.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/EnterprisePremiumVpnPolicy.html#setEnterpriseVpnConnection(com.sec.enterprise.knox.EnterprisePremiumVpnConnection, java.lang.String)">setEnterpriseVpnConnection</a></span>(<a href="../../../../com/sec/enterprise/knox/EnterprisePremiumVpnConnection.html">EnterprisePremiumVpnConnection</a> vpn, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> oldName)</nobr>
+        
+        <div class="jd-descrdiv">
+      <em>
+  This method is deprecated.
+      Since KNOX 2.7</em></div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-KNOX_1.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/EnterprisePremiumVpnPolicy.html#setForwardRoutes(java.lang.String, java.lang.String, java.util.List<java.lang.String>)">setForwardRoutes</a></span>(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> profileName, <a href="http://developer.android.com/reference/java/util/List.html">List</a>&lt;<a href="http://developer.android.com/reference/java/lang/String.html">String</a>&gt; networks)</nobr>
+        
+        <div class="jd-descrdiv">
+      <em>
+  This method is deprecated.
+      Since KNOX 2.7</em></div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-KNOX_1.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/EnterprisePremiumVpnPolicy.html#setUserCertificate(java.lang.String, java.lang.String, byte[], java.lang.String)">setUserCertificate</a></span>(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> profileName, byte[] pkcs12Blob, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> password)</nobr>
+        
+        <div class="jd-descrdiv">
+      <em>
+  This method is deprecated.
+      Since KNOX 2.7</em></div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-KNOX_1.0" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/sec/enterprise/knox/EnterprisePremiumVpnPolicy.html#setVpnModeOfOperation(boolean)">setVpnModeOfOperation</a></span>(boolean vpnMode)</nobr>
+        
+        <div class="jd-descrdiv">
+      <em>
+  This method is deprecated.
+      Since KNOX 2.7</em></div>
+  
+  </td></tr>
+
+
+
+</table>
+
+
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+<table id="inhmethods" class="jd-sumtable"><tr><th>
+  <a href="#" class="toggle-all" onclick="return toggleAllInherited(this, null)">[Expand]</a>
+  <div style="clear:left;">Inherited Methods</div></th></tr>
+
+
+<tr class="api apilevel-" >
+<td colspan="12">
+  <a href="#" onclick="return toggleInherited(this, null)" id="inherited-methods-java.lang.Object" class="jd-expando-trigger closed"
+          ><img id="inherited-methods-java.lang.Object-trigger"
+          src="../../../../../assets/images/triangle-closed.png"
+          class="jd-expando-trigger-img" /></a>
+From class
+
+  <a href="http://developer.android.com/reference/java/lang/Object.html">java.lang.Object</a>
+
+<div id="inherited-methods-java.lang.Object">
+  <div id="inherited-methods-java.lang.Object-list"
+        class="jd-inheritedlinks">
+  </div>
+  <div id="inherited-methods-java.lang.Object-summary" style="display: none;">
+    <table class="jd-sumtable-expando">
+    
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            <a href="http://developer.android.com/reference/java/lang/Object.html">Object</a></nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">clone</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">equals</span>(<a href="http://developer.android.com/reference/java/lang/Object.html">Object</a> arg0)</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">finalize</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            <a href="http://developer.android.com/reference/java/lang/Class.html">Class</a>&lt;?&gt;</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">getClass</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            int</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">hashCode</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">notify</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">notifyAll</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            <a href="http://developer.android.com/reference/java/lang/String.html">String</a></nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">toString</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">wait</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">wait</span>(long arg0, int arg1)</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">wait</span>(long arg0)</nobr>
+        
+  </td></tr>
+
+
+</table>
+  </div>
+</div>
+</td></tr>
+
+
+</table>
+
+
+</div><!-- jd-descr (summary) -->
+
+<!-- Details -->
+
+
+
+
+
+
+
+
+<!-- XML Attributes -->
+
+
+<!-- Enum Values -->
+
+
+<!-- Constants -->
+
+
+<!-- ========= ENUM CONSTANTS DETAIL ======== -->
+<h2>Constants</h2>
+
+
+
+
+<A NAME="VPN_TYPE_KEYVPN"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="http://developer.android.com/reference/java/lang/String.html">String</a>
+      </span>
+        VPN_TYPE_KEYVPN
+    </h4>
+      <div class="api-level">
+        
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This constant is deprecated.</strong><br/> Since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>VPN type corresponding to VPN_TYPE_KEYVPN.</p></div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7
+</td>
+        </tr>
+      </table>
+  </div>
+
+    
+        <div class="jd-tagdata">
+        <span class="jd-tagtitle">Constant Value: </span>
+        <span>
+            
+                "key_vpn"
+            
+        </span>
+        </div>
+    
+    </div>
+</div>
+
+
+
+
+<!-- Fields -->
+
+
+<!-- Public ctors -->
+
+
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<!-- Protected ctors -->
+
+
+
+<!-- ========= METHOD DETAIL ======== -->
+<!-- Public methdos -->
+
+<h2>Public Methods</h2>
+
+
+
+<A NAME="addVpnProfileToApp(java.lang.String, java.lang.String)"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        boolean
+      </span>
+      <span class="sympad">addVpnProfileToApp</span>
+      <span class="normal">(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> packageName, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> profileName)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> Since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>API to set up a package name to VPN profile map, that will enable
+ the system to start VPN automatically for that application. <br />
+ The API should be used after creating a VPN Connection.
+ <br /></p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>packageName</td>
+          <td>Name of the package to be added to VPN list.</td>
+        </tr>
+        <tr>
+          <th>profileName</td>
+          <td>Name of the profile.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>true If the package gets added successfully, else false.</li></ul>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Throws</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/UnsupportedOperationException.html">UnsupportedOperationException</a></td>
+            <td>The API is not supported by the VPN
+             Type Connection.</td>
+        </tr>  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/SecurityException.html">SecurityException</a></td>
+            <td>If caller does not have required permissions.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><p>
+ <pre>
+ EnterpriseKnoxManager ekm = EnterpriseKnoxManager.getInstance();
+ try {
+     boolean success = ekm.getEnterpriseVpnPolicy().addVpnProfileToApp(&quot;com.android.browser&quot;,
+             &quot;profileName&quot;);
+ } catch (SecurityException e) {
+     Log.e(TAG, &quot;SecurityException: &quot; + e);
+ } catch (UnsupportedOperationException e) {
+     Log.e(TAG, &quot;UnsupportedOperationException: &quot; + e);
+ }
+ </pre>
+        <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "android.permission.sec.MDM_ENTERPRISE_VPN" permission which
+             has a protection level of signature.
+             <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="enableDefaultRoute(java.lang.String, java.lang.String, boolean)"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        boolean
+      </span>
+      <span class="sympad">enableDefaultRoute</span>
+      <span class="normal">(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> profileName, boolean enable)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> Since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>API to enable or disable Default Route option. </br>
+ This API need not be called, if the value is already set using setEnterpriseVpnConnection API. <br/>
+ If enable is set to true, System VPN is set, else if set to false, Per-APP-VPN is set.
+ </br></p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>type</td>
+          <td>The type of the VPN (e.g.: VPN_TYPE_KEYVPN).</td>
+        </tr>
+        <tr>
+          <th>profileName</td>
+          <td>Name of the profile.</td>
+        </tr>
+        <tr>
+          <th>enable</td>
+          <td>true or false (To enable or disable defaultRoute option)</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>true If the Default Route are set successfully, else false.</li></ul>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Throws</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/UnsupportedOperationException.html">UnsupportedOperationException</a></td>
+            <td>The API is not supported by the VPN
+             Type Connection.</td>
+        </tr>  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/SecurityException.html">SecurityException</a></td>
+            <td>If caller does not have required permissions.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><p>
+ <pre>
+ EnterpriseKnoxManager ekm = EnterpriseKnoxManager.getInstance();
+ try {
+     boolean success = ekm.getEnterpriseVpnPolicy().enableDefaultRoute(&quot;type&quot;, &quot;profileName&quot;, true);
+     if (success) {
+         Log.d(TAG, &quot; enableDefaultRoute is Success&quot;);
+     } else {
+         Log.d(TAG, &quot; enableDefaultRoute is Failure&quot;);
+     }
+ } catch (SecurityException e) {
+     Log.w(TAG, &quot;SecurityException: &quot; + e);
+ } catch (UnsupportedOperationException e) {
+     Log.w(TAG, &quot;UnsupportedOperationException: &quot; + e);
+ }
+ </pre>
+        <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "android.permission.sec.MDM_ENTERPRISE_VPN" permission which
+             has a protection level of signature.
+             <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="getAllEnterpriseVpnConnections(java.lang.String)"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="http://developer.android.com/reference/java/util/List.html">List</a>&lt;<a href="../../../../com/sec/enterprise/knox/EnterprisePremiumVpnConnection.html">EnterprisePremiumVpnConnection</a>&gt;
+      </span>
+      <span class="sympad">getAllEnterpriseVpnConnections</span>
+      <span class="normal">(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> Since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>API to get the list of all knox VPN connections added by the admin.
+ <br /></p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>type</td>
+          <td>The type of the VPN (e.g.: VPN_TYPE_KEYVPN).</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>The list of VPN connections added by the admin or null if no vpn profile exists.</li></ul>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Throws</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/SecurityException.html">SecurityException</a></td>
+            <td>If caller does not have required permissions</td>
+        </tr>  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/UnsupportedOperationException.html">UnsupportedOperationException</a></td>
+            <td>The API is not supported by the VPN
+             Type Connection</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><p>
+ <pre>
+ EnterpriseKnoxManager ekm = EnterpriseKnoxManager.getInstance();
+ try {
+     List&lt;EnterprisePremiumVpnConnection&gt; profileLists = ekm.getEnterpriseVpnPolicy()
+             .getAllEnterpriseVpnConnections(&quot;type&quot;);
+     String data = &quot;&quot;;
+     for (EnterprisePremiumVpnConnection profile : profileLists) {
+         data = data + &quot; Profile Name :&quot; + profile.name + &quot; and Host &quot; + profile.host + &quot;,&quot;;
+     }
+
+ } catch (SecurityException e) {
+     Log.w(TAG, &quot;SecurityException: &quot; + e);
+ } catch (UnsupportedOperationException e) {
+     Log.w(TAG, &quot;UnsupportedOperationException: &quot; + e);
+ }
+
+ </pre>
+        <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "android.permission.sec.MDM_ENTERPRISE_VPN" permission which
+             has a protection level of signature.
+             <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="getAllPackagesForProfile(java.lang.String)"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="http://developer.android.com/reference/java/lang/String.html">String[]</a>
+      </span>
+      <span class="sympad">getAllPackagesForProfile</span>
+      <span class="normal">(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> profileName)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> Since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>The API will return the list of packages which was added to the VPN for the given profile.
+ <br />
+ The API should be used after creating a VPN Connection.
+ <br /></p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>profileName</td>
+          <td>Name of the profile whose packages we want to get.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>the list of packages which was added to VPN for the given profile or null if the profile does not exist.</li></ul>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Throws</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/SecurityException.html">SecurityException</a></td>
+            <td>If caller does not have required permissions.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><p>
+ <pre>
+ EnterpriseKnoxManager ekm = EnterpriseKnoxManager.getInstance();
+ try {
+     String[] packages = ekm.getEnterpriseVpnPolicy().getAllPackagesForProfile(&quot;testprofile&quot;);
+ } catch (SecurityException e) {
+     Log.w(TAG, &quot;SecurityException: &quot; + e);
+ } catch (UnsupportedOperationException e) {
+     Log.w(TAG, &quot;UnsupportedOperationException: &quot; + e);
+ }
+ </pre>
+        <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "android.permission.sec.MDM_ENTERPRISE_VPN" permission which
+             has a protection level of signature.
+             <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="getCACertificate(java.lang.String, java.lang.String)"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="../../../../android/app/enterprise/CertificateInfo.html">CertificateInfo</a>
+      </span>
+      <span class="sympad">getCACertificate</span>
+      <span class="normal">(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> profileName)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> Since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>API to return list of CA Certificates for the specified profile.
+ <br /></p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>type</td>
+          <td>The type of the VPN (e.g.: VPN_TYPE_KEYVPN).</td>
+        </tr>
+        <tr>
+          <th>profileName</td>
+          <td>Name of the profile.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>CertificateInfo object. Return value is null, if the profile or
+         the CA  certificate is not found for the specified profile.</li></ul>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Throws</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/UnsupportedOperationException.html">UnsupportedOperationException</a></td>
+            <td>The API is not supported by the VPN
+             Type Connection.</td>
+        </tr>  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/SecurityException.html">SecurityException</a></td>
+            <td>If caller does not have required permissions.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><p>
+ <pre>
+ EnterpriseKnoxManager ekm = EnterpriseKnoxManager.getInstance();
+ try {
+     CertificateInfo listCerts =ekm.getEnterpriseVpnPolicy().getCACertificate ("type","profileName");
+     if (listCerts != null) {
+         Log.d("CA Certificate : Type" + listCerts.getCertificate().getType());
+     }
+ } catch (UnsupportedOperationException e) {
+     Log.w(TAG, "UnsupportedOperationException: " + e)
+ } catch(SecurityException e) {
+     Log.w(TAG,"SecurityException" + e);
+ }
+ </pre>
+        <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "android.permission.sec.MDM_ENTERPRISE_VPN" permission which
+             has a protection level of signature.
+             <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="getEnterprisePremiumVpnConnection(java.lang.String, java.lang.String)"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="../../../../com/sec/enterprise/knox/EnterprisePremiumVpnConnection.html">EnterprisePremiumVpnConnection</a>
+      </span>
+      <span class="sympad">getEnterprisePremiumVpnConnection</span>
+      <span class="normal">(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> name)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> Since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>API to retrieve the VPN Connection details belonging to a particular profile. <br />
+ <br /></p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>type</td>
+          <td>Type of the connection, e.g.:
+            <code><a href="../../../../com/sec/enterprise/knox/EnterprisePremiumVpnPolicy.html#VPN_TYPE_KEYVPN">VPN_TYPE_KEYVPN</a></code>.</td>
+        </tr>
+        <tr>
+          <th>name</td>
+          <td>profileName of the Vpn connection to be retrieved.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>The connection details belonging to the particular profile or null
+         if it does not exist.</li></ul>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Throws</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/SecurityException.html">SecurityException</a></td>
+            <td>If caller does not have required permissions.</td>
+        </tr>  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/UnsupportedOperationException.html">UnsupportedOperationException</a></td>
+            <td>The API is not supported by the VPN
+             Type Connection.
+</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><p>
+ <pre>
+ EnterpriseKnoxManager ekm = EnterpriseKnoxManager.getInstance();
+ try {
+     EnterprisePremiumVpnConnection vpnConnection = ekm.getEnterpriseVpnPolicy()
+             .getEnterprisePremiumVpnConnection(EnterprisePremiumVpnPolicy.VPN_TYPE_KEYVPN, &quot;Company VPN&quot;);
+     if (vpnConnection != null) {
+         Log.d(TAG, &quot;name: &quot; + vpnConnection.name);
+         Log.d(TAG, &quot;host: &quot; + vpnConnection.host);
+     }
+ } catch (SecurityException e) {
+     Log.w(TAG, &quot;SecurityException: &quot; + e);
+ } catch (UnsupportedOperationException e) {
+     Log.w(TAG, &quot;UnsupportedOperationException: &quot; + e);
+ }
+ </pre>
+        <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "android.permission.sec.MDM_ENTERPRISE_VPN" permission which
+             has a protection level of signature.
+             <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="getForwardRoutes(java.lang.String, java.lang.String)"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="http://developer.android.com/reference/java/util/List.html">List</a>&lt;<a href="http://developer.android.com/reference/java/lang/String.html">String</a>&gt;
+      </span>
+      <span class="sympad">getForwardRoutes</span>
+      <span class="normal">(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> profileName)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> Since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>API to get the Forward route value for the given VPN
+ Connection.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>type</td>
+          <td>The type of the VPN (e.g.: VPN_TYPE_KEYVPN).</td>
+        </tr>
+        <tr>
+          <th>profileName</td>
+          <td>Name of the profile.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>The list of IP Addresses which are added as forward routes or
+         returns null if the list is empty</li></ul>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Throws</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/UnsupportedOperationException.html">UnsupportedOperationException</a></td>
+            <td>The API is not supported by the VPN
+             Type Connection.</td>
+        </tr>  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/SecurityException.html">SecurityException</a></td>
+            <td>If caller does not have required permissions.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><p>
+ <pre>
+ EnterpriseKnoxManager ekm = EnterpriseKnoxManager.getInstance();
+ try {
+     List&lt;String&gt; profileLists = ekm.getEnterpriseVpnPolicy()
+             .getForwardRoutes(&quot;type&quot;, &quot;profileName&quot;);
+ } catch (SecurityException e) {
+     Log.w(TAG, &quot;SecurityException: &quot; + e);
+ } catch (UnsupportedOperationException e) {
+     Log.w(TAG, &quot;UnsupportedOperationException: &quot; + e);
+ }
+ </pre>
+        <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "android.permission.sec.MDM_ENTERPRISE_VPN" permission which
+             has a protection level of signature.
+             <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="getUserCertificate(java.lang.String, java.lang.String)"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="../../../../android/app/enterprise/CertificateInfo.html">CertificateInfo</a>
+      </span>
+      <span class="sympad">getUserCertificate</span>
+      <span class="normal">(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> profileName)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> Since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>The API returns the User Certificate info for the specified profile.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>type</td>
+          <td>The type of the VPN (e.g.: VPN_TYPE_KEYVPN).</td>
+        </tr>
+        <tr>
+          <th>profileName</td>
+          <td>Name of the profile.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>CertificateInfo object. Return value is null, if the profile or the User certificate is not found
+         for the specified profile.</li></ul>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Throws</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/UnsupportedOperationException.html">UnsupportedOperationException</a></td>
+            <td>The API is not supported by the VPN
+             Type Connection.</td>
+        </tr>  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/SecurityException.html">SecurityException</a></td>
+            <td>If caller does not have required permissions.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><p>
+ <pre>
+ EnterpriseKnoxManager ekm = EnterpriseKnoxManager.getInstance();
+ try {
+     CertificateInfo listCerts = ekm.getEnterpriseVpnPolicy().getUserCertificate(&quot;type&quot;,
+             &quot;profileName&quot;);
+     if (listCerts != null) {
+         Log.d(&quot;User Certificate : Type&quot; + listCerts.getCertificate().getType());
+     }
+ } catch (UnsupportedOperationException e) {
+     Log.w(TAG, &quot;UnsupportedOperationException: &quot; + e);
+ } catch (SecurityException e) {
+     Log.w(TAG, &quot;SecurityException&quot; + e);
+ }
+ </pre>
+        <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "android.permission.sec.MDM_ENTERPRISE_VPN" permission which
+             has a protection level of signature.
+             <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="getVpnModeOfOperation()"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        int
+      </span>
+      <span class="sympad">getVpnModeOfOperation</span>
+      <span class="normal">()</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> Since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>API to check whether the VPN service is operating in a FIPS or a non-FIPS mode.
+ <br /></p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>1: The VPN service is operating in FIPS mode. <br />
+         0: The VPN service is not operating in FIPS mode. <br />
+        -1: Error</li></ul>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Throws</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/SecurityException.html">SecurityException</a></td>
+            <td>If caller does not have required permissions.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><p>
+ <pre>
+  EnterpriseKnoxManager ekm = EnterpriseKnoxManager.getInstance();
+  try {
+      int success = ekm.getEnterpriseVpnPolicy().getVpnModeOfOperation();
+  } catch (SecurityException e) {
+     Log.w(TAG, &quot;SecurityException: &quot; + e);
+  }
+ </pre>
+        <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "android.permission.sec.MDM_ENTERPRISE_VPN" permission which
+             has a protection level of signature.
+             <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="isDefaultRouteEnabled(java.lang.String, java.lang.String)"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        boolean
+      </span>
+      <span class="sympad">isDefaultRouteEnabled</span>
+      <span class="normal">(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> profileName)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> Since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>API to check if the Default Route has been enabled or not for
+ the VPN Connection.
+ <br/></p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>type</td>
+          <td>The type of the VPN (e.g.: VPN_TYPE_KEYVPN).</td>
+        </tr>
+        <tr>
+          <th>profileName</td>
+          <td>Name of the profile.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>true If the default route is enabled, else false.</li></ul>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Throws</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/UnsupportedOperationException.html">UnsupportedOperationException</a></td>
+            <td>The API is not supported by the VPN
+             Type Connection.</td>
+        </tr>  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/SecurityException.html">SecurityException</a></td>
+            <td>If caller does not have required permissions.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><p>
+ <pre>
+ EnterpriseKnoxManager ekm = EnterpriseKnoxManager.getInstance();
+ try {
+     boolean success = ekm.getEnterpriseVpnPolicy().isDefaultRouteEnabled(&quot;type&quot;, &quot;profileName&quot;);
+ } catch (SecurityException e) {
+     Log.w(TAG, &quot;SecurityException: &quot; + e);
+ } catch (UnsupportedOperationException e) {
+     Log.w(TAG, &quot;UnsupportedOperationException: &quot; + e);
+ }
+ </pre>
+        <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "android.permission.sec.MDM_ENTERPRISE_VPN" permission which
+             has a protection level of signature.
+             <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="removeEnterpriseVpnConnection(java.lang.String, java.lang.String, com.sec.enterprise.knox.EnterpriseVpnStatusCallback)"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        boolean
+      </span>
+      <span class="sympad">removeEnterpriseVpnConnection</span>
+      <span class="normal">(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> name, <a href="../../../../com/sec/enterprise/knox/EnterpriseVpnStatusCallback.html">EnterpriseVpnStatusCallback</a> vpnStatusCallback)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> Since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>API to delete an enterprise VPN Profile. <br />
+ <br /></p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>type</td>
+          <td>Type of the connection, e.g.:
+            <code><a href="../../../../com/sec/enterprise/knox/EnterprisePremiumVpnPolicy.html#VPN_TYPE_KEYVPN">VPN_TYPE_KEYVPN</a></code>.</td>
+        </tr>
+        <tr>
+          <th>name</td>
+          <td>Name of the connection to be removed.</td>
+        </tr>
+        <tr>
+          <th>vpnStatusCallback</td>
+          <td>Callback to be called to know if the VPN Connection has been removed successfully or not.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>true if the VPN connection is removed successfully and false if
+         not.</li></ul>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Throws</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/SecurityException.html">SecurityException</a></td>
+            <td>If caller does not have required permissions</td>
+        </tr>  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/UnsupportedOperationException.html">UnsupportedOperationException</a></td>
+            <td>The API is not supported by the VPN
+             Type Connection
+</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><p>
+ <pre>
+ EnterpriseKnoxManager ekm = EnterpriseKnoxManager.getInstance();
+ try {
+      EnterpriseVpnStatusCallback vpnStatusCallback = new EnterpriseVpnStatusCallback() {
+          Override
+          public void updateStatus(String profileName, int statusCode, String statusString) {
+             Log.v(TAG, &quot;VPN remove connection ended with
+                statusCode: &quot; + statuscode + &quot; statusString = &quot; + statusString);
+          }
+      }
+     boolean success = ekm.getEnterpriseVpnPolicy().removeEnterpriseVpnConnection ("type", "profileName",
+                        vpnStatusCallback));
+      if (success)
+          Log.d(TAG, "remove removeEnterpriseVpnConnection is Success");
+      else
+          Log.d(TAG, "remove removeEnterpriseVpnConnection is Failure");
+ } catch (SecurityException e) {
+     Log.w(TAG, "SecurityException: " + e);
+ } catch (UnsupportedOperationException e) {
+     Log.w(TAG, "UnsupportedOperationException: " + e);
+ }
+ </pre>
+        <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "android.permission.sec.MDM_ENTERPRISE_VPN" permission which
+             has a protection level of signature.
+             <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="removeVpnForApplication(java.lang.String)"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        boolean
+      </span>
+      <span class="sympad">removeVpnForApplication</span>
+      <span class="normal">(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> packageName)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> Since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>The API will remove the application from the VPN. <br />
+ <br /></p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>packageName</td>
+          <td>Name of the package to be added to VPN list.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>true If the application gets removed successfully, else false.</li></ul>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Throws</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/UnsupportedOperationException.html">UnsupportedOperationException</a></td>
+            <td>The API is not supported by the VPN
+             Type Connection.</td>
+        </tr>  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/SecurityException.html">SecurityException</a></td>
+            <td>If caller does not have required permissions.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><p>
+ <pre>
+ EnterpriseKnoxManager ekm = EnterpriseKnoxManager.getInstance();
+ try {
+     boolean success = ekm.getEnterpriseVpnPolicy().removeVpnForApplication(&quot;com.android.browser&quot;);
+ } catch (SecurityException e) {
+     Log.w(TAG, &quot;SecurityException: &quot; + e);
+ } catch (UnsupportedOperationException e) {
+     Log.w(TAG, &quot;UnsupportedOperationException: &quot; + e);
+ }
+ </pre>
+        <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "android.permission.sec.MDM_ENTERPRISE_VPN" permission which
+             has a protection level of signature.
+             <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="setCACertificate(java.lang.String, java.lang.String, byte[], java.lang.String)"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        boolean
+      </span>
+      <span class="sympad">setCACertificate</span>
+      <span class="normal">(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> profileName, byte[] certificateBlob, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> password)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> Since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>The API allows app to configure the CA certificate for a VPN profile. <br />
+ App needs to provide the CA certificate in pkcs12/DER/PEM format, and to decipher
+ the content, password is necessary. This is a synchronous API. <br />
+ The API should be used after creating a VPN Connection and before
+ calling addVpnProfileToApp API. </br>
+ <br /></p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>type</td>
+          <td>The type of the VPN (eg: VPN_TYPE_KEYVPN).</td>
+        </tr>
+        <tr>
+          <th>profileName</td>
+          <td>Name of the profile.</td>
+        </tr>
+        <tr>
+          <th>certificateBlob</td>
+          <td>Byte array of CA certificate in pkcs12/DER/PEM format.</td>
+        </tr>
+        <tr>
+          <th>password</td>
+          <td>Password to decrypt the content of pkcs12 blob.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>If CA certificate is configured with given profile successfully,
+         it returns true. If API fails to read PKCS12 blob OR fails to
+         store the user certificate for the specified profile, it returns
+         false.</li></ul>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Throws</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/UnsupportedOperationException.html">UnsupportedOperationException</a></td>
+            <td>The API is not supported by the VPN
+             Type Connection.</td>
+        </tr>  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/SecurityException.html">SecurityException</a></td>
+            <td>If caller does not have required permissions.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><p>
+ <pre>
+ EnterpriseKnoxManager ekm = EnterpriseKnoxManager.getInstance();
+ String filePath = &quot;/data/system/client1.p12&quot;;
+ byte[] certificateBlob = getByteArray(filePath); // internal function to retrieve
+ // byte array from file.
+ try {
+     boolean success = ekm.getEnterpriseVpnPolicy().setCACertificate(&quot;profileName&quot;,certificateBlob,
+             &quot;password&quot;);
+     if (success) {
+         Log.d(TAG, &quot; setCACertificate is Success&quot;);
+     } else {
+         Log.d(TAG, &quot; setCACertificate is Failure&quot;);
+     }
+ } catch (UnsupportedOperationException e) {
+     Log.w(TAG, &quot;UnsupportedOperationException: &quot; + e);
+ } catch (SecurityException e) {
+     Log.w(TAG, &quot;SecurityException&quot; + e);
+ }
+ </pre>
+        <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "android.permission.sec.MDM_ENTERPRISE_VPN" permission which
+             has a protection level of signature.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="setEnterpriseVpnConnection(com.sec.enterprise.knox.EnterprisePremiumVpnConnection, java.lang.String)"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        boolean
+      </span>
+      <span class="sympad">setEnterpriseVpnConnection</span>
+      <span class="normal">(<a href="../../../../com/sec/enterprise/knox/EnterprisePremiumVpnConnection.html">EnterprisePremiumVpnConnection</a> vpn, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> oldName)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> Since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>API used to Create a new Enterprise Vpn Connection or update an existing connection. <br />
+ This is the first step for creating VPN Connection. <br />
+ The name field in EnterprisePremiumVpnConnection class can be of max 15 characters, else it will return false.<br />
+ The name field in EnterprisePremiumVpnConnection class should not contain any empty space, else it will return false.<br />
+ <br /></p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>vpn</td>
+          <td>Enterprise VPN connection profile object.</td>
+        </tr>
+        <tr>
+          <th>oldName</td>
+          <td>Name of the connection to be changed or null
+            for a new connection.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>true if the connection is added or edited successfully, false if
+         not.</li></ul>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Throws</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/SecurityException.html">SecurityException</a></td>
+            <td>If caller does not have required permissions</td>
+        </tr>  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/UnsupportedOperationException.html">UnsupportedOperationException</a></td>
+            <td>The API is not supported by the VPN
+             Type Connection
+</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><p>
+ <pre>
+ EnterpriseKnoxManager ekm = EnterpriseKnoxManager.getInstance();
+ // Create the profile
+ EnterprisePremiumVpnConnection entVpn = new EnterprisePremiumVpnConnection();
+ entVpn.name = "CompanyVpn";
+ entVpn.host = "vpn.company.com";
+ entVpn.type = EnterprisePremiumVpnPolicy.VPN_TYPE_KEYVPN;
+ // Set the profile
+ try {
+     boolean success = ekm.getEnterpriseVpnPolicy().setEnterpriseVpnConnection(entVpn, null));
+     if (success) {
+         Log.d(TAG, "Set EnterprisePremiumVpnConnection is Success");
+     } else {
+         Log.d(TAG, "Set EnterprisePremiumVpnConnection is Failure");
+     }
+ } catch (SecurityException e) {
+     Log.w(TAG, "SecurityException: " + e);
+ } catch (UnsupportedOperationException e) {
+     Log.w(TAG, "UnsupportedOperationException: " + e);
+ }
+ </pre>
+        <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "android.permission.sec.MDM_ENTERPRISE_VPN" permission which
+             has a protection level of signature.
+             <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="setForwardRoutes(java.lang.String, java.lang.String, java.util.List<java.lang.String>)"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        boolean
+      </span>
+      <span class="sympad">setForwardRoutes</span>
+      <span class="normal">(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> profileName, <a href="http://developer.android.com/reference/java/util/List.html">List</a>&lt;<a href="http://developer.android.com/reference/java/lang/String.html">String</a>&gt; networks)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> Since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>The API allows to set the Forward routes for the VPN Connection.<br/>
+ This API need not be called, if the value is already set using setEnterpriseVpnConnection API. <br/>
+ <br/></p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>type</td>
+          <td>The type of the VPN (e.g.: VPN_TYPE_KEYVPN).</td>
+        </tr>
+        <tr>
+          <th>profileName</td>
+          <td>Name of the profile.</td>
+        </tr>
+        <tr>
+          <th>networks</td>
+          <td>List of IP Addresses.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>true If the routes are set successfully, else false.</li></ul>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Throws</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/UnsupportedOperationException.html">UnsupportedOperationException</a></td>
+            <td>The API is not supported by the VPN
+             Type Connection.</td>
+        </tr>  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/SecurityException.html">SecurityException</a></td>
+            <td>If caller does not have required permissions.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><p>
+ <pre>
+ EnterpriseKnoxManager ekm = EnterpriseKnoxManager.getInstance();
+ try {
+     boolean success = ekm.getEnterpriseVpnPolicy()
+             .setForwardRoutes(&quot;type&quot;, &quot;profileName&quot;, networks);
+     if (success) {
+         Log.d(TAG, &quot; setForwardRoutes is Success&quot;);
+     } else {
+         Log.d(TAG, &quot; setForwardRoutes is Failure&quot;);
+     }
+ } catch (SecurityException e) {
+     Log.w(TAG, &quot;SecurityException: &quot; + e);
+ } catch (UnsupportedOperationException e) {
+     Log.w(TAG, &quot;UnsupportedOperationException: &quot; + e);
+ }
+ </pre>
+        <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "android.permission.sec.MDM_ENTERPRISE_VPN" permission which
+             has a protection level of signature.
+             <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="setUserCertificate(java.lang.String, java.lang.String, byte[], java.lang.String)"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        boolean
+      </span>
+      <span class="sympad">setUserCertificate</span>
+      <span class="normal">(<a href="http://developer.android.com/reference/java/lang/String.html">String</a> type, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> profileName, byte[] pkcs12Blob, <a href="http://developer.android.com/reference/java/lang/String.html">String</a> password)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> Since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>API to allow app to configure the User certificate for a VPN profile. </br>
+ APP needs to provide the User certificate in PKCS12 format, and to
+ decipher the content of PKCS12, password is necessary. This is a
+ synchronous API. <br />
+ The API should be used after creating a VPN Connection and before
+ calling addVpnProfileToApp API.<br/>
+ <br /></p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>type</td>
+          <td>The type of the VPN (e.g.: VPN_TYPE_KEYVPN).</td>
+        </tr>
+        <tr>
+          <th>profileName</td>
+          <td>Name of the profile.</td>
+        </tr>
+        <tr>
+          <th>pkcs12Blob</td>
+          <td>Byte array of User certificate in pkcs12 format.</td>
+        </tr>
+        <tr>
+          <th>password</td>
+          <td>Password to decrypt the content of pkcs12 blob.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>true If User certificate is configured with given profile
+         successfully, it returns true. If API fails to read PKCS12 blob
+         OR fails to store the user certificate for the specified profile,
+         it returns false.</li></ul>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Throws</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/UnsupportedOperationException.html">UnsupportedOperationException</a></td>
+            <td>The API is not supported by the VPN
+             Type Connection.</td>
+        </tr>  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/SecurityException.html">SecurityException</a></td>
+            <td>If caller does not have required permissions.</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><p>
+ <pre>
+ EnterpriseKnoxManager ekm = EnterpriseKnoxManager.getInstance();
+ String filePath = &quot;/data/system/client1.p12&quot;;
+ byte[] pkcs12Blob = getByteArray(filePath); // internal function to retrieve
+ // byte array from file.
+ try {
+     boolean success = ekm.getEnterpriseVpnPolicy().setUserCertificate(&quot;profileName&quot;, pkcs12Blob,
+             &quot;password&quot;);
+     if (success)
+         Log.d(TAG, &quot; setUserCertificate is Success&quot;);
+     else
+         Log.d(TAG, &quot; setUserCertificate is Failure&quot;);
+ } catch (SecurityException e) {
+     Log.w(TAG, &quot;SecurityException: &quot; + e);
+ } catch (UnsupportedOperationException e) {
+     Log.w(TAG, &quot;UnsupportedOperationException: &quot; + e);
+ }
+ </pre>
+        <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "android.permission.sec.MDM_ENTERPRISE_VPN" permission which
+             has a protection level of signature.
+             <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+<A NAME="setVpnModeOfOperation(boolean)"></A>
+
+<div class="jd-details api apilevel-KNOX_1.0"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        boolean
+      </span>
+      <span class="sympad">setVpnModeOfOperation</span>
+      <span class="normal">(boolean vpnMode)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+  Since: <a href="../../../../guide/appendix/api-levels.html#levelKNOX_1.0">API Level KNOX_1.0</a>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> Since KNOX 2.7
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p>API to set VPN mode of operation in either FIPS or non-FIPS mode.
+ #define FIPS_MODE = true;
+ #define  NONFIPS_MODE = false;</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>vpnMode</td>
+          <td>true to set device in FIPS mode and false to set device in
+            non-FIPS mode</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>if the requested vpn mode has been successfully set or not.</li></ul>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Throws</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/SecurityException.html">SecurityException</a></td>
+            <td>If caller does not have required permissions</td>
+        </tr>  
+        <tr>
+            <th><a href="http://developer.android.com/reference/java/lang/UnsupportedOperationException.html">UnsupportedOperationException</a></td>
+            <td>The API is not supported by the VPN
+             Type Connection</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Usage</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td><p>
+ <pre>
+  EnterpriseKnoxManager ekm = EnterpriseKnoxManager.getInstance();
+  try {
+      boolean success = ekm.getEnterpriseVpnPolicy().setVpnModeOfOperation(true);
+  } catch (SecurityException e) {
+     Log.w(TAG, &quot;SecurityException: &quot; + e);
+  } catch (UnsupportedOperationException e) {
+     Log.w(TAG, &quot;UnsupportedOperationException: &quot; + e);
+  }
+ </pre>
+        <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Permission</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>The use of this API requires the caller to have the
+             "android.permission.sec.MDM_ENTERPRISE_VPN" permission which
+             has a protection level of signature.
+             <p></td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 1.0</td>
+        </tr>
+      </table>
+  </div>      
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Deprecated since</h5>
+      <table class="jd-tagtable">  
+        <tr>
+            <td>KNOX 2.7</td>
+        </tr>
+      </table>
+  </div>
+
+    </div>
+    <!-- UMC CHECK - START -->
+    
+  	<!-- UMC CHECK - END -->
+</div>
+
+
+
+
+
+<!-- ========= METHOD DETAIL ======== -->
+
+
+
+<!-- ========= END OF CLASS DATA ========= -->
+<A NAME="navbar_top"></A>
+
+<div id="footer">
+<a href="http://www.samsung.com">Samsung Electronics</a>.<br/>SDK Knox_2.9 - August 28 2017
+</div> <!-- end footer -->
+
+</div> <!-- jd-content -->
+
+</div><!-- end doc-content -->
+
+</div> <!-- end body-content --> 
+
+<script type="text/javascript">
+init(); /* initialize doclava-developer-docs.js */
+</script>
+
+</body>
+</html>

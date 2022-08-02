@@ -1,0 +1,15 @@
+android.app.enterprise
+android.app.enterprise.devicesettings
+android.app.enterprise.geofencing
+android.app.enterprise.kioskmode
+android.app.enterprise.license
+android.app.enterprise.lso
+android.app.enterprise.multiuser
+android.app.enterprise.remotecontrol
+android.app.enterprise.sso
+com.sec.enterprise
+com.sec.enterprise.firewall
+com.sec.enterprise.identity
+com.sec.enterprise.network
+com.sec.enterprise.spd
+
