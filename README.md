@@ -23,3 +23,7 @@ git push -u origin main
 
 
 https://chinaknox.github.io
+
+
+### SIGNATURE CHECKSUM ###
+keytool -list -printcert -jarfile <app.apk> | grep -Po "(?<=SHA256:) .*" | xxd -r -p | openssl base64 | tr -d '=' | tr -- '+/=' '-_'
